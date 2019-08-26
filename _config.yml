@@ -20,7 +20,7 @@ title                    : "Utpal Kumar"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "Utpal Kumar"
-description              : "My Work Portfolio."
+description              : "My Work Portfolio and my amateur research"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
