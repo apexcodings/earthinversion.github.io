@@ -19,7 +19,7 @@ locale                   : "en-US"
 title                    : "Earth Inversion"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Utpal Kumar"
+name                     : "Earth Inversion"
 description              : "Data Science, Computational Geophysics, Web Computing"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
