@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-permalink: "/cv/"
+permalink: "/curriculum-vitae/"
 ---
 I am a graduate student in the TIGP program of Academia Sinica + National Central University with a strong inclination towards understanding the world with the most accessible tools available in the current generation, the computers and the data.
 
