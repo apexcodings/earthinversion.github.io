@@ -1,14 +1,12 @@
 ---
 title: "About"
 permalink: "/about/"
-header:
-    image: "/images/nasa-Q1p7bh3SHj8-unsplash.jpg"
 ---
 ## About Me
 I am a graduate student in the TIGP program of Academia Sinica + National Central University with a strong inclination towards understanding the world with the most accessible tools available in the current generation, the computers and the data.
 
 - For my PhD, I make use of the seismic and GPS data to understand the crustal, mantle and core structure. Seismic data gives the capability to inspect the interior of our planet whereas GPS has incredible accuracy for the crustal processes.
-- Besides Physics and Mathematics, I have ac- quired background knowledge of Chemistry, Biological Sciences, Computer Sciences, and Elec- tronics in the first 3 years of my intd. BS-MS. This comes handy in my various research en- deavors.
+- Besides Physics and Mathematics, I have ac- quired background knowledge of Chemistry, Biological Sciences, Computer Sciences, and Electronics in the first 3 years of my intd. BS-MS. This comes handy in my various research en- deavors.
 - I invest significant amount of my time in learning new skills for use in data-intensive science, in- cluding some Python packages like Scikit Learn, SciPy, and machine learning algorithms.
 - I like to participate in the broader data science community via online webinars, discussions and conferences if possible.
 - Please have a look at https://iescoders.com/ and my github repo for some of my open codes.
