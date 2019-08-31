@@ -5,7 +5,7 @@ tags: [GMT, Maps]
 excerpt: "Plotting publishable quality maps using generic mapping tools (GMT)"
 ---
 
-<p>For basic tutorial, please visit <a href="https://utpalkumariesas.github.io/GMT_tutorial_for_beginners/">here.</a></p>
+<p>For basic tutorial, please visit <a href="https://utpalrai.github.io/GMT_tutorial_for_beginners/">here.</a></p>
 
 <h2>Contents:</h2>
 <p>This tutorial consists of Bash script files to run the GMT. It also contains all the Data files required to run the scripts.</p>
