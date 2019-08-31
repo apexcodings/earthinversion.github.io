@@ -66,6 +66,7 @@ excerpt: "Generators don't hold the entire result in memory. It yields one resul
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/results_generators.png" alt="How to used Generator">
 
+
 <img src="{{ site.url }}{{ site.baseurl }}/images/Memory_usage.png" alt="Memory usage">
 
 Overall, generators gives a performance boost not only in execution time but with the memory as well.
