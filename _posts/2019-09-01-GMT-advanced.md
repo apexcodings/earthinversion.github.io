@@ -18,7 +18,6 @@ excerpt: "Plotting publishable quality maps using generic mapping tools (GMT)"
 <p align="center">
   <img src="{{ site.url }}{{ site.baseurl }}/images/GMT-advanced/GMT_example2-1.jpg" alt="GMT_example2">
   <img src="{{ site.url }}{{ site.baseurl }}/images/GMT-advanced/GMT_example2-2.jpg">
-  <img src="../images/GMT-advanced/GMT_example2-2.jpg">
  </p>
  
 <h4> <a href="3three-D-surface.sh">3three-D-surface.sh</a></h4>
