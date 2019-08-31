@@ -5,11 +5,6 @@ tags: [GMT, Maps]
 excerpt: "Plotting publishable quality maps using generic mapping tools (GMT)"
 ---
 
-
-<!DOCTYPE html>
-<html>
-<body>
-
 <h1>GMT Advanced Tutorial</h1>
 <p>For basic tutorial, please visit <a href="https://utpalkumariesas.github.io/GMT_tutorial_for_beginners/">here.</a></p>
 
@@ -84,6 +79,3 @@ excerpt: "Plotting publishable quality maps using generic mapping tools (GMT)"
 
   <p align="center"><img src="{{ site.url }}{{ site.baseurl }}/images/GMT-advanced/GMT_example14-1.jpg" width=500></p>
  
-    
-</body>
-</html>
