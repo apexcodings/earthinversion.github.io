@@ -2,7 +2,6 @@
 title: "About Me"
 permalink: "/curriculum-vitae/"
 ---
-I am a graduate student in the TIGP program of Academia Sinica + National Central University with a strong inclination towards understanding the world with the most accessible tools available in the current generation, the computers and the data.
 
 - For my PhD, I make use of the seismic and GPS data to understand the crustal, mantle and core structure. Seismic data gives the capability to inspect the interior of our planet whereas GPS has incredible accuracy for the crustal processes.
 - Besides Physics and Mathematics, I have ac- quired background knowledge of Chemistry, Biological Sciences, Computer Sciences, and Electronics in the first 3 years of my intd. BS-MS. This comes handy in my various research en- deavors.
