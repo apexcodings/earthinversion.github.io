@@ -30,7 +30,7 @@ $$DOF = \frac{N \Delta t}{2T_e}$$
 
 Here $$T_e$$ is the e-folding decay time of autocorrelation (where autocorrelation drops to $$1/e$$). $\Delta t$ is the time interval between data.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/Autocorr_pU.png" alt="autocorrelation-example">
+<img src="{{ site.url }}{{ site.baseurl }}/images/degrees-of-freedom/Autocorr_pU.png" alt="autocorrelation-example">
 
 We can obtain an estimate of the degrees of freedom of a time series.
 ```python
