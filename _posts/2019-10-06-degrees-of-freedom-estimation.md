@@ -1,5 +1,5 @@
 ---
-title: "Estimation of the degrees of freedom"
+title: "Estimation of the degrees of freedom of time series"
 date: 2019-10-06
 tags: [data science, Python, Time series]
 excerpt: "Two time series with predominant linear trends (very low DOF) can have a very high correlation coefficient, which can hardly be construed as an evidence for meaningful physical relationship."
