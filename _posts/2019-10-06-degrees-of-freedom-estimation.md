@@ -3,6 +3,7 @@ title: "Estimation of the degrees of freedom"
 date: 2019-10-06
 tags: [data science, Python, Time series]
 excerpt: "Two time series with predominant linear trends (very low DOF) can have a very high correlation coefficient, which can hardly be construed as an evidence for meaningful physical relationship."
+mathjax: "true"
 ---
 
 The correlation between two (real) stochastic processes A and B, which are sampled as two (real) time series, A(t) and B(t) can be written as
@@ -28,7 +29,7 @@ Autocorrelation can be used to estimate the dominant periods in the time series.
 
 $$DOF = \frac{N \Delta t}{2T_e}$$
 
-Here $$T_e$$ is the e-folding decay time of autocorrelation (where autocorrelation drops to $$1/e$$). $\Delta t$ is the time interval between data.
+Here $$T_e$$ is the e-folding decay time of autocorrelation (where autocorrelation drops to $$1/e$$). $$\Delta t$$ is the time interval between data.
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/degrees-of-freedom/Autocorr_pU.png" alt="autocorrelation-example">
 
