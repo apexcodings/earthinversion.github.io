@@ -63,9 +63,10 @@ plt.close('all')
 ```
 
 
-
-
 ## References:
 1. Chao, B. F., and C. H. Chung (2019), On Estimating the Cross Correlation and Least Squares Fit of One Data Set to Another With Time Shift, Earth and Space Science, 6(8), 1409–1415, doi:10.1029/2018EA000548.
 2. Wang, X., S. S. Shen, X. Wang, and S. S. Shen (1999), Estimation of Spatial Degrees of Freedom of a Climate Field, http://dx.doi.org/10.1175/1520-0442(1999)012<1280:EOSDOF>2.0.CO;2, 12(5), 1280–1291, doi:10.1175/1520-0442(1999)012<1280:EOSDOF>2.0.CO;2.
 3. Panofsky, H.A. and Brier, G.W., 1958. Some applications of statistics to meteorology. Mineral Industries Extension Services, College of Mineral Industries, Pennsylvania State University.
+
+See more:
+[iescoders post](https://iescoders.com/estimation-of-the-degrees-of-freedom-time-series/)
