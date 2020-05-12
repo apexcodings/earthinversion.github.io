@@ -25,5 +25,8 @@ mathjax: "true"
     <li><a href="iescoders.com">IESCODERS blog</a></li>
     <li><a href="http://omnifood.herokuapp.com/">Omnifood Replication</a> based on Udemy course by Jonas Schmedtmann</li>
   </ul>
-
 </p>
+<figure>
+  <img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/slrm_current_research.png" alt="Current-research-Sea-Level-Rising" style="width:100%">
+  <figcaption>Sea Level Rising - Top Readings</figcaption>
+</figure>
