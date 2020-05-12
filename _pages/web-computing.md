@@ -3,7 +3,7 @@ title: "Web Computing Details"
 permalink: "/web-computing/"
 mathjax: "true"
 ---
-<p><ul style="font-size:0.8em">
+<p><ul style="font-size:1em">
     <li>Solid understanding of JavaScript and HTML5 (and CSS)</li>
     <li>Passion for producing solid, efficient and manageable code</li>
     <li>Knowledge of security best practices</li>
@@ -18,8 +18,8 @@ mathjax: "true"
     <li>Solid understanding of relational databases (PostgreSQL, MySQL, SQLite)</li>
   </ul>
   
-  <p style="font-size:0.8em">Some works for demo:
-    <ul style="font-size:0.8em">
+  <p style="font-size:1em">Some works for demo:
+    <ul style="font-size:1em">
     <li><a href="http://slrm.herokuapp.com/">Sea Level Rise Monitoring Web-app</a></li>
     <li><a href="https://gev-info.herokuapp.com/">Global Eco-environmental vulnerability monitoring app</a></li>
     <li><a href="iescoders.com">IESCODERS blog</a></li>
