@@ -1,6 +1,6 @@
 ---
 title: "About Me"
-permalink: "/curriculum-vitae/"
+permalink: "/about-me/"
 ---
 
 - For my PhD, I make use of the seismic and GPS data to understand the crustal, mantle and core structure. Seismic data gives the capability to inspect the interior of our planet whereas GPS has incredible accuracy for the crustal processes.

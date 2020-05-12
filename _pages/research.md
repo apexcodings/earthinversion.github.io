@@ -1,6 +1,6 @@
 ---
-title: "Studies"
-permalink: "/studies/"
+title: "Research Details"
+permalink: "/research/"
 mathjax: "true"
 ---
 
