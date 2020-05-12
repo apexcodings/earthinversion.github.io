@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Curriculum Vitae"
-    url: /curriculum-vitae/
-  - title: "Studies"
-    url: /studies/
+  - title: "About Me"
+    url: /about-me/
+  - title: "Research"
+    url: /research/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
