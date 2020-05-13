@@ -167,9 +167,14 @@
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
-    .homebtn{
-      color: rgb(29, 31, 202);
-      text-shadow: 1px 1px 4px rgba(#000, 0.5);
+    .homebtn {
+      background-color: #4CAF50; /* Green */
+      color: white;
+      text-align: center;
+      text-decoration: none;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+      cursor: pointer;
     }
 
     .page__lead {
