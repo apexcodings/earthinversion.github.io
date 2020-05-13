@@ -17,7 +17,7 @@ classes:
 - 1 arc-minute global relief data can be downloaded from NOAA’s webpage.
 
 ## World Map
-```
+``` python
 ## World map
 lonmin, lonmax = -180,180
 latmin, latmax = -50,50
@@ -47,7 +47,7 @@ plt.close('all')
 <img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/world_map.png" width="400" alt="world map">
 
 ## Africa Map 
-```
+``` python
 ## Map1
 lonmin, lonmax = -30,70
 latmin, latmax = -40,40
@@ -77,7 +77,7 @@ plt.close('all')
 <img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/africa.png" width="400" alt="africa map">
 
 ## Africa Etopo (NOAA):
-```
+```python
 lonmin, lonmax = -30,70
 latmin, latmax = -40,40
 
@@ -101,7 +101,7 @@ plt.close('all')
 
 
 ## Taiwan Plot
-```
+```python
 ### ETOPO TAIWAN
 lonmin, lonmax = 119,123
 latmin, latmax = 20,26
