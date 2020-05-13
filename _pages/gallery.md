@@ -5,4 +5,4 @@ mathjax: "true"
 classes:
   - wide
 ---
-<h2>Click on image for the codes</h2>
+<h3>Click on image for the codes</h3>
