@@ -15,10 +15,10 @@ $$y = f(x1,x2)$$
 
 In this case, we use the MATLAB function [`lsqcurvefit`](https://www.mathworks.com/help/optim/ug/lsqcurvefit.html):
 <figure>
-  <a href="https://www.mathworks.com/help/optim/ug/lsqcurvefit.html"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/lsqcurvefit_description.png" alt="Description" style="width:50%"></a>
+  <a href="https://www.mathworks.com/help/optim/ug/lsqcurvefit.html"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/lsqcurvefit_description.png" alt="Description" style="width:100%"></a>
 </figure>
 
-```
+``` python
 %% Fit Model
 % - Utpal Kumar
 
