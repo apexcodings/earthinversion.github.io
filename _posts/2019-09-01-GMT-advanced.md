@@ -3,6 +3,8 @@ title: "GMT Advanced Tutorial"
 date: 2019-09-01
 tags: [GMT, Maps]
 excerpt: "Plotting publishable quality maps using generic mapping tools (GMT)"
+classes:
+  - wide
 ---
 
 <p>For basic tutorial, please visit <a href="https://utpalrai.github.io/GMT_tutorial_for_beginners/">here.</a></p>

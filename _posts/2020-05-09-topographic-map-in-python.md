@@ -4,6 +4,8 @@ date: 2020-05-09
 tags: [topography, Python, NOAA, global relief]
 excerpt: "Plotting 1 arc-minute topographic map in python"
 mathjax: "true"
+classes:
+  - wide
 ---
 - see [here](https://iescoders.com/plotting-topographic-map-using-noaa-global-relief-data-in-python/) too
 - uses Python’s matplotlib (basemap) library for plotting

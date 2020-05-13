@@ -2,6 +2,8 @@
 title: "Research Details"
 permalink: "/research/"
 mathjax: "true"
+classes:
+  - wide
 ---
 
 ## FINISHED STUDY

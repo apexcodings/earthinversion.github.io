@@ -2,6 +2,8 @@
 title: "Web Computing Details"
 permalink: "/web-computing/"
 mathjax: "true"
+classes:
+  - wide
 ---
 <p><ul style="font-size:1em">
     <li>Solid understanding of JavaScript and HTML5 (and CSS)</li>

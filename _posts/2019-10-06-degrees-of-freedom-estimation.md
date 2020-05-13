@@ -4,6 +4,8 @@ date: 2019-10-06
 tags: [data science, Python, Time series]
 excerpt: "Two time series with predominant linear trends (very low DOF) can have a very high correlation coefficient, which can hardly be construed as an evidence for meaningful physical relationship."
 mathjax: "true"
+classes:
+  - wide
 ---
 
 The correlation between two (real) stochastic processes A and B, which are sampled as two (real) time series, A(t) and B(t) can be written as
