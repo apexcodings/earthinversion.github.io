@@ -6,6 +6,8 @@ main:
     url: /research/
   - title: "Gallery"
     url: /gallery/
+  - title: "Recent Posts"
+    url: /recent-posts/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
