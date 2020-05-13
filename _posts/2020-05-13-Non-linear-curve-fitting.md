@@ -190,7 +190,5 @@ squarederror =
 
 <figure>
   <img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/lsqfit_output.png" alt="Description" style="width:50%">
-</figure>
-<figure>
   <img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/lsqfit_output2.png" alt="Description" style="width:50%">
 </figure>
