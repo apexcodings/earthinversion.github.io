@@ -167,26 +167,6 @@
       text-shadow: 1px 1px 4px rgba(#000, 0.5);
     }
 
-    .homebtn {
-      background-color: #4CAF50; /* Green */
-      color: white;
-      text-align: center;
-      text-decoration: none;
-      -webkit-transition-duration: 0.4s; /* Safari */
-      transition-duration: 0.4s;
-      cursor: pointer;
-    }
-    #button1 {
-      background-color: #4CAF50;
-      color:  white;
-      border: 2px solid #4CAF50;
-    }
-    
-    #button1:hover, .region_value .active_region {
-      background-color: white;
-      color: black;
-    }
-
     .page__lead {
       max-width: $medium;
     }
@@ -243,16 +223,6 @@
 
   @include breakpoint(max-width $small) {
     .btn span {
-      border: 0;
-      clip: rect(0 0 0 0);
-      height: 1px;
-      margin: -1px;
-      overflow: hidden;
-      padding: 0;
-      position: absolute;
-      width: 1px;
-    }
-    .homebtn span {
       border: 0;
       clip: rect(0 0 0 0);
       height: 1px;
