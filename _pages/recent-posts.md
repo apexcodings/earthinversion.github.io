@@ -1,5 +1,5 @@
 ---
-layout: archive
+layout: posts
 title: "Recent Posts"
 permalink: "/recent-posts/"
 mathjax: "true"
@@ -7,10 +7,3 @@ classes:
   - wide
 ---
 
-<h2 class="archive__subtitle">{{ site.data.ui-text[site.locale].recent_posts | default: "Recent Posts" }}</h2>
-
-{% for post in paginator.posts %}
-  {% include archive-single.html %}
-{% endfor %}
-
-{% include paginator.html %}
