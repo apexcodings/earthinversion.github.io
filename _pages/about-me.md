@@ -6,10 +6,9 @@ classes:
 ---
 
 - For my PhD, I make use of the seismic and GPS data to understand the crustal, mantle and core structure. Seismic data gives the capability to inspect the interior of our planet whereas GPS has incredible accuracy for the crustal processes.
-- Besides Physics and Mathematics, I have ac- quired background knowledge of Chemistry, Biological Sciences, Computer Sciences, and Electronics in the first 3 years of my intd. BS-MS. This comes handy in my various research en- deavors.
-- I invest significant amount of my time in learning new skills for use in data-intensive science, in- cluding some Python packages like Scikit Learn, SciPy, and machine learning algorithms.
+- Besides Physics and Mathematics, I have acquired background knowledge of Chemistry, Biological Sciences, Computer Sciences, and Electronics in the first 3 years of my intd. BS-MS. This comes handy in my various research endeavors.
+- I invest significant amount of my time in learning new skills for use in data-intensive science, including some Python packages like Scikit Learn, SciPy, and machine learning algorithms.
 - I like to participate in the broader data science community via online webinars, discussions and conferences if possible.
-- Please have a look at https://iescoders.com/ and my github repo for some of my open codes.
 
 ## Education
 ### Ph.D., Computational Geophysics
