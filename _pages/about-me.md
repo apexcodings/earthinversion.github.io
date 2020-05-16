@@ -7,7 +7,7 @@ classes:
 
 - My Ph.D is based on the geophysical data analysis for seismological and geodetic applications. Seismic data gives the capability to inspect the interior of our planet whereas GPS has incredible accuracy for the crustal processes.
 - Besides Physics and Mathematics, I have acquired background knowledge of Chemistry, Biological Sciences, Computer Sciences, and Electronics in the first 3 years of my intd. BS-MS. This comes handy in my various research endeavors.
-- I invest significant amount of my time in learning new skills for use in data-intensive science, including some Python packages like Scikit Learn, SciPy, and machine learning algorithms.
+- I invest significant amount of time in learning new skills for use in data-intensive science, including Python packages like Scikit Learn, SciPy, and machine learning algorithms.
 - I like to participate in the broader data science community via online webinars, discussions and conferences.
 
 ## Education
