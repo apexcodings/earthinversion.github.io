@@ -101,6 +101,11 @@
     }
   }
 
+  .image_magnify {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    transform: scale(1.1);
+  }
+
   dt {
     margin-top: 1em;
     font-family: $sans-serif;

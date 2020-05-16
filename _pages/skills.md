@@ -19,7 +19,7 @@ classes:
     </tr>
     <tr>
       <td>Open-source programming (scientific computing, <a href="https://iescoders.com/plotting-the-geospatial-data-clipped-by-coastlines-in-python/">data visualization</a>, and <a href="https://github.com/earthinversion/STADIUM-Py">achieving automation</a>)</td>
-      <td>Database Development: SQLite, PostgreSQL and Pandas DataFrame</td>
+      <td>Database Development/Management: SQLite, PostgreSQL and Pandas DataFrame, <a href="https://github.com/earthinversion/aws-s3-management">AWS-S3</a></td>
     </tr>
     <tr>
       <td>Python (primary), <a href="https://iescoders.com/linux-tutorial-data-processing/">Bash</a>/csh, R, C, Perl, Fortran (and <a href="https://iescoders.com/gnuplot-making-animation/">Gnuplot</a>, MATLAB, LATEX, HTML/CSS, Markdown, Javascript (JQuery)</td>
