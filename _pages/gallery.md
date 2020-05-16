@@ -5,7 +5,7 @@ mathjax: "true"
 classes:
   - wide
 ---
-<h3>Click on the images to redirect for codes</h3>
+<h3>Click on the images to redirect for codes.</h3>
 
 <figure class="third">
 	<a href="https://iescoders.com/linear-regressional-analysis/"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/linear_regression_analysis.png" alt="Lin regression"></a>
