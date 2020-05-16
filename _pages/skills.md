@@ -14,15 +14,15 @@ classes:
   </thead>
   <tbody>
     <tr>
-      <td>Web Development [backend (preferred), frontend]</td>
+      <td><a href="/web-computing/">Web Development</a> [backend (preferred), frontend]</td>
       <td>Computer Operating Systems: MacOS (Mojave), Linux distributions (Ubuntu, Fedora, Opensuse), Windows (7)</td>
     </tr>
     <tr>
-      <td>Open-source programming (scientific computing, data visualization, and achieving automation)</td>
+      <td>Open-source programming (scientific computing, <a href="https://iescoders.com/plotting-the-geospatial-data-clipped-by-coastlines-in-python/">data visualization</a>, and <a href="https://github.com/earthinversion/STADIUM-Py">achieving automation</a>)</td>
       <td>Database Development: SQLite, PostgreSQL and Pandas DataFrame</td>
     </tr>
     <tr>
-      <td>Python (primary), Bash/csh, R, C, Perl, Fortran (and <a href="https://iescoders.com/gnuplot-making-animation/">Gnuplot</a>, MATLAB, LATEX, HTML/CSS, Markdown, Javascript (JQuery)</td>
+      <td>Python (primary), <a href="https://iescoders.com/linux-tutorial-data-processing/">Bash</a>/csh, R, C, Perl, Fortran (and <a href="https://iescoders.com/gnuplot-making-animation/">Gnuplot</a>, MATLAB, LATEX, HTML/CSS, Markdown, Javascript (JQuery)</td>
       <td>Designing: Proficient in Adobe Illustrator, Adobe Photoshop, iMovie, HTML/CSS and JS</td>
     </tr>
     <tr>
@@ -30,7 +30,7 @@ classes:
       <td>Writing (offline): Microsoft Office Suite (<a href="https://iescoders.com/how-to-insert-equation-numbering-in-ms-word/">Word</a>, Excel, Powerpoint), Mac Pages and Keynote (for manuscript), LATEX (for extensive documents), <a href="https://iescoders.com/time-series-analysis-using-python-i/">Jupyter Notebook</a> (for presentation of software packages)</td>
     </tr>
     <tr>
-      <td>Seismic Analysis Code (SAC) and Obspy (Python) for analyzing and visualzing seismic waveforms</td>
+      <td><a href="https://iescoders.com/calling-sacseismic-analysis-code-in-perl/">Seismic Analysis Code (SAC)</a> and Obspy (Python) for analyzing and visualzing seismic waveforms</td>
       <td>Writing (online): Wordpress, Medium (for blogging), Markdown, Sphinx documentation</td>
     </tr>
   </tbody>
