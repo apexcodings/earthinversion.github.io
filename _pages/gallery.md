@@ -5,7 +5,7 @@ mathjax: "true"
 classes:
   - wide
 ---
-<h3>Click on the images to redirect for codes.</h3>
+<h4>Click on the images to redirect for codes.</h4>
 
 <figure class="third">
 	<a href="https://iescoders.com/linear-regressional-analysis/"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/linear_regression_analysis.png" alt="Lin regression"></a>
@@ -22,4 +22,20 @@ classes:
   <strong>[LEFT]</strong> How to avoid common mistakes in analyzing correlations of two time-series 
   <strong>[MIDDLE]</strong> Interactive Data Visualization in Python 
   <strong>[RIGHT]</strong> Exploratory Factor Analysis</figcaption>
+</figure>
+
+<figure class="third">
+	<a href="https://iescoders.com/estimation-of-the-degrees-of-freedom-time-series/">
+  <img src="https://iescoders.com/wp-content/uploads/2019/10/Autocorr_pU.png" 
+  alt="Estimation of the degrees of freedom for time series"></a>
+	<a href="https://iescoders.com/time-series-analysis-filtering-or-smoothing-the-data/">
+  <img src="https://iescoders.com/wp-content/uploads/2019/06/test1.png" 
+  alt="Time Series Analysis: Filtering or Smoothing the Data"></a>
+	<a href="https://iescoders.com/statistical-analysis-of-the-normal-and-non-normal-data/">
+  <img src="https://iescoders.com/wp-content/uploads/2019/06/Non-normal-Data-statistics-3.png" 
+  alt="Statistical analysis of the normal and non-normal data"></a>
+  <figcaption>
+  <strong>[LEFT]</strong> Estimation of the degrees of freedom for time series 
+  <strong>[MIDDLE]</strong> Time Series Analysis: Filtering or Smoothing the Data 
+  <strong>[RIGHT]</strong> Statistical analysis of the normal and non-normal data</figcaption>
 </figure>
