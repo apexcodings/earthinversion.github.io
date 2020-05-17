@@ -53,10 +53,13 @@ author_profile: true
   
 <h2 style="font-size:1em">Conferences attended: </h2>
 <ul style="font-size:0.8em">
-  <li><strong>2019 American Geophysical Union (AGU), San Francisco, CA, USA:</strong><br>
+  <li><button class="collapsible"><strong>2019 American Geophysical Union (AGU), San Francisco, CA, USA:</strong></button></li>
+  <!-- <li><strong>2019 American Geophysical Union (AGU), San Francisco, CA, USA:</strong><br> -->
+    <div class="content">
     (1) Utpal Kumar, Benjamin Fong Chao (2019), GPS crustal motions along Taiwan’s east coast: EOF analysis, Abstract [G43B-0746]<br>
     (2) Utpal Kumar, Benjamin Fong Chao (2019), Crustal fluid and afterslip drive transient postseismic
       deformation associated with the 2016 Meinong earthquake (Mw 6.4), Abstract [G43B-0743]
+    </div>
   </li>
   <li><strong>2019 年中華民國測地學會年會暨學術研討會, Dasyueshan, Taichung, Taiwan</strong></li>
   <li><strong>2018 American Geophysical Union (AGU), Washington D.C, USA:</strong>Utpal Kumar, Benjamin F. Chao, Emmy T. Y. Chang (2018) Common-Mode Error in GPS Displacement Field of Taiwan in Relation to Atmospheric Mass Loading [G13B-0522]</li>
@@ -71,3 +74,20 @@ author_profile: true
   <li>Kumar, U., B. F. Chao, Y. Hsieh, and E. T. Y. Chang (2017), A meteor shockwave event recorded at seismic and infrasound stations in northern Taiwan, Geoscience Letters, 4(1). <a href="https://geoscienceletters.springeropen.com/articles/10.1186/s40562-017-0079-2" class="btn btn--info btn--small">READ</a></li>
   <li>Kumar, B., K. Krishna Reddy, J. Janapati, T. Rao, P.-L. Lin, C.-Y. Liu, and U. Kumar (2016), Precipitation and cloud microstructure variations between two southern Indian stations. <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9876/98761O/Precipitation-and-cloud-microstructure-variations-between-two-southern-Indian-stations/10.1117/12.2218458.short?webSyncID=9a0ce46e-9e6e-c7a4-9dab-6a0cbad05932&sessionGUID=9ad883c9-d902-bc99-93ce-d268bead49a2&SSO=1" class="btn btn--info btn--small">READ</a></li>
 </ol>
+
+<script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+  </script>
