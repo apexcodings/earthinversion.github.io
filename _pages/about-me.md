@@ -12,14 +12,14 @@ classes:
 
 <button class="collapsible">Education</button>
 <div class="contentCollapse">
-<h3>Ph.D., Computational Geophysics</h3>
+<p>Ph.D., Computational Geophysics</p>
 __2014 - Current__, National Central University + Academia Sinica (Taiwan International Graduate Program)
 
 __Thesis:__ Geophysical Data Analysis for Seismological and GPS based Applications
 
 __Thesis Advisor:__ [Prof. Benjamin Fong Chao](http://www.earth.sinica.edu.tw/member/info/7), Distinguished Research Fellow, Institute of Earth Sciences, Academia Sinica
 
-### Integrated B.S.-M.S, Earth Sciences
+<p>Integrated B.S.-M.S, Earth Sciences</p>
 __2009 - 2014__, Indian Institute of Science Education and Research, Kolkata
 
 __Thesis:__ Surface Wave Group Velocity Dispersion study of the Eastern Himalayan Foreland Basin 
