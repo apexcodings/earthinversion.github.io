@@ -68,6 +68,7 @@ __Thesis Advisor:__ [Prof. Supriyo Mitra](https://www.iiserkol.ac.in/~supriyomit
     coll[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
+      console.log("hi utpal");
       if (content.style.maxHeight){
         content.style.maxHeight = null;
       } else {
