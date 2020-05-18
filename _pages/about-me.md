@@ -10,8 +10,9 @@ classes:
 - I invest significant amount of time in learning new skills for use in data-intensive science, including Python packages like Scikit Learn, SciPy, and machine learning algorithms.
 - I like to participate in the broader data science community via online webinars, discussions and conferences.
 
-## Education
-### Ph.D., Computational Geophysics
+<button class="collapsible">Education</button>
+<div class="contentCollapse">
+<h3>Ph.D., Computational Geophysics</h3>
 __2014 - Current__, National Central University + Academia Sinica (Taiwan International Graduate Program)
 
 __Thesis:__ Geophysical Data Analysis for Seismological and GPS based Applications
@@ -24,6 +25,7 @@ __2009 - 2014__, Indian Institute of Science Education and Research, Kolkata
 __Thesis:__ Surface Wave Group Velocity Dispersion study of the Eastern Himalayan Foreland Basin 
 
 __Thesis Advisor:__ [Prof. Supriyo Mitra](https://www.iiserkol.ac.in/~supriyomitra/), Professor, Department of Earth Sciences, IISER Kolkata
+</div>
 
 ## Research and Experience
 + __Ph.D student__ in Taiwan International Graduate Program (TIGP), Earth System Science Program, Academia Sinica, Taiwan from September 2014 to till date.
@@ -57,7 +59,24 @@ __Thesis Advisor:__ [Prof. Supriyo Mitra](https://www.iiserkol.ac.in/~supriyomit
 + __NASA Space Apps Challenge:__ Won 3rd prize in NASA Hackathon Space Apps Challenge, Taipei and the complementary award from IBM Taiwan. NASA and its partners put out challenges relating to current work for which space enthusiasts around the world of all backgrounds can develop innovative solutions (which can be more than just apps!), particularly focusing on use of NASA data and promoting education.
 
 
-
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+});
+  </script>
 
 
 
