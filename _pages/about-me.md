@@ -25,37 +25,6 @@ classes:
 </ul>
 </div>
 
-## Research and Experience
-+ __Ph.D student__ in Taiwan International Graduate Program (TIGP), Earth System Science Program, Academia Sinica, Taiwan from September 2014 to till date.
-+ __Teaching Assistant__ in Introductory Earth Sciences (Geophysics + Geology) course at Indian Institute of Science Education and Research, in 2013.
-+ __Summer Project Assistant__ under Prof. S. S. Rai at NGRI Hyderabad in 2011.
-+ __Project Assistant__ under Prof. Mrinal K. Sen at NGRI Hyderabad in 2012.
-+ __Project Assistant__ under Prof. Wu Cheng Chi at Institute of Earth Sciences, Academia Sinica (_Typhoon Source Studies_)
-+ __Project Assistant__ under Prof. Wen Che Yu at Institute of Earth Sciences, Academia Sinica (_Inner core structure using PKPdf, PKPbc, PKPab observations_)
-
-## Notable Awards and Achievements
-+ __JEE-Advanced, 2009:__ Selected in the competitive and prestigious JEE-Advanced 2009, an academic examination held annually in India. The qualification rate of the JEE-Advanced in 2017 was approximately 0.92% (about 11,000 out of 1,200,000 who applied for JEE Main).
-
-+ __CSIR-UGC National Eligibility Test (NET):__ All India Rank 32 in CSIR-UGC National Eligibility Test (NET), a test to determine eligibility for college and university level lecturership and for the award of Junior Research Fellowship (JRF) for Indian nationals.
-
-+ __Bihar Combined Entrance Competitive Examination (BCECE):__ Ranked 4th in the state level competitive examination for the professional courses of Medical, Engineering and Agricultural streams in the Institutions of the state of Bihar [Bihar Combined Entrance Competitive Examination (BCECE)].
-
-+ __Graduate Aptitude Test in Engineering (GATE):__ Qualified in Graduate Aptitude Test in Engineering (GATE) in Earth Sciences in 2013. It is one of the most competitive examinations in India for admissions to various post-graduate education programs.
-
-+ __Indian Academy of Sciences:__ Winner of Indian Academy of Sciences summer research fellowship (2013)
-
-+ __Best Poster:__ 
-    - Best Poster presentation in Department Day (Earth Sciences), IISER (2014)
-    - Best Poster award in Solid Earth Section, AOGS (2018). AOGS holds annual conventions providing a unique opportunity of exchanging scientific knowledge and discussion to address important geo-scientific issues among academia, research institution and public.
-
-+ __Member__:
-     - [American Geophysical Union, AGU](https://www.agu.org/) (2018, 2019)
-     - [Asia Oceania Geosciences Society, AOGS](http://www.asiaoceania.org/aogs2019/public.asp?page=home.htm) (2018, 2019)
-     - [Taiwan Geosciences Assembly, TGA](https://cgu-tga.org.tw/) (2016, 2017, 2018)
-     - Geodetic Society of Republic of China (2017, 2018, 2019)
-
-+ __NASA Space Apps Challenge:__ Won 3rd prize in NASA Hackathon Space Apps Challenge, Taipei and the complementary award from IBM Taiwan. NASA and its partners put out challenges relating to current work for which space enthusiasts around the world of all backgrounds can develop innovative solutions (which can be more than just apps!), particularly focusing on use of NASA data and promoting education.
-
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
