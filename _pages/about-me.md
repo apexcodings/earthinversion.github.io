@@ -64,7 +64,7 @@ classes:
     coll[i].addEventListener("click", function() {
       this.classList.toggle("active");
       var content = this.nextElementSibling;
-      console.log("hi utpal");
+      console.log("hi utpal 2");
       if (content.style.maxHeight){
         content.style.maxHeight = null;
       } else {
