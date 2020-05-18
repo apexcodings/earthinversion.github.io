@@ -12,19 +12,15 @@ classes:
 
 <button class="collapsible">Education</button>
 <div class="contentCollapse">
-<p>Ph.D., Computational Geophysics</p>
-__2014 - Current__, National Central University + Academia Sinica (Taiwan International Graduate Program)
-
-__Thesis:__ Geophysical Data Analysis for Seismological and GPS based Applications
-
-__Thesis Advisor:__ [Prof. Benjamin Fong Chao](http://www.earth.sinica.edu.tw/member/info/7), Distinguished Research Fellow, Institute of Earth Sciences, Academia Sinica
-
-<p>Integrated B.S.-M.S, Earth Sciences</p>
-__2009 - 2014__, Indian Institute of Science Education and Research, Kolkata
-
-__Thesis:__ Surface Wave Group Velocity Dispersion study of the Eastern Himalayan Foreland Basin 
-
-__Thesis Advisor:__ [Prof. Supriyo Mitra](https://www.iiserkol.ac.in/~supriyomitra/), Professor, Department of Earth Sciences, IISER Kolkata
+<ul style="font-size:0.8em">
+  <li><strong>Ph.D., Computational Geophysics:</strong>
+    <p>
+    __2014 - Current__, National Central University + Academia Sinica (Taiwan International Graduate Program)<br>      
+    __Thesis:__ Geophysical Data Analysis for Seismological and GPS based Applications<br>
+    __Thesis Advisor:__ [Prof. Benjamin Fong Chao](http://www.earth.sinica.edu.tw/member/info/7), Distinguished Research Fellow, Institute of Earth Sciences, Academia Sinica
+    </p>
+  </li>
+</ul>
 </div>
 
 ## Research and Experience
