@@ -7,7 +7,7 @@ classes:
   - wide
 ---
 
-<p>For basic tutorial, please visit <a href="https://earthinversion.github.io/GMT_tutorial_for_beginners/">here.</a></p>
+<p>For basic tutorial, please visit <a href="https://earthinversion.com/GMT_tutorial_for_beginners/">here.</a></p>
 
 ## Contents
 <ol>

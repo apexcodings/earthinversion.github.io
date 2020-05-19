@@ -20,7 +20,7 @@ classes:
 <li>Map inserts</li>
 </ol>
 
-<p>For basic tutorial, please visit <a href="https://earthinversion.github.io/GMT_tutorial_for_beginners/">here.</a></p>
+<p>For basic tutorial, please visit <a href="https://earthinversion.com/GMT_tutorial_for_beginners/">here.</a></p>
 
 <p>This tutorial consists of Bash script files to run the GMT. The data files required to run the scripts can be downloaded from <a href="https://github.com/earthinversion/GMT-Advanced-Tutorials/tree/master/Data">here</a>. Most codes are minor modifications of the <a href="http://gmt.soest.hawaii.edu/doc/5.3.2/Gallery.html">GMT historical collections</a>.</p>
 
