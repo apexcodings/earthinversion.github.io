@@ -286,19 +286,6 @@ figure {
     display: block;
   }
 
-  &.half {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-    }
-  }
-
   &.third {
     > a,
     > img {
