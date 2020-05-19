@@ -9,6 +9,9 @@ classes:
 ---
 In this post, we read the station information stored in the text file `statlist2.txt` using the `pandas` library in Python and then plot it over the topographic map. The details on how to plot the topographic map in Python can be found [here](/topographic-map-in-python/).
 
+<img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/station_map.png" width="400" alt="Station map">
+
+
 ``` python
 from plotting_topo import plot_topo, plot_topo_netcdf
 from mpl_toolkits.basemap import Basemap
@@ -56,5 +59,3 @@ else:
     plt.savefig('station_map.png',bbox_inches='tight',dpi=600)
     plt.close('all')
 ```
-
-<img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/station_map.png" width="400" alt="world map">
