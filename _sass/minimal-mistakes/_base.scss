@@ -272,7 +272,7 @@ figure {
   a,
   > img {
     @include breakpoint($small) {
-      width: calc(30% - 0.5em);
+      width: calc(31% - 0.5em);
     }
     border: 0.1em solid transparent;
   }
