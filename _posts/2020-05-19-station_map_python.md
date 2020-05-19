@@ -30,10 +30,10 @@ if stn_df['lat'].min()<latmin or stn_df['lat'].max()>latmax or stn_df['lon'].min
     print("GEOGRAPHICAL RANGE ERROR: Stations outside the range")
 
 else:
-    networkset = set([val for val in stn_df['net']])
-    stations = [val for val in stn_df['sta']]
-    color=iter(plt.cm.jet(np.linspace(0,1,len(networkset))))
-    netcolor = {net:c for net, c in zip(networkset, color)}
+    networkset = set([val for val in stn_df['net']]) #making unique set of network for legend
+    stations = [val for val in stn_df['sta']] #list of stations for marking on map
+    color=iter(plt.cm.jet(np.linspace(0,1,len(networkset)))) #unique set of colors based on "jet" colormap for legend
+    netcolor = {net:c for net, c in zip(networkset, color)} #one legend for each network
 
     fig = plt.figure(figsize=(10,6))
     ax = fig.add_subplot(111)
