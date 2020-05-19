@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: "Recent Posts"
+title: "Blog Posts"
 permalink: "/recent-posts/"
 mathjax: "true"
 classes:
