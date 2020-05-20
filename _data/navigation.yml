@@ -1,13 +1,13 @@
 # main links
 main:
-  - title: "About"
-    url: /about-me/
+  - title: "Posts"
+    url: /recent-posts/
   - title: "Research"
     url: /research/
   - title: "Gallery"
     url: /gallery/
-  - title: "Blog Posts"
-    url: /recent-posts/
+  - title: "About"
+    url: /about-me/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
