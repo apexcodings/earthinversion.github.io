@@ -122,8 +122,8 @@ author_profile: true
   <li>Kumar, B., K. Krishna Reddy, J. Janapati, T. Rao, P.-L. Lin, C.-Y. Liu, and U. Kumar (2016), Precipitation and cloud microstructure variations between two southern Indian stations. <a href="https://www.spiedigitallibrary.org/conference-proceedings-of-spie/9876/98761O/Precipitation-and-cloud-microstructure-variations-between-two-southern-Indian-stations/10.1117/12.2218458.short?webSyncID=9a0ce46e-9e6e-c7a4-9dab-6a0cbad05932&sessionGUID=9ad883c9-d902-bc99-93ce-d268bead49a2&SSO=1" class="btn btn--info btn--small">READ</a></li>
 </ol>
 </div>
-
-{% for post in range(0, 3) %}
+{{ content }}
+{% for post in paginator.posts[0:3] %}
   {% include archive-single.html %}
 {% endfor %}
 
