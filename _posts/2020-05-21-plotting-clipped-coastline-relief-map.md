@@ -12,7 +12,9 @@ We use the matplotlib's [`Path`](https://matplotlib.org/3.2.1/tutorials/advanced
 
 <p align="center">
   <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/station_map_masked.png">
+  <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/station_map_masked_reverse.png">
  </p>
+
 
 ```python
 from mpl_toolkits.basemap import Basemap
@@ -103,9 +105,6 @@ plt.close('all')
 
 It is also possible to reverse the masking and keep the bathymetry of the region and mask the land region with white.
 
-<p align="center">
-  <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/station_map_masked_reverse.png">
- </p>
 
 ```python
 from mpl_toolkits.basemap import Basemap
