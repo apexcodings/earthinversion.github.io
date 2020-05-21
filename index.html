@@ -123,6 +123,12 @@ author_profile: true
 </ol>
 </div>
 
+{% for post in range(0, 3) %}
+  {% include archive-single.html %}
+{% endfor %}
+
+{% include paginator.html %}
+
 
 <script>
   document.addEventListener('DOMContentLoaded', () => {
