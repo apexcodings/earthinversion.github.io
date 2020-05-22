@@ -6,6 +6,11 @@ excerpt: "Using Randomization to test the disprove the null hypothesis"
 classes:
   - wide
 ---
+Let’s pose the null hypothesis that the two sets of data come from the same probability distribution (not necessarily Gaussian). Under the null hypothesis, the two sets of data are interchangeable, so if we aggregate the data points and randomly divide the data points into two sets, then the results should be comparable to the results obtained with the original data. 
+
+So, the strategy is to generate random datasets, with replacement (bootstrapping), compute difference in means (or difference in medians or any other reliable statistic), and then compare the resulting values to the statistic computed from the original data.
+
+
 <figure class="half">
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/hypothesis_test.png">
 </figure>
