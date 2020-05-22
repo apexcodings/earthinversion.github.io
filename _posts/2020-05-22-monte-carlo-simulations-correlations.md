@@ -2,10 +2,17 @@
 title: "Monte Carlo Simulation to test for the correlation between two dataset (MATLAB)"
 date: 2020-05-22
 tags: [Statistics, MATLAB, Monte-Carlo Simulations, correlation]
-excerpt: "We test for the correlation between two sets of random numbers selected from normal distribution using the Monte Carlo simulations"
+excerpt: "We test for the correlation coefficients or the covariance between two sets of random numbers selected from normal distribution using the Monte Carlo simulations."
 classes:
   - wide
 ---
+Monte Carlo Simulations (MCS) can be used to extract important informations from the dataset that would be impossible to assess otherwise. Using MCS rather than the traditional methods to find the relation between two datasets are more intuitive.
+
+### What is Monte Carlo Simulations??
+> MCS studies are computer-driven experimental investigations in which certain parameters, such as population means and standard deviations that are known a priori, are used to generate random (but plausible) sample data (Mooney 1997). These generated data are then used to evaluate the sampling behavior of one or more statistics of interest. This process of generating and analyzing data is repeated over many iterations and differing conditions that are thought to influence the sampling behavior of the statistic of interest (e.g., through increasing sample size, mean differences, variability). __Copied from [3](https://amstat.tandfonline.com/doi/full/10.1080/10691898.2016.1246953#.XsfmHy-cZ24)__
+
+
+
 <figure class="half">
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/monteCarloSim.png">
 </figure>
@@ -54,5 +61,7 @@ saveas(gcf,"monteCarloSim",'pdf')
 %%
 ```
 
-
-- For details see: [Lectures on Statistics and Data Analysis in MATLAB](https://www.cmrr.umn.edu/~kendrick/statsmatlab/)
+## References:
+1. [Lectures on Statistics and Data Analysis in MATLAB](https://www.cmrr.umn.edu/~kendrick/statsmatlab/)
+2. [Assessing the Significance of the Correlation between Two Spatial Processes](https://www.jstor.org/stable/2532039?seq=1)
+3. [Teaching Statistics With Monte Carlo Simulation](https://amstat.tandfonline.com/doi/full/10.1080/10691898.2016.1246953#.XsfmHy-cZ24)
