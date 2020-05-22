@@ -2,7 +2,7 @@
 title: "Statistical Analysis in MATLAB"
 date: 2020-05-22
 tags: [Statistics, MATLAB, Histograms]
-excerpt: "Visualize the statistics of the data using MATLAB: mean, median, std, interquartile range, skewness, kurtosis"
+excerpt: "Visualize the statistics of the data using MATLAB: mean, median, std, interquartile range, skewness, kurtosis, t-statistic"
 classes:
   - wide
 ---
@@ -132,3 +132,51 @@ for i=1:col
 end
 ```
 
+## T-statistic
+
+```python
+clear; close all; clc;
+% generate some fake data
+data1=randn(100,1);
+data2=(randn(150,1).^2)*10 + 20;
+mu_x=mean(data1)
+mu_y=mean(data2)
+%t-statistic
+[h,p,ci,stats] = ttest2(data1,data2,0.05,'both','unequal')
+```
+
+```
+mu_x =
+
+   -0.0727
+
+
+mu_y =
+
+   29.8633
+
+
+h =
+
+     1
+
+
+p =
+
+   7.6969e-54
+
+
+ci =
+
+  -32.3794
+  -27.4925
+
+
+stats = 
+
+  struct with fields:
+
+    tstat: -24.2062
+       df: 150.9778
+       sd: [2×1 double]
+```
