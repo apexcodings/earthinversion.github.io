@@ -278,49 +278,8 @@ figure {
   }
 }
 
-.figureGroupThree {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  align-items: flex-start;
-  flex-wrap: nowrap;;
-  margin: 2em 0;
 
-  a,
-  > img {
-    @include breakpoint($small) {
-      width: calc(33% - 0.5em);
-    }
-    border: 0.3em solid transparent;
-  }
-  figcaption {
-    width: 100%;
-  }
-}
 
-.figureGroupTwo {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  align-items: flex-start;
-  flex-wrap: nowrap;;
-  margin: 2em 0;
-
-  a,
-  > img {
-    @include breakpoint($small) {
-      width: calc(50% - 0.5em);
-    }
-    border: 0.3em solid transparent;
-  }
-  figcaption {
-    width: 100%;
-  }
-}
 
 /* Figure captions */
 

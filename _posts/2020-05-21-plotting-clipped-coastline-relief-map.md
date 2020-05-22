@@ -11,10 +11,10 @@ In this post, we demonstrate how to plot the clipped relief map in Python. For t
 We use the matplotlib's [`Path`](https://matplotlib.org/3.2.1/tutorials/advanced/path_tutorial.html) module to deal with the polylines of the coastal path in Taiwan. The approach is simple (may not be so efficient computationally), we first plot the topography on the map, then select the polylines using the `Path` and then mask the region outside the coastline with lightblue color.
 
 
-<div class="figureGroupTwo">
+<figure class="half">
 	<img width="400" src="{{ site.url }}{{ site.baseurl }}/images/station_map_masked.png">
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/station_map_masked_reverse.png">
-</div>
+</figure>
 
 
 ```python
