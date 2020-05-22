@@ -180,3 +180,5 @@ stats =
        df: 150.9778
        sd: [2×1 double]
 ```
+
+- For details see: [Lectures on Statistics and Data Analysis in MATLAB](https://www.cmrr.umn.edu/~kendrick/statsmatlab/)

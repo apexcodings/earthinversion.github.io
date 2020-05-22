@@ -53,3 +53,6 @@ title(sprintf('The values between which most of the correlation values lie is +/
 saveas(gcf,"monteCarloSim",'pdf')
 %%
 ```
+
+
+- For details see: [Lectures on Statistics and Data Analysis in MATLAB](https://www.cmrr.umn.edu/~kendrick/statsmatlab/)

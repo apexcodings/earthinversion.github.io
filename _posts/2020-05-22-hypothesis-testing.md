@@ -69,3 +69,6 @@ xlabel('Difference in means'), ylabel('Frequency')
 actualdiffmn =
   -28.5153
 ```
+
+
+- For details see: [Lectures on Statistics and Data Analysis in MATLAB](https://www.cmrr.umn.edu/~kendrick/statsmatlab/)
