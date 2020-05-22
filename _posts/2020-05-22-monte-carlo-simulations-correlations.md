@@ -13,7 +13,7 @@ Monte Carlo Simulations (MCS) can be used to extract important informations from
 
 
 
-<figure class="half">
+<figure>
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/monteCarloSim.png">
 </figure>
 

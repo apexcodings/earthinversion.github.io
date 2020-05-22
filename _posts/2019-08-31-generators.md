@@ -10,12 +10,12 @@ classes:
 - Generators don't hold the entire result in memory. It yields one result at a time. 
 - Ways of creating generators:
     1. Using a function
-        ```
+        ```python
         def squares_gen(num):
                 for i in num:
                         yield i**2
         ```
-        ```
+        ```python
         def squares(num):
                 results=[]
                 for i in num:
@@ -28,10 +28,10 @@ classes:
 
         - Difference in time taken for the list and generators: `7.360716` Seconds for `num = np.arange(1,10000000)`
     2. Like a list comprehension
-        ```
+        ```python
         resl = [i**2 for i in num]
         ```
-        ```
+        ```python
         resg = (i**2 for i in num)
         ```
         - Elapsed time for list: `7.663468000000001` Seconds
@@ -42,14 +42,14 @@ classes:
 
 - Getting the results from the generator function:
     1. Using `next`
-        ```
+        ```python
         resg = squares_gen(num)
         print('res of generators: ',next(resg))
         print('res of generators: ',next(resg))
         print('res of generators: ',next(resg))
         ```
     2. Using `loop`:
-        ```
+        ```python
         for n in resg:
             print(n)
         ```
@@ -66,10 +66,10 @@ classes:
 2. The difference between using list or generators is more pronounced when using a comprehension (though generators are still much faster.)
 3. When we need the result of whole array at a time then the amount of time (or memory) taken to create a list or `list(generators)` are almost same.
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/results_generators.png" alt="How to used Generator">
-
-
-<img src="{{ site.url }}{{ site.baseurl }}/images/Memory_usage.png" alt="Memory usage">
+<figure class="half">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/results_generators.png" alt="How to used Generator">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/Memory_usage.png" alt="Memory usage">
+</figure>
 
 Overall, generators gives a performance boost not only in execution time but with the memory as well.
 
