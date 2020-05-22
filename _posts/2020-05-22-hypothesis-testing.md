@@ -24,7 +24,6 @@ all_data=[data1; data2];
 %% First Sample
 mu1=mean(data1);
 
-
 %% Second Sample
 mu2=mean(data2);
 actualdiffmn=(mu1-mu2)

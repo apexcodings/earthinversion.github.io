@@ -42,9 +42,9 @@ classes:
 
 
 <figure class="third">
-<a href="https://iescoders.com/earthquake-finder/"><img src="https://i2.wp.com/iescoders.com/wp-content/uploads/2018/11/eqmap.png?ssl=1" alt="Earthquake Finder"></img></a>
-<a href="https://iescoders.com/calculating-the-curvature-of-a-curve/"><img src="https://iescoders.com/wp-content/uploads/2017/05/screenshot-from-2017-05-03-16-46-57.png" alt="Curvature"></img></a>
-<a href="https://iescoders.com/locating-earthquake-using-geigers-method/"><img src="https://iescoders.com/wp-content/uploads/2017/02/eqloc2.jpg" alt="Locating Earthquake using Geiger’s Method"></img></a>
+<a href="https://iescoders.com/earthquake-finder/"><img src="https://i2.wp.com/iescoders.com/wp-content/uploads/2018/11/eqmap.png?ssl=1" alt="Earthquake Finder"></a>
+<a href="https://iescoders.com/calculating-the-curvature-of-a-curve/"><img src="https://iescoders.com/wp-content/uploads/2017/05/screenshot-from-2017-05-03-16-46-57.png" alt="Curvature"></a>
+<a href="https://iescoders.com/locating-earthquake-using-geigers-method/"><img src="https://iescoders.com/wp-content/uploads/2017/02/eqloc2.jpg" alt="Locating Earthquake using Geiger’s Method"></a>
 
 <figcaption>
 <strong>[1]</strong>Earthquake Finder
@@ -54,9 +54,9 @@ classes:
 </figure>
 
 <figure class="third">
-<a href="https://iescoders.com/travel-time-curve-calculation-for-a-spherical-earth-prem-model/"><img src="https://iescoders.com/wp-content/uploads/2016/12/vel_model.png" alt="Travel-time curve calculation for the Spherical Earth (PREM Model)"></img></a>
-<a href="https://iescoders.com/normal-mode-summation-for-calculating-the-synthetic-seismogram-for-a-string/"><img src="https://iescoders.com/wp-content/uploads/2016/12/test12.png" alt="Normal Mode Summation for calculating the synthetic seismogram for a string"></img></a>
-<a href="https://iescoders.com/calculating-auxiliary-fault-plane-solutions-given-the-main-fault-fortran/"><img src="https://iescoders.com/wp-content/uploads/2016/12/screenshot-from-2016-12-05-14-35-25.png" alt="Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)"></img></a>
+<a href="https://iescoders.com/travel-time-curve-calculation-for-a-spherical-earth-prem-model/"><img src="https://iescoders.com/wp-content/uploads/2016/12/vel_model.png" alt="Travel-time curve calculation for the Spherical Earth (PREM Model)"></a>
+<a href="https://iescoders.com/normal-mode-summation-for-calculating-the-synthetic-seismogram-for-a-string/"><img src="https://iescoders.com/wp-content/uploads/2016/12/test12.png" alt="Normal Mode Summation for calculating the synthetic seismogram for a string"></a>
+<a href="https://iescoders.com/calculating-auxiliary-fault-plane-solutions-given-the-main-fault-fortran/"><img src="https://iescoders.com/wp-content/uploads/2016/12/screenshot-from-2016-12-05-14-35-25.png" alt="Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)"></a>
 
 <figcaption>
 <strong>[1]</strong>Travel-time curve calculation for the Spherical Earth (PREM Model)
@@ -67,9 +67,9 @@ classes:
 
 
 <figure class="third">
-<a href="https://iescoders.com/travel-time-curve-calculation-for-spherical-isotropic-homogeneous-earth-model/"><img src="https://iescoders.com/wp-content/uploads/2016/12/travel_time2.png" alt="Travel time curve calculation for spherical, isotropic, homogeneous Earth model"></img></a>
-<a href="https://iescoders.com/simple-wave-plot-fortran-and-gnuplot-demo/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-14-at-8-32-52-pm.png" alt="Simple Wave Plot (Fortran and Gnuplot demo)"></img></a>
-<a href="https://iescoders.com/using-generic-mapping-tool-basics/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-11-at-2-04-17-pm-e1542270679388.png" alt="Using Generic Mapping Tool (Basics)"></img></a>
+<a href="https://iescoders.com/travel-time-curve-calculation-for-spherical-isotropic-homogeneous-earth-model/"><img src="https://iescoders.com/wp-content/uploads/2016/12/travel_time2.png" alt="Travel time curve calculation for spherical, isotropic, homogeneous Earth model"></a>
+<a href="https://iescoders.com/simple-wave-plot-fortran-and-gnuplot-demo/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-14-at-8-32-52-pm.png" alt="Simple Wave Plot (Fortran and Gnuplot demo)"></a>
+<a href="https://iescoders.com/using-generic-mapping-tool-basics/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-11-at-2-04-17-pm-e1542270679388.png" alt="Using Generic Mapping Tool (Basics)"></a>
 
 <figcaption>
 <strong>[1]</strong>Travel time curve calculation for spherical, isotropic, homogeneous Earth model
@@ -79,8 +79,8 @@ classes:
 </figure>
 
 <figure class="half">
-<a href="https://iescoders.com/complex-moving-waves/"><img src="https://iescoders.com/wp-content/uploads/2016/11/moving_waves22-e1542272860860.png" alt="Complex Moving Waves in MATLAB"></img></a>
-<a href="https://iescoders.com/modelling-waves-matlab/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-03-at-5-17-46-pm.png" alt="Modelling Waves (MATLAB)"></img></a>
+<a href="https://iescoders.com/complex-moving-waves/"><img src="https://iescoders.com/wp-content/uploads/2016/11/moving_waves22-e1542272860860.png" alt="Complex Moving Waves in MATLAB"></a>
+<a href="https://iescoders.com/modelling-waves-matlab/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-03-at-5-17-46-pm.png" alt="Modelling Waves (MATLAB)"></a>
 <figcaption>
 <strong>[1]</strong>Complex Moving Waves in MATLAB
 <strong>[2]</strong>Modelling Waves (MATLAB)
