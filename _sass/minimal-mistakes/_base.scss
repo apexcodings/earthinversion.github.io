@@ -259,63 +259,6 @@ figure {
   }
 }
 
-.figureWithCaptions {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 2em 0;
-
-  img,
-  iframe,
-  .fluid-width-video-wrapper {
-    margin-bottom: 1em;
-  }
-
-  img {
-    width: 100%;
-    border-radius: $border-radius;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
-  }
-
-  > a {
-    display: block;
-  }
-
-  &.half {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-
-    figcaption {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-  }
-
-  &.third {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(32% - 0.5em);
-      }
-    }
-
-    figcaption {
-      @include breakpoint($small) {
-        width: calc(32% - 0.5em);
-      }
-    }
-  }
-}
 
 .figureLiveApps {
   display: -webkit-box;
