@@ -13,9 +13,9 @@ Tomography, which is derived from the Greek word “tomos” that is “slice”
 In principle, it is usually an inverse problem where we have the data, we formulate the geometry of the ray paths and invert for the model parameters that defines the structure.
 
 $$
-\begin{align}
+\begin{aligned}
 d = Gm
-\end{align}
+\end{aligned}
 $$
 
 where, \\( d \\) is the vector containing the data, \\( m \\) is the vector containing the model
@@ -31,9 +31,12 @@ The solution of the linear tomographic inverse problem depends on the relationsh
 ### Solution of the underdetermined linear inverse problem:
 We take the a priori constraint that the solution is simple. The notion of simplicity is quantified by some measure of the length of the solution. One such measure is the Euclidean length of the solution, \\( L = m^{T}m \\).
 
-$$d = Gm$$
-
-$$𝑚^{est} = 𝐺^T(𝐺𝐺^T)^{-1}𝑑$$
+$$
+\begin{aligned}
+d = Gm \\
+𝑚^{est} = 𝐺^T(𝐺𝐺^T)^{-1}𝑑
+\end{aligned}
+$$
 
 
 __To be Continued__
