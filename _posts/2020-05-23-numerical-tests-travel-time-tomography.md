@@ -34,3 +34,6 @@ We take the a priori constraint that the solution is simple. The notion of simpl
 $$d = Gm$$
 
 $$𝑚^{est} = 𝐺^T(𝐺𝐺^T)^{-1}𝑑$$
+
+
+__To be Continued__
