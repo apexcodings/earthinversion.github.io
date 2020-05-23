@@ -46,6 +46,7 @@ d &= Gm \\
 𝑚^{est} &= (𝐺^T𝐺)^{-1}𝐺^T𝑑
 \end{aligned}
 $$
+
 This solution can simply be obtained simply by minimizing the least square error with
 respect to the model parameters. (Menke 1989)
 
@@ -68,6 +69,13 @@ $$
 $$
 
 This partitioning process can be accomplished through singular value decomposition of the data kernel. If this can be achieved then we can determine the overdetermined model parameters by solving the upper equations in the least square sense and determine the underdetermined model parameters by finding those that have minimum least square solution length.
+
+Instead of partitioning \\( m \\), we can determine the solution that minimizes some combination \\( \phi \\) of the prediction error and the solution length for the model parameters.
+
+$$
+\phi (m) = (𝑑−𝐺𝑚)^{T} (𝑑−𝐺𝑚) +\epsilon^2 𝑚^T𝑚
+$$
+
 
 
 __To be Continued__
