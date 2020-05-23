@@ -270,6 +270,22 @@ figure {
   flex-wrap: nowrap;;
   margin: 2em 0;
 
+  img,
+  iframe,
+  .fluid-width-video-wrapper {
+    margin-bottom: 1em;
+  }
+
+  img {
+    width: 100%;
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+  }
+
+  > a {
+    display: block;
+  }
 
   a,
   > img {
