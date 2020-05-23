@@ -40,12 +40,14 @@ d &= Gm \\
 $$
 
 ### Solution of the overdetermined linear inverse problem:
+
 $$
 \begin{aligned}
 d &= Gm \\
 𝑚^{est} &= (𝐺^T𝐺)^{-1}𝐺^T𝑑
 \end{aligned}
 $$
+
 
 This solution can simply be obtained simply by minimizing the least square error with
 respect to the model parameters. (Menke 1989)
