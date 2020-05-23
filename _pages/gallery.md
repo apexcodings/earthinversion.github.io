@@ -23,8 +23,8 @@ classes:
 	<a href="https://iescoders.com/exploratory-factor-analysis/"><img src="https://iescoders.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-18-at-4.13.47-PM-1.png" alt="Exploratory Factor Analysis"></a>
   <figcaption>
   <strong>[a]</strong> How to avoid common mistakes in analyzing correlations of two time-series 
-  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong> Interactive Data Visualization in Python 
-  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong> Exploratory Factor Analysis</figcaption>
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[b] </strong> Interactive Data Visualization in Python 
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[c] </strong> Exploratory Factor Analysis</figcaption>
 </figure>
 </li>
 
@@ -41,8 +41,8 @@ classes:
   alt="Statistical analysis of the normal and non-normal data"></a>
   <figcaption>
   <strong>[a]</strong> Estimation of the degrees of freedom for time series 
-  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong> Time Series Analysis: Filtering or Smoothing the Data 
-  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong> Statistical analysis of the normal and non-normal data</figcaption>
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[b] </strong> Time Series Analysis: Filtering or Smoothing the Data 
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[c] </strong> Statistical analysis of the normal and non-normal data</figcaption>
 </figure>
 </li>
 
@@ -54,9 +54,9 @@ classes:
 <a href="https://iescoders.com/locating-earthquake-using-geigers-method/"><img src="https://iescoders.com/wp-content/uploads/2017/02/eqloc2.jpg" alt="Locating Earthquake using Geiger’s Method"></a>
 
 <figcaption>
-<strong>[a]</strong>Earthquake Finder
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Calculating the curvature of a curve
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong>Locating Earthquake using Geiger’s Method
+<strong>[a]</strong> Earthquake Finder
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b] </strong>Calculating the curvature of a curve
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c] </strong>Locating Earthquake using Geiger’s Method
 </figcaption>
 </figure>
 </li>
@@ -68,9 +68,9 @@ classes:
 <a href="https://iescoders.com/calculating-auxiliary-fault-plane-solutions-given-the-main-fault-fortran/"><img src="https://iescoders.com/wp-content/uploads/2016/12/screenshot-from-2016-12-05-14-35-25.png" alt="Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)"></a>
 
 <figcaption>
-<strong>[a]</strong>Travel-time curve calculation for the Spherical Earth (PREM Model)
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Normal Mode Summation for calculating the synthetic seismogram for a string
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong>Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)
+<strong>[a]</strong> Travel-time curve calculation for the Spherical Earth (PREM Model)
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b] </strong>Normal Mode Summation for calculating the synthetic seismogram for a string
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c] </strong>Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)
 </figcaption>
 </figure>
 </li>
@@ -83,9 +83,9 @@ classes:
 <a href="https://iescoders.com/using-generic-mapping-tool-basics/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-11-at-2-04-17-pm-e1542270679388.png" alt="Using Generic Mapping Tool (Basics)"></a>
 
 <figcaption>
-<strong>[a]</strong>Travel time curve calculation for spherical, isotropic, homogeneous Earth model
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Simple Wave Plot (Fortran and Gnuplot demo)
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong>Using Generic Mapping Tool (Basics)
+<strong>[a]</strong> Travel time curve calculation for spherical, isotropic, homogeneous Earth model
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b] </strong>Simple Wave Plot (Fortran and Gnuplot demo)
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c] </strong>Using Generic Mapping Tool (Basics)
 </figcaption>
 </figure>
 </li>
@@ -95,8 +95,8 @@ classes:
 <a href="https://iescoders.com/complex-moving-waves/"><img src="https://iescoders.com/wp-content/uploads/2016/11/moving_waves22-e1542272860860.png" alt="Complex Moving Waves in MATLAB"></a>
 <a href="https://iescoders.com/modelling-waves-matlab/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-03-at-5-17-46-pm.png" alt="Modelling Waves (MATLAB)"></a>
 <figcaption>
-<strong>[a]</strong>Complex Moving Waves in MATLAB
-&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Modelling Waves (MATLAB)
+<strong>[a]</strong> Complex Moving Waves in MATLAB
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b] </strong>Modelling Waves (MATLAB)
 </figcaption>
 </figure>
 </li>
