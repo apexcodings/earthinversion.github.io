@@ -12,7 +12,11 @@ classes:
 Tomography, which is derived from the Greek word “tomos” that is “slice”, denotes forming an image of an object from measurements made from slices or rays through it. In other words, forming the structure of an object based on a collection of slices through it.
 In principle, it is usually an inverse problem where we have the data, we formulate the geometry of the ray paths and invert for the model parameters that defines the structure.
 
-$$d = Gm$$
+$$
+\begin{align}
+d = Gm
+\end{align}
+$$
 
 where, \\( d \\) is the vector containing the data, \\( m \\) is the vector containing the model
 parameters and \\( G \\) is the kernel which maps the data into the model and vice-versa. If there are \\( N \\) number of data and \\( M \\) number of model parameters then the size of the matrix \\( G \\) is \\( N \times M \\).
