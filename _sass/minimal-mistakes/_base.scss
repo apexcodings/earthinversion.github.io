@@ -311,7 +311,7 @@ figure {
 
     figcaption {
       @include breakpoint($small) {
-        width: calc(50% - 0.5em);
+        width: calc(33.3333% - 0.5em);
       }
     }
   }
