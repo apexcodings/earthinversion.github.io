@@ -12,7 +12,7 @@ classes:
 	<a href="https://iescoders.com/linear-regressional-analysis/"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/linear_regression_analysis.png" alt="Lin regression"></a>
 	<a href="https://iescoders.com/coefficient-of-determination-r-squared-for-the-goodness-of-fit-test/"><img src="https://iescoders.com/wp-content/uploads/2019/06/data_plot-3.png" alt="Coefficient of determination"></a>
 	<a href="https://iescoders.com/hypothesis-test-for-the-significance-of-linear-trend-using-the-monte-carlo-simulations/"><img src="https://iescoders.com/wp-content/uploads/2019/06/hypothesis_test_eof1.png" alt="Hypothesis testing"></a>
-  	<figcaption><strong>[a]</strong> Linear Regressional Analysis <strong>[b]</strong> Coefficient of determination <strong>[c]</strong> Hypothesis testing using Monte Carlo Simulations</figcaption>
+  	<figcaption><strong>[a]</strong> Linear Regressional Analysis &nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong> Coefficient of determination &nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong> Hypothesis testing using Monte Carlo Simulations</figcaption>
 </figure>
 </li>
 
@@ -23,8 +23,8 @@ classes:
 	<a href="https://iescoders.com/exploratory-factor-analysis/"><img src="https://iescoders.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-18-at-4.13.47-PM-1.png" alt="Exploratory Factor Analysis"></a>
   <figcaption>
   <strong>[a]</strong> How to avoid common mistakes in analyzing correlations of two time-series 
-  <strong>[b]</strong> Interactive Data Visualization in Python 
-  <strong>[c]</strong> Exploratory Factor Analysis</figcaption>
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong> Interactive Data Visualization in Python 
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong> Exploratory Factor Analysis</figcaption>
 </figure>
 </li>
 
@@ -41,8 +41,8 @@ classes:
   alt="Statistical analysis of the normal and non-normal data"></a>
   <figcaption>
   <strong>[a]</strong> Estimation of the degrees of freedom for time series 
-  <strong>[b]</strong> Time Series Analysis: Filtering or Smoothing the Data 
-  <strong>[c]</strong> Statistical analysis of the normal and non-normal data</figcaption>
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong> Time Series Analysis: Filtering or Smoothing the Data 
+  &nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong> Statistical analysis of the normal and non-normal data</figcaption>
 </figure>
 </li>
 
@@ -55,8 +55,8 @@ classes:
 
 <figcaption>
 <strong>[a]</strong>Earthquake Finder
-<strong>[b]</strong>Calculating the curvature of a curve
-<strong>[c]</strong>Locating Earthquake using Geiger’s Method
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Calculating the curvature of a curve
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong>Locating Earthquake using Geiger’s Method
 </figcaption>
 </figure>
 </li>
@@ -69,8 +69,8 @@ classes:
 
 <figcaption>
 <strong>[a]</strong>Travel-time curve calculation for the Spherical Earth (PREM Model)
-<strong>[b]</strong>Normal Mode Summation for calculating the synthetic seismogram for a string
-<strong>[c]</strong>Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Normal Mode Summation for calculating the synthetic seismogram for a string
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong>Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)
 </figcaption>
 </figure>
 </li>
@@ -84,8 +84,8 @@ classes:
 
 <figcaption>
 <strong>[a]</strong>Travel time curve calculation for spherical, isotropic, homogeneous Earth model
-<strong>[b]</strong>Simple Wave Plot (Fortran and Gnuplot demo)
-<strong>[c]</strong>Using Generic Mapping Tool (Basics)
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Simple Wave Plot (Fortran and Gnuplot demo)
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[c]</strong>Using Generic Mapping Tool (Basics)
 </figcaption>
 </figure>
 </li>
@@ -96,7 +96,7 @@ classes:
 <a href="https://iescoders.com/modelling-waves-matlab/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-03-at-5-17-46-pm.png" alt="Modelling Waves (MATLAB)"></a>
 <figcaption>
 <strong>[a]</strong>Complex Moving Waves in MATLAB
-<strong>[b]</strong>Modelling Waves (MATLAB)
+&nbsp;&nbsp;&nbsp;&nbsp;<strong>[b]</strong>Modelling Waves (MATLAB)
 </figcaption>
 </figure>
 </li>
