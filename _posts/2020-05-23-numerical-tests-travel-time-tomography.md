@@ -38,5 +38,35 @@ d &= Gm \\
 \end{aligned}
 $$
 
+### Solution of the overdetermined linear inverse problem:
+$$
+\begin{aligned}
+d &= Gm \\
+𝑚^{est} &= (𝐺^T𝐺)^{-1}𝐺^T𝑑
+\end{aligned}
+$$
+This solution can simply be obtained simply by minimizing the least square error with
+respect to the model parameters. (Menke 1989)
+
+### Solution of the Mixed-Determined linear inverse problem:
+Most inverse problems that arise in practice are neither completely overdetermined nor completely underdetermined. So, for solving these kinds of problems, ideally we would like to sort the unknown model parameters into two groups- overdetermined and underdetermined. For doing so, we form a set of new model parameters that are linear combinations of the old. Then we can partition from an arbitrary \\( d = Gm \\) to \\( d' = G'm' \\), where \\( m' \\) is partitioned into an upper part that is overdetermined and a lower part that is underdetermined.
+
+$$
+\begin{bmatrix}
+   G^{'o} & 0 \\
+   0 & G^{'o}
+\end{bmatrix}
+\begin{bmatrix}
+   m^{'o} \\
+   m^{'u}
+\end{bmatrix}
+= \begin{bmatrix}
+   d^{'o} \\
+   d^{'u}
+\end{bmatrix}
+$$
+
+This partitioning process can be accomplished through singular value decomposition of the data kernel. If this can be achieved then we can determine the overdetermined model parameters by solving the upper equations in the least square sense and determine the underdetermined model parameters by finding those that have minimum least square solution length.
+
 
 __To be Continued__
