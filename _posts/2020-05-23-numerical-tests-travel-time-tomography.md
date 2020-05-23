@@ -14,7 +14,7 @@ In principle, it is usually an inverse problem where we have the data, we formul
 
 $$
 \begin{aligned}
-d = Gm
+d &= Gm
 \end{aligned}
 $$
 
@@ -33,8 +33,8 @@ We take the a priori constraint that the solution is simple. The notion of simpl
 
 $$
 \begin{aligned}
-d = Gm \\
-𝑚^{est} = 𝐺^T(𝐺𝐺^T)^{-1}𝑑
+d &= Gm \\
+𝑚^{est} &= 𝐺^T(𝐺𝐺^T)^{-1}𝑑
 \end{aligned}
 $$
 
