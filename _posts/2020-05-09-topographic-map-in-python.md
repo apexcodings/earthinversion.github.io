@@ -3,6 +3,8 @@ title: "Plotting 1 arc-minute global relief map in python"
 date: 2020-05-09
 tags: [topography, Python, NOAA, global relief]
 excerpt: "Plotting 1 arc-minute topographic map in python"
+header:
+  teaser: https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/africa.png
 mathjax: "true"
 classes:
   - wide
