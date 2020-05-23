@@ -305,13 +305,13 @@ figure {
     > a,
     > img {
       @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
+        width: calc(32% - 0.5em);
       }
     }
 
     figcaption {
       @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
+        width: calc(32% - 0.5em);
       }
     }
   }
