@@ -12,7 +12,7 @@ classes:
 	<a href="https://iescoders.com/linear-regressional-analysis/"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/linear_regression_analysis.png" alt="Lin regression"></a>
 	<a href="https://iescoders.com/coefficient-of-determination-r-squared-for-the-goodness-of-fit-test/"><img src="https://iescoders.com/wp-content/uploads/2019/06/data_plot-3.png" alt="Coefficient of determination"></a>
 	<a href="https://iescoders.com/hypothesis-test-for-the-significance-of-linear-trend-using-the-monte-carlo-simulations/"><img src="https://iescoders.com/wp-content/uploads/2019/06/hypothesis_test_eof1.png" alt="Hypothesis testing"></a>
-  	<figcaption><strong>[1]</strong> Linear Regressional Analysis <strong>[2]</strong> Coefficient of determination <strong>[3]</strong> Hypothesis testing using Monte Carlo Simulations</figcaption>
+  	<figcaption><strong>[a]</strong> Linear Regressional Analysis <strong>[b]</strong> Coefficient of determination <strong>[c]</strong> Hypothesis testing using Monte Carlo Simulations</figcaption>
 </figure>
 </li>
 
@@ -22,9 +22,9 @@ classes:
 	<a href="https://iescoders.com/interactive-data-visualization-in-python/"><img src="https://iescoders.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-17-at-2.59.08-PM.png" alt="Interactive Data Visualization in Python"></a>
 	<a href="https://iescoders.com/exploratory-factor-analysis/"><img src="https://iescoders.com/wp-content/uploads/2019/08/Screen-Shot-2019-08-18-at-4.13.47-PM-1.png" alt="Exploratory Factor Analysis"></a>
   <figcaption>
-  <strong>[1]</strong> How to avoid common mistakes in analyzing correlations of two time-series 
-  <strong>[2]</strong> Interactive Data Visualization in Python 
-  <strong>[3]</strong> Exploratory Factor Analysis</figcaption>
+  <strong>[a]</strong> How to avoid common mistakes in analyzing correlations of two time-series 
+  <strong>[b]</strong> Interactive Data Visualization in Python 
+  <strong>[c]</strong> Exploratory Factor Analysis</figcaption>
 </figure>
 </li>
 
@@ -40,9 +40,9 @@ classes:
   <img src="https://iescoders.com/wp-content/uploads/2019/06/Non-normal-Data-statistics-3.png" 
   alt="Statistical analysis of the normal and non-normal data"></a>
   <figcaption>
-  <strong>[1]</strong> Estimation of the degrees of freedom for time series 
-  <strong>[2]</strong> Time Series Analysis: Filtering or Smoothing the Data 
-  <strong>[3]</strong> Statistical analysis of the normal and non-normal data</figcaption>
+  <strong>[a]</strong> Estimation of the degrees of freedom for time series 
+  <strong>[b]</strong> Time Series Analysis: Filtering or Smoothing the Data 
+  <strong>[c]</strong> Statistical analysis of the normal and non-normal data</figcaption>
 </figure>
 </li>
 
@@ -54,9 +54,9 @@ classes:
 <a href="https://iescoders.com/locating-earthquake-using-geigers-method/"><img src="https://iescoders.com/wp-content/uploads/2017/02/eqloc2.jpg" alt="Locating Earthquake using Geiger’s Method"></a>
 
 <figcaption>
-<strong>[1]</strong>Earthquake Finder
-<strong>[2]</strong>Calculating the curvature of a curve
-<strong>[2]</strong>Locating Earthquake using Geiger’s Method
+<strong>[a]</strong>Earthquake Finder
+<strong>[b]</strong>Calculating the curvature of a curve
+<strong>[c]</strong>Locating Earthquake using Geiger’s Method
 </figcaption>
 </figure>
 </li>
@@ -68,9 +68,9 @@ classes:
 <a href="https://iescoders.com/calculating-auxiliary-fault-plane-solutions-given-the-main-fault-fortran/"><img src="https://iescoders.com/wp-content/uploads/2016/12/screenshot-from-2016-12-05-14-35-25.png" alt="Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)"></a>
 
 <figcaption>
-<strong>[1]</strong>Travel-time curve calculation for the Spherical Earth (PREM Model)
-<strong>[2]</strong>Normal Mode Summation for calculating the synthetic seismogram for a string
-<strong>[2]</strong>Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)
+<strong>[a]</strong>Travel-time curve calculation for the Spherical Earth (PREM Model)
+<strong>[b]</strong>Normal Mode Summation for calculating the synthetic seismogram for a string
+<strong>[c]</strong>Calculating Auxiliary Fault Plane Solutions given the main fault (Fortran)
 </figcaption>
 </figure>
 </li>
@@ -83,9 +83,9 @@ classes:
 <a href="https://iescoders.com/using-generic-mapping-tool-basics/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-11-at-2-04-17-pm-e1542270679388.png" alt="Using Generic Mapping Tool (Basics)"></a>
 
 <figcaption>
-<strong>[1]</strong>Travel time curve calculation for spherical, isotropic, homogeneous Earth model
-<strong>[2]</strong>Simple Wave Plot (Fortran and Gnuplot demo)
-<strong>[2]</strong>Using Generic Mapping Tool (Basics)
+<strong>[a]</strong>Travel time curve calculation for spherical, isotropic, homogeneous Earth model
+<strong>[b]</strong>Simple Wave Plot (Fortran and Gnuplot demo)
+<strong>[c]</strong>Using Generic Mapping Tool (Basics)
 </figcaption>
 </figure>
 </li>
@@ -95,8 +95,8 @@ classes:
 <a href="https://iescoders.com/complex-moving-waves/"><img src="https://iescoders.com/wp-content/uploads/2016/11/moving_waves22-e1542272860860.png" alt="Complex Moving Waves in MATLAB"></a>
 <a href="https://iescoders.com/modelling-waves-matlab/"><img src="https://iescoders.com/wp-content/uploads/2016/11/screen-shot-2016-11-03-at-5-17-46-pm.png" alt="Modelling Waves (MATLAB)"></a>
 <figcaption>
-<strong>[1]</strong>Complex Moving Waves in MATLAB
-<strong>[2]</strong>Modelling Waves (MATLAB)
+<strong>[a]</strong>Complex Moving Waves in MATLAB
+<strong>[b]</strong>Modelling Waves (MATLAB)
 </figcaption>
 </figure>
 </li>
