@@ -47,7 +47,9 @@ map.drawmapboundary(color='k', linewidth=2, zorder=1)
 plt.savefig('world_map.png',bbox_inches='tight',dpi=300)
 plt.close('all')
 ```
+<figure>
 <img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/world_map.png" width="400" alt="world map">
+</figure>
 
 ## Africa Map 
 ``` python
@@ -77,7 +79,11 @@ map.drawmapboundary(color='k', linewidth=2, zorder=1)
 plt.savefig('africa.png',bbox_inches='tight',dpi=300)
 plt.close('all')
 ```
+
+<figure>
 <img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/africa.png" width="400" alt="africa map">
+</figure>
+
 
 ## Africa Etopo (NOAA):
 ```python
@@ -100,7 +106,10 @@ map.drawmapboundary(color='k', linewidth=2, zorder=1)
 plt.savefig('test_africa.png',bbox_inches='tight',dpi=600)
 plt.close('all')
 ```
+
+<figure>
 <img src="{{ site.url }}{{ site.baseurl }}/images/topographic_map_python/test_africa.png" alt="africa map">
+</figure>
 
 
 ## Taiwan Plot
@@ -126,7 +135,10 @@ map.drawmapboundary(color='k', linewidth=2, zorder=1)
 plt.savefig('taiwan_plot.png',bbox_inches='tight',dpi=600)
 plt.close('all')
 ```
+
+<figure>
 <img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/taiwan_plot.png" width="400" alt="africa map">
+</figure>
 
 See more:
 [iescoders post](https://iescoders.com/plotting-topographic-map-using-noaa-global-relief-data-in-python/)
