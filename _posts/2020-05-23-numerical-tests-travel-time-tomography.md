@@ -1,9 +1,9 @@
 ---
-title: "Numerical Tests on Travel Time Tomography: Basics"
+title: "Numerical Tests on Travel Time Tomography: Introductory"
 date: 2020-05-23
 last_modified_at: 2020-05-23
 tags: [Tomography, Seismic tomography]
-excerpt: "Introduction to the concepts of tomography"
+excerpt: "Introduction to the concepts of tomography with equations and codes. Introduction to the concepts of overdetermined, underdetermined and mix-determined problems in Tomography."
 mathjax: "true"
 classes:
   - wide

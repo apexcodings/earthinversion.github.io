@@ -45,7 +45,7 @@ plt.savefig('world_map.png',bbox_inches='tight',dpi=300)
 plt.close('all')
 ```
 <figure>
-<img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/world_map.png" width="400" alt="world map">
+<img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/world_map.png" alt="world map">
 </figure>
 
 ## Africa Map 
@@ -78,7 +78,7 @@ plt.close('all')
 ```
 
 <figure>
-<img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/africa.png" width="400" alt="africa map">
+<img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/africa.png" alt="africa map">
 </figure>
 
 
@@ -134,7 +134,7 @@ plt.close('all')
 ```
 
 <figure>
-<img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/taiwan_plot.png" width="400" alt="africa map">
+<img src="https://raw.githubusercontent.com/earthinversion/plotting_topographic_maps_in_python/master/taiwan_plot.png" alt="africa map">
 </figure>
 
 See more:
