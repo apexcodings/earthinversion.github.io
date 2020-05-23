@@ -3,6 +3,7 @@ title: "Numerical Tests on Travel Time Tomography: Basics"
 date: 2020-05-22
 tags: [Tomography, Seismic tomography]
 excerpt: "Introduction to the concepts of tomography"
+mathjax: "true"
 classes:
   - wide
 ---
