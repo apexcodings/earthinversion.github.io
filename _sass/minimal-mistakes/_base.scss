@@ -290,14 +290,16 @@ figure {
     -webkit-transition: $global-transition;
     transition: $global-transition;
   }
+  .cardContainer {
+  padding: 1px 4px 20px;
+  text-align: center;
+}
 }
 
 .card:hover {
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
-.cardContainer {
-  padding: 1px 4px 20px;
-}
+
 
 
 .figureLiveApps {
