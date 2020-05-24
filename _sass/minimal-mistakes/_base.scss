@@ -277,9 +277,9 @@ figure {
   border: 2px solid rgba(0,0,0,0.2);
   border-radius: 4px;
   padding: 4px 8px 1px;
-  max-height: 500px;
   img {
     width: 100%;
+    height: 300px;
     border-radius: $border-radius;
     -webkit-transition: $global-transition;
     transition: $global-transition;
