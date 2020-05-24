@@ -6,7 +6,7 @@ excerpt: "Visualize the statistics of the data using MATLAB: mean, median, std, 
 classes:
   - wide
 ---
-## Analyzing random (normal and non-normal) data to perform basic statitical analysis
+## Analyzing random (normal and non-normal) data to perform basic statistical analysis
 - Generate histograms
 - plot mean and standard deviation
 - compute and plot percentiles
