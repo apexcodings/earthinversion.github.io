@@ -271,17 +271,9 @@ figure {
 }
 
 .card {
-  display: -webkit-box;
-  display: flex;
-  -webkit-box-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: start;
-  align-items: flex-start;
-  flex-wrap: wrap;
-  margin: 1em 0;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
-  width: calc(50% - 4em);
+  width: 100%;
   border: 2px solid rgba(0,0,0,0.2);
   border-radius: 4px;
   padding: 4px 8px 1px;
@@ -312,6 +304,30 @@ figure {
 .card:hover {
   box-shadow: 0 8px 20px 4px rgba(0,0,0,0.2);
 }
+
+.cardgroup {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 2em 0;
+  .card {
+    width: 100%;
+  }
+
+  &.half {
+    > .card {
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
+    }
+  }
+
+}
+
 
 
 
