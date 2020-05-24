@@ -88,9 +88,9 @@ pstring={'Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'
 %% Plotting the data vs year
 figure
 for i=1:col
-plot(Year,p(:,i))
-grid on
-hold on
+  plot(Year,p(:,i))
+  grid on
+  hold on
 end
 title('Variation of Months with Year')
 xlabel('Year'), ylabel('Months')
