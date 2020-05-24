@@ -1,5 +1,5 @@
 ---
-title: "Non-linear curve fitting to a model with multiple observational variables in MATLAB"
+title: "Non-linear curve fitting to a model with multiple observational variables [MATLAB]"
 date: 2020-05-13
 tags: [non-linear, curve-fitting, optimization, lsqcurvefit, non-linear regression, MATLAB]
 excerpt: "How to fit data to non-linear model"

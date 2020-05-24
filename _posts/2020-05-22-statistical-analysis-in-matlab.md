@@ -1,5 +1,5 @@
 ---
-title: "Statistical Analysis in MATLAB"
+title: "Statistical Analysis [MATLAB]"
 date: 2020-05-22
 tags: [Statistics, MATLAB, Histograms]
 excerpt: "Visualize the statistics of the data using MATLAB: mean, median, std, interquartile range, skewness, kurtosis, t-statistic"

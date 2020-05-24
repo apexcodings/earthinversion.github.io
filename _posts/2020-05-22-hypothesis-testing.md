@@ -1,5 +1,5 @@
 ---
-title: "Hypothesis Test in MATLAB"
+title: "Hypothesis Test [MATLAB]"
 date: 2020-05-22
 tags: [Statistics, MATLAB, hypothesis testing, Null hypothesis]
 excerpt: "Using Randomization to test the disprove the null hypothesis"

@@ -1,5 +1,5 @@
 ---
-title: "Numerical Tests on Travel Time Tomography: Introductory"
+title: "Numerical Tests on Travel Time Tomography"
 date: 2020-05-23
 last_modified_at: 2020-05-24
 tags: [Tomography, Seismic tomography]

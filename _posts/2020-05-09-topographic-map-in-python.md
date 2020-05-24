@@ -1,5 +1,5 @@
 ---
-title: "Plotting 1 arc-minute global relief map in python"
+title: "Plotting 1 arc-minute global relief map [Python]"
 date: 2020-05-09
 tags: [topography, Python, NOAA, global relief]
 excerpt: "Plotting 1 arc-minute topographic map in python"

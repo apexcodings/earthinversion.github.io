@@ -1,5 +1,5 @@
 ---
-title: "Why we should use generators in Python?"
+title: "Why we should use generators? [Python]"
 date: 2019-08-31
 tags: [data science, Python, Generators]
 excerpt: "Generators don't hold the entire result in memory. It yields one result at a time."

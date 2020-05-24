@@ -1,5 +1,5 @@
 ---
-title: "Monte Carlo Simulation to test for the correlation between two dataset (MATLAB)"
+title: "Monte Carlo Simulation to test for the correlation between two dataset [MATLAB]"
 date: 2020-05-22
 tags: [Statistics, MATLAB, Monte-Carlo Simulations, correlation]
 excerpt: "We test for the correlation coefficients or the covariance between two sets of random numbers selected from normal distribution using the Monte Carlo simulations."
