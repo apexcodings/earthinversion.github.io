@@ -305,7 +305,7 @@ figure {
   box-shadow: 0 8px 20px 4px rgba(0,0,0,0.2);
 }
 
-.cardgroup {
+.cardgroup, .half {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: justify;
@@ -315,14 +315,8 @@ figure {
   flex-wrap: wrap;
   margin: 2em 0;
   .card {
-    width: 100%;
-  }
-
-  &.half {
-    > .card {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
+    @include breakpoint($small) {
+      width: calc(50% - 0.5em);
     }
   }
 
