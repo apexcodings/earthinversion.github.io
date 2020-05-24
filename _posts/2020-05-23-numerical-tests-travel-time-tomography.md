@@ -102,9 +102,9 @@ Let us consider a 2D structure for which we want to determine the model paramete
 
 In this problem, we consider 4 cells and 6 travel time data (or rays) and hence \\( M = 4 \\) and \\( N = 6 \\). Here, we assume that the velocity for each cell is uniform and that the travel time of the ray across each cell is proportional to the width and height of the cell. Instead of considering the velocity as our model parameters, we consider slowness \\( \frac{1}{velocity} \\) as our model parameters. This is because it will reduce the complexity in our equations to solve for the model parameters.
 
-
+<p align="center">
 <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/tomographyModel1.jpg">
 <figcaption style="text-align: center;">Tomography Model 1</figcaption>
-
+</p>
 
 __To be Continued__
