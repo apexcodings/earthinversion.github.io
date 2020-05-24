@@ -104,7 +104,7 @@ In this problem, we consider 4 cells and 6 travel time data (or rays) and hence 
 
 
 <figure>
-    <img src="{{ site.url }}{{ site.baseurl }}/images/tomographyModel1.jpg">
+    <img width=300 src="{{ site.url }}{{ site.baseurl }}/images/tomographyModel1.jpg">
     <figcaption>Tomography Model 1</figcaption>
 </figure>
 
