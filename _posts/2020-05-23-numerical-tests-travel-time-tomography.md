@@ -1,7 +1,7 @@
 ---
 title: "Numerical Tests on Travel Time Tomography: Introductory"
 date: 2020-05-23
-last_modified_at: 2020-05-23
+last_modified_at: 2020-05-24
 tags: [Tomography, Seismic tomography]
 excerpt: "Introduction to the concepts of tomography with equations and codes. Introduction to the concepts of overdetermined, underdetermined and mix-determined problems in Tomography."
 mathjax: "true"
@@ -52,6 +52,12 @@ $$
 This solution can simply be obtained simply by minimizing the least square error with
 respect to the model parameters. (Menke 1989)
 
+<figure class="half">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/underdetermined_problems.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/over_determined_problems.jpg">
+    <figcaption><strong>(a)</strong> Under-determined Problems (b)</strong> Over-determined Problems</figcaption>
+</figure>
+
 ### Solution of the Mixed-Determined linear inverse problem:
 Most inverse problems that arise in practice are neither completely overdetermined nor completely underdetermined. So, for solving these kinds of problems, ideally we would like to sort the unknown model parameters into two groups- overdetermined and underdetermined. For doing so, we form a set of new model parameters that are linear combinations of the old. Then we can partition from an arbitrary \\( d = Gm \\) to \\( d' = G'm' \\), where \\( m' \\) is partitioned into an upper part that is overdetermined and a lower part that is underdetermined.
 
@@ -78,6 +84,28 @@ $$
 \phi (m) = (𝑑−𝐺𝑚)^{T} (𝑑−𝐺𝑚) +\epsilon^2 𝑚^T𝑚
 $$
 
+The weighting parameter \\( \epsilon^2 \\) determines the relative importance given to the prediction error and solution length. There is no simple method of determining the value of \\( \epsilon \\) and it should be determined using the hit-and-trial method. By minimizing the \\( \phi (m) \\) , we obtain
 
+$$
+m^{est} = (G^TG+\epsilon^2I)^{-1}G^Td
+$$
+
+<figure class="half">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/even_determined_problems.jpg">
+    <img src="{{ site.url }}{{ site.baseurl }}/images/mix_determined_problems.jpg">
+    <figcaption><strong>(a)</strong> Even-determined Problems (b)</strong> Mixed-determined Problems</figcaption>
+</figure>
+
+
+## A Simple Tomography Model
+Let us consider a 2D structure for which we want to determine the model parameters. To invert for the model parameters, we divide the whole 2D region into 4 cells (2*2). We consider that the velocity of different cells differ, so we might attempt to distinguish the velocity or model parameter for each cell by measuring the travel time of the rays across the various rows and columns of the cells.
+
+In this problem, we consider 4 cells and 6 travel time data (or rays) and hence \\( M = 4 \\) and \\( N = 6 \\). Here, we assume that the velocity for each cell is uniform and that the travel time of the ray across each cell is proportional to the width and height of the cell. Instead of considering the velocity as our model parameters, we consider slowness \\( \frac{1}{velocity} \\) as our model parameters. This is because it will reduce the complexity in our equations to solve for the model parameters.
+
+
+<figure>
+    <img src="{{ site.url }}{{ site.baseurl }}/images/tomographyModel1.jpg">
+    <figcaption>Tomography Model 1</figcaption>
+</figure>
 
 __To be Continued__
