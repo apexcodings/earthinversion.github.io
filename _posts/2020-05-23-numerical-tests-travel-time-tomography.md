@@ -55,7 +55,7 @@ respect to the model parameters. (Menke 1989)
 <figure class="half">
     <img src="{{ site.url }}{{ site.baseurl }}/images/underdetermined_problems.jpg">
     <img src="{{ site.url }}{{ site.baseurl }}/images/over_determined_problems.jpg">
-    <figcaption><strong>(a)</strong> Under-determined Problems <strong>(b)</strong> Over-determined Problems</figcaption>
+    <figcaption  style="text-align: center;"><strong>(a)</strong> Under-determined Problems <strong>(b)</strong> Over-determined Problems</figcaption>
 </figure>
 
 ### Solution of the Mixed-Determined linear inverse problem:
@@ -93,7 +93,7 @@ $$
 <figure class="half">
     <img src="{{ site.url }}{{ site.baseurl }}/images/even_determined_problems.jpg">
     <img src="{{ site.url }}{{ site.baseurl }}/images/mix_determined_problems.jpg">
-    <figcaption><strong>(a)</strong> Even-determined Problems <strong>(b)</strong> Mixed-determined Problems</figcaption>
+    <figcaption  style="text-align: center;"><strong>(a)</strong> Even-determined Problems <strong>(b)</strong> Mixed-determined Problems</figcaption>
 </figure>
 
 
@@ -104,7 +104,7 @@ In this problem, we consider 4 cells and 6 travel time data (or rays) and hence 
 
 
 <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/tomographyModel1.jpg">
-<figcaption>Tomography Model 1</figcaption>
+<figcaption style="text-align: center;">Tomography Model 1</figcaption>
 
 
 __To be Continued__
