@@ -20,23 +20,27 @@ Quick action (see [here](https://support.apple.com/guide/automator/use-quick-act
 ## How to write a quick action for loving a song and rating it three star and up??
 I will list the steps you need to follow to write a simple quick action. For details visit [here](https://appleinsider.com/articles/18/10/05/how-to-add-your-own-quick-actions-to-the-new-macos-mojave-finder).
 
-- Open __Automator__ app. This is default app on MacOS and can be open via Spotlight, or by going into the applications folder or launchpad.
+### Step 1
+Open __Automator__ app. This is default app on MacOS and can be open via Spotlight, or by going into the applications folder or launchpad.
 
-
-- Select "__Quick Action__" from the dialog menu and click "__Choose__".
+### Step 2
+Select "__Quick Action__" from the dialog menu and click "__Choose__".
 
 <figure>
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/mac-quick-action/figure1.jpg">
 </figure>
 
-- On the left side, search "__Run AppleScript__" in the list of available actions. 
+### Step 3
+On the left side, search "__Run AppleScript__" in the list of available actions. 
 <figure>
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/mac-quick-action/figure2.jpg">
 </figure>
 
-- Drag it to the right side workflow space.
+### Step 4
+Drag it to the right side workflow space.
 
-- Copy and paste the following script by replacing the text "__(* Your script goes here *)__".
+### Step 5
+Copy and paste the following script by replacing the text "__(* Your script goes here *)__".
 
 <figure>
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/mac-quick-action/figure3.jpg">
@@ -69,7 +73,8 @@ This script first checks whether the "__Music__" app is running, then if the pla
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/mac-quick-action/figure4.jpg">
 </figure>
 
-- Save the quick action to your desired name. I saved it to __loveMUSIC__.
+### Step 6
+Save the quick action to your desired name. I saved it to __loveMUSIC__.
 
 
 Now, you can quickly love the music playing on the apple music app. And it will automatically assign the rating of three star the first time you love it. Next time when you execute this "quick action" then it will make the rating 4 stars and then 5 stars.
