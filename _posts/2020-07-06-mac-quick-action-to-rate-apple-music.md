@@ -9,6 +9,10 @@ classes:
 
 I wrote a couple of "quick actions" for Mac that can love and dislike songs easily without going into the Apple music app. Rating, loving and disliking songs in apple music helps the app to suggest music based on your interests. Without the input of love, rating and disliking, the apple music would suggest you songs only based on your play and skipping of songs. I will give you my applescript that can even be executed in the "Scripts app", or just used as an app and then can be easily executed using the "Spotlight" or "Alfred" app.
 
+<figure>
+    <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/mac-quick-action/figure0.jpg">
+</figure>
+
 
 ## What is Quick Action?
 Quick action (see [here](https://support.apple.com/guide/automator/use-quick-action-workflows-aut73234890a/mac) for details) can be used to set up frequently used workflows in Mac that can be easily executed. It can be run in ["Finder"](https://support.apple.com/guide/mac-help/perform-quick-actions-in-the-finder-on-mac-mchl97ff9142/mac), using "Touch Bar".
