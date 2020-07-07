@@ -245,7 +245,7 @@ title('Actual Velocity Structure')
 Here, we have taken the length of each cell to be (15m*15m). We have arbitrarily taken the model parameter for the actual structure. We then form the data from these model parameter values by adding 20% noise. The data is then inverted for the estimated model parameters.
 
 <p align="center">
-<img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/inversion1_results.jpg">
+<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/inversion1_results.jpg">
 <figcaption style="text-align: center;">Inversion 1 Results </figcaption>
 </p>
 
