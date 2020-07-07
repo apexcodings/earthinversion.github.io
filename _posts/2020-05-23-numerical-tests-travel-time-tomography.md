@@ -144,6 +144,7 @@ $$
 𝑔_{61} 𝑚_1 + 𝑔_{62} 𝑚_2 + 𝑔_{63} 𝑚_3 + 𝑔_{64} 𝑚_4 = 𝑑_6
 $$
 
+
 The above 6 equations can be written in the form of
 
 $$
@@ -174,5 +175,9 @@ $$
    m_4
 \end{bmatrix}
 $$
+
+Here, the vector \\(d\\) contains the travel time data along each ray path. The matrix \\(G\\) contains the information about the geometry of the ray-path. Here, \\(G\\) consists of the length of each ray-path in different cells. The vector \\(m\\) consists of the slowness parameters for each cell.
+
+Since, this is an over-determined case, we invert for the model parameters using the least square scenario:
 
 __To be Continued__
