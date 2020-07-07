@@ -1,7 +1,7 @@
 ---
 title: "Numerical Tests on Travel Time Tomography"
 date: 2020-05-23
-last_modified_at: 2020-05-24
+last_modified_at: 2020-07-07
 tags: [Tomography, Seismic tomography]
 excerpt: "Introduction to the concepts of tomography with equations and codes. Introduction to the concepts of overdetermined, underdetermined and mix-determined problems in Tomography."
 mathjax: "true"
@@ -106,5 +106,17 @@ In this problem, we consider 4 cells and 6 travel time data (or rays) and hence 
 <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/tomographyModel1.jpg">
 <figcaption style="text-align: center;">Tomography Model 1</figcaption>
 </p>
+
+<p align="center">
+<img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/data_kernel_matrix.jpg">
+<figcaption style="text-align: center;">The data kernel matrix (G) </figcaption>
+</p>
+
+The equations for the different ray paths will be
+
+Ray path 1:
+$$
+𝑔_{11} 𝑚_1 + 𝑔_{12} 𝑚_2 + 𝑔_{13} 𝑚_3 + 𝑔_{14} 𝑚_4 = 𝑑_1
+$$
 
 __To be Continued__
