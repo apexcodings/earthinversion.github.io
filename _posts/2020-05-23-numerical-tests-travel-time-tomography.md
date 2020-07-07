@@ -180,4 +180,73 @@ Here, the vector \\(d\\) contains the travel time data along each ray path. The 
 
 Since, this is an over-determined case, we invert for the model parameters using the least square scenario:
 
+$$
+m^{est} = [G^T G]^{-1} G^T d
+$$
+
+### MATLAB CODES for inversion and plotting
+
+```
+clear; close all; clc
+N=6; %no. of ray paths
+M=4; %no. of model parameters
+G=zeros(N,M); %initializing the kernel
+h=15; %length of the grid
+hh=h*sqrt(2); %length of the diagonal of grid
+
+G=[h 0 h 0; 0 h 0 h; 0 hh hh 0;hh 0 0 hh; h h 0 0; 0 0 h h]; %kernel matrix
+
+mm=[4 7 12 18]'; %actual model parameter - velocity (arbitrarily taken)
+m=1./mm; %actual model parameter - slowness
+
+tt=G*m; %actual travel time at the stations
+[nt,mt]=size(tt);
+
+%creating observed data by adding the noise
+noise=0.2; %20 percent noise in the data
+tto=tt+noise*(randn(nt,mt)); %data travel time
+z=[tt, tto];
+
+
+mest=(G'*G)\(G'*tto); %inverting for the predcited model parameters
+ttp=G*mest;
+zz=[tto, ttp]; %predicted travel time
+
+mmest=1./mest; %model parameter - velocity
+mmest=mmest./max(max(mmest)); %normalizing
+mmest = vec2mat(mmest,2); %converting to square matrix
+mm=mm./max(max(mm));
+mp= vec2mat(mm,2);
+
+%Model resolution matrix
+Mr=(G'*G)\(G'*G)
+image(Mr,'CDataMapping','scaled') 
+colorbar
+
+%Data resolution matrix
+Dr=G*((G'*G)\G')
+image(Dr,'CDataMapping','scaled')
+colorbar
+
+%Plotting estimated models
+h1=figure;
+set(h1,'color','w','Position',[100 222 1300 500])
+subplot(122)
+image(mmest,'CDataMapping','scaled') %normalizing the parameter to plot
+colorbar
+title('Inverted Velocity Structure')
+
+%Plotting the actual Model for comparing
+subplot(121)
+image(mp,'CDataMapping','scaled') colorbar
+title('Actual Velocity Structure')
+```
+
+Here, we have taken the length of each cell to be (15m*15m). We have arbitrarily taken the model parameter for the actual structure. We then form the data from these model parameter values by adding 20% noise. The data is then inverted for the estimated model parameters.
+
+<p align="center">
+<img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/inversion1_results.jpg">
+<figcaption style="text-align: center;">Inversion 1 Results </figcaption>
+</p>
+
 __To be Continued__
