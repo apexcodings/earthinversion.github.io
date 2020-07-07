@@ -6,6 +6,8 @@ excerpt: "Visualize the statistics of the data using MATLAB: mean, median, std, 
 classes:
   - wide
 ---
+> "Technological innovations such as reconnaissance satellites are capable of spewing out data in volumes that defy conventional methods of interpretation. In the words of John Griffiths, "we must be able to digest the mass before it becomes a mess." Only computer implemented mathematical and statistical tech- niques are powerful enough and fast enough to perform the task." - J.C. Davis
+
 ## Analyzing random (normal and non-normal) data to perform basic statistical analysis
 - Generate histograms
 - plot mean and standard deviation
