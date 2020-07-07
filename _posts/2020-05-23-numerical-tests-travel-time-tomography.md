@@ -145,6 +145,7 @@ $$
 $$
 
 The above 6 equations can be written in the form of
+
 $$
 d = Gm
 $$
