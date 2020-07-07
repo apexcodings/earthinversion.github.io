@@ -264,7 +264,7 @@ R =
 $$
 
 <p align="center">
-<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/modelResMatrixTomo1.jpg">
+<img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/modelResMatrixTomo1.jpg">
 <figcaption style="text-align: center;">Model Resolution Matrix for the tomography model 1 </figcaption>
 </p>
 
@@ -283,7 +283,7 @@ N =
 $$
 
 <p align="center">
-<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/dataResMatTomo1.jpg">
+<img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/dataResMatTomo1.jpg">
 <figcaption style="text-align: center;">Data Resolution Matrix for the tomography model 1 </figcaption>
 </p>
 
