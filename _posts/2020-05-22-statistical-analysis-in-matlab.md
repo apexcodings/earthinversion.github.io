@@ -167,4 +167,6 @@ stats =
        sd: [2×1 double]
 ```
 
-- For details see: [Lectures on Statistics and Data Analysis in MATLAB](https://www.cmrr.umn.edu/~kendrick/statsmatlab/)
+### References:
+- [Lectures on Statistics and Data Analysis in MATLAB](https://www.cmrr.umn.edu/~kendrick/statsmatlab/)
+- Davis, J. C., & Sampson, R. J. (1986). Statistics and data analysis in geology (Vol. 646). Wiley New York.
