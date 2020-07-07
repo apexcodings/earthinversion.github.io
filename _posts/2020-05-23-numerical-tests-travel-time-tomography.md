@@ -249,4 +249,44 @@ Here, we have taken the length of each cell to be (15m*15m). We have arbitrarily
 <figcaption style="text-align: center;">Inversion 1 Results </figcaption>
 </p>
 
+In above figure, we can notice that the cell 3 of the inverted structure is about 10-20% overestimated. We attribute this overestimation due to 20% noise in our data.
+We also estimate the model resolution matrix and the data resolution matrix for this case. The data resolution matrix tells us how well the estimate of the model parameters fits the data and the model resolution matrix tells us how close is the particular estimate of the model parameters is to the true model.\\
+The model resolution matrix is:
+
+$$
+R = 
+\begin{bmatrix}
+   1 & 0 & 0 & 0 \\
+   0 & 1 & 0 & 0 \\
+   0 & 0 & 1 & 0 \\
+   0 & 0 & 0 & 1 \\
+\end{bmatrix}
+$$
+
+<p align="center">
+<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/modelResMatrixTomo1.jpg">
+<figcaption style="text-align: center;">Model Resolution Matrix for the tomography model 1 </figcaption>
+</p>
+
+The data resolution matrix is:
+
+$$
+N = 
+\begin{bmatrix}
+   0.6250 & -0.3750 & 0.1768 & 0.1768 & 0.1250 & 0.1250 \\
+   -0.3750 & 0.6250 & 0.1768 & 0.1768 & 0.1250 & 0.1250 \\
+   0.1768 & 0.1768 & 0.7500 & -0.2500 & 0.1768 & 0.1768 \\
+   0.1768 & 0.1768 & -0.2500 & 0.7500 & 0.1768 & 0.1768 \\
+   0.1250 & 0.1250 & 0.1768 & 0.1768 & 0.6250 & -0.3750 \\
+   0.1250 & 0.1250 & 0.1768 & 0.1768 & -0.3750 & 0.6250
+\end{bmatrix}
+$$
+
+<p align="center">
+<img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/numerical-tests-tomography/dataResMatTomo1.jpg">
+<figcaption style="text-align: center;">Data Resolution Matrix for the tomography model 1 </figcaption>
+</p>
+
+We estimate the correlation between the two images, and we obtain the correlation to be 0.9883.
+
 __To be Continued__
