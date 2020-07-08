@@ -1,8 +1,8 @@
 # main links
 main:
-  - title: "posts"
+  - title: "blogPosts"
     url: /recent-posts/
-  - title: "geophysics"
+  - title: "geophysicsPosts"
     url: /geophysics-posts/
   - title: "appleScripts"
     url: /applescripts/
@@ -10,7 +10,7 @@ main:
     url: /web-computing/
   - title: "myResearch"
     url: /research/
-  - title: "gallery"
+  - title: "postsGallery"
     url: /gallery/
   - title: "aboutMe"
     url: /about-me/
