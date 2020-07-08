@@ -10,11 +10,9 @@ Link to download the shortcut quickly: https://www.icloud.com/shortcuts/569cb69f
 
 <p align="center">
 <img width="200" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig2.jpg">
-</p>
-
-<p align="center">
 <img width="200" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig3.jpg">
 </p>
+
 
 NOTE: You may have to toggle "Allow Untrusted Shortcuts" in your Settings -> Shortcuts
 
