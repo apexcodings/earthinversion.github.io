@@ -1,5 +1,5 @@
 ---
-title: "Web Computing Details"
+title: "Web Computing"
 permalink: "/web-computing/"
 mathjax: "true"
 classes:
