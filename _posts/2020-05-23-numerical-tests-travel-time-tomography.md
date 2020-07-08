@@ -1,5 +1,5 @@
 ---
-title: "Numerical Tests on Travel Time Tomography"
+title: "Numerical Tests on Travel Time Tomography [MATLAB]"
 date: 2020-05-23
 last_modified_at: 2020-07-07
 tags: [tomography, seismic tomography, geophysics]
