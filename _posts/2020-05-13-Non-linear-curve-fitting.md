@@ -1,7 +1,7 @@
 ---
 title: "Non-linear curve fitting to a model with multiple observational variables [MATLAB]"
 date: 2020-05-13
-tags: [non-linear, curve-fitting, optimization, lsqcurvefit, non-linear regression, MATLAB, geophysics]
+tags: [non-linear, curve-fitting, optimization, lsqcurvefit, non-linear regression, matlab, geophysics]
 excerpt: "How to fit data to non-linear model"
 mathjax: "true"
 classes:
