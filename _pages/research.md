@@ -1,5 +1,5 @@
 ---
-title: "Research Details"
+title: "Research"
 permalink: "/research/"
 mathjax: "true"
 classes:
