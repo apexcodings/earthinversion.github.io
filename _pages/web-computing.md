@@ -40,7 +40,7 @@ classes:
 </figure>
 
 
-# Posts
+<h1>Posts</h1>
 
 <div class="entries-{{ page.entries_layout | default: 'list' }}">
   {% include posts-tag-webapp.html taxonomy=page.taxonomy type=page.entries_layout %}
