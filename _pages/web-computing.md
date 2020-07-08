@@ -5,6 +5,7 @@ mathjax: "true"
 classes:
   - wide
 ---
+<h1>Experience</h1>
 <p><ul style="font-size:1em">
     <li>Solid understanding of JavaScript and HTML5 (and CSS)</li>
     <li>Passion for producing solid, efficient and manageable code</li>
@@ -20,7 +21,8 @@ classes:
     <li>Solid understanding of relational databases (PostgreSQL, MySQL, SQLite)</li>
   </ul>
   
-  <p style="font-size:1em">Some works for demo:
+<h1>Some works for demo</h1>
+  <p style="font-size:1em">
     <ul style="font-size:1em">
     <li><a href="http://slrm.herokuapp.com/">Sea Level Rise Monitoring Web-app</a></li>
     <li><a href="https://gev-info.herokuapp.com/">Global Eco-environmental vulnerability monitoring app</a></li>
