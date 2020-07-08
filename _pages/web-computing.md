@@ -30,10 +30,10 @@ classes:
 </p>
 
 <figure>
-  <a href="http://slrm.herokuapp.com/current_research"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/slrm_current_research.png" alt="Current-research-Sea-Level-Rising" style="width:50%"></a>
+  <a href="http://slrm.herokuapp.com/current_research"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/slrm_current_research.png" alt="Current-research-Sea-Level-Rising" style="width:80%"></a>
   <figcaption>Sea Level Rise Monitoring (SLRM) Web-app - Top Readings</figcaption>
 
-  <a href="http://slrm.herokuapp.com/observations/image_comparison"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/slrm_observations_image_comparison.png" alt="obervations_image_comparison" style="width:50%"></a>
+  <a href="http://slrm.herokuapp.com/observations/image_comparison"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/slrm_observations_image_comparison.png" alt="obervations_image_comparison" style="width:80%"></a>
   <figcaption>Sea Level Rise Monitoring (SLRM) Web-app - Observations</figcaption>
 </figure>
 
