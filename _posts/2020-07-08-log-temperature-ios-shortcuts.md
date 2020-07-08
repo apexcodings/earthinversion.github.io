@@ -12,8 +12,8 @@ In case you suspect symptoms for COVID-19 (also during the quarantine period), C
 iCloud link to download the shortcut quickly: [https://www.icloud.com/shortcuts/569cb69f77f341a1ad9f834894506bee](https://www.icloud.com/shortcuts/569cb69f77f341a1ad9f834894506bee)
 
 <p align="center">
-<img height="400" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig2.jpg">
-<img height="400" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig3.jpg">
+<img height="50" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig2.jpg">
+<img height="50" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig3.jpg">
 </p>
 
 
