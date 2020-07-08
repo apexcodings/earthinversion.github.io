@@ -6,13 +6,13 @@ main:
     url: /geophysics-posts/
   - title: "AppleScripts"
     url: /applescripts/
-  - title: "Web Apps"
+  - title: "webApps"
     url: /web-computing/
-  - title: "My Research"
+  - title: "myResearch"
     url: /research/
   - title: "Gallery"
     url: /gallery/
-  - title: "About Me"
+  - title: "aboutMe"
     url: /about-me/
   # - title: "Sample Posts"
   #   url: /year-archive/
