@@ -1,5 +1,5 @@
 ---
-title: "Mac Quick Action to Rate the Songs in Apple Music App [Apple]"
+title: "Mac Quick Action to Rate the Songs in Apple Music App [macOS]"
 date: 2020-07-06
 tags: [mac, quick action, apple music, Rating song, love song, dislike song, macbook, apple]
 excerpt: "Quick action for mac to easily love, dislike, rate songs in apple music app"
