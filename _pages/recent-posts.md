@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: tags
 title: "Blog Posts"
 permalink: "/recent-posts/"
 mathjax: "true"
