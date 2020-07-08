@@ -39,52 +39,9 @@ bandpass_filter:
 
 - Run the python script `plot_record_section.py`
 
+<button class="collapsible">View/Hide Code</button>
+<div class="contentCollapse">
 ```
-import numpy as np
-import pandas as pd
-import matplotlib.pyplot as plt
-import os,yaml
-from obspy import UTCDateTime, read
-from obspy.geodetics import gps2dist_azimuth
-from obspy.clients.fdsn import Client
-from obspy.core import Stream
-from matplotlib.transforms import blended_transform_factory
-import warnings
-warnings.filterwarnings('ignore')
-# Utpal Kumar
-# Institute of Earth Sciences, Academia Sinica, Taipei, Taiwan
-
-def extract_catalog_info_to_txt(catalog, catalogtxt):
-    '''
-    Utpal Kumar
-    Writing catalog in txt file and returning pandas dataframe
-    :type catalog: :class: 'obspy.core.event.catalog.Catalog'
-    :param catalog: earthquake catalog
-    :type catalogtxt: string
-    :param catalogtxt: output catalog text file name
-    '''
-    evtimes, evlats, evlons, evdps, evmgs, evmgtps, evdess = [], [], [], [], [], [], []
-    for cat in catalog:
-        try:
-            try:
-                evtime,evlat,evlon,evdp,evmg,evmgtp, evdes =cat.origins[0].time,cat.origins[0].latitude,cat.origins[0].longitude,cat.origins[0].depth/1000,cat.magnitudes[0].mag,cat.magnitudes[0].magnitude_type, cat.event_descriptions[0].text
-            except:
-                evtime,evlat,evlon,evdp,evmg,evmgtp, evdes=cat.origins[0].time,cat.origins[0].latitude,cat.origins[0].longitude,cat.origins[0].depth/1000,cat.magnitudes[0].mag,"-9999", cat.event_descriptions[0].text
-            evtimes.append(str(evtime))
-            evlats.append(float(evlat))
-            evlons.append(float(evlon))
-            evdps.append(float(evdp))
-            evmgs.append(float(evmg))
-            evmgtps.append(str(evmgtp))  
-            evdess.append(evdes)      
-        except:
-            print(f"Unable to write for {evtime}")
-    df = pd.DataFrame({'eventTime':evtimes, 'eventLat': evlats, 'eventLon': evlons, 'eventDepths': evdps, "eventMag" : evmgs, "magUnit": evmgtps, "eventDescrp": evdess})
-    df = df.sort_values(by=['eventMag'], ascending=False)
-    # print(df.head())
-    df.to_csv(catalogtxt, index=False)
-    return df
-
 ## Reading yml file for input parameters
 with open('input_file.yml') as f:
     inp = yaml.load(f, Loader=yaml.FullLoader)
@@ -199,6 +156,7 @@ if len(st):
 else:
     print("No traces in the stream for the defined parameters")
 ```
+</div>
 
 ## Run Script
 - Install environment for the required packages using either one of the following commands (`spec-file.txt` and `environment.yml` can be downloaded from the github link):
@@ -219,3 +177,22 @@ else:
 
 
 Download the complete script [here](https://github.com/earthinversion/automated_seismic_record_section.git). 
+
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+  
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.maxHeight){
+        content.style.maxHeight = null;
+      } else {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } 
+    });
+  }
+});
+  </script>
