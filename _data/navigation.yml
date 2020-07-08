@@ -2,10 +2,12 @@
 main:
   - title: "Posts"
     url: /recent-posts/
-  - title: "Research"
-    url: /research/
+  - title: "Geophysics"
+    url: /geophysics-posts/
   - title: "AppleScripts"
     url: /applescripts/
+  - title: "Research"
+    url: /research/
   - title: "Gallery"
     url: /gallery/
   - title: "Contact me"

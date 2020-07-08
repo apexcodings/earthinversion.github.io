@@ -1,7 +1,7 @@
 ---
 title: "GMT Advanced Tutorial II"
 date: 2019-09-02
-tags: [GMT, Maps]
+tags: [GMT, Maps, geophysics]
 excerpt: "Plotting publishable quality maps using generic mapping tools (GMT)"
 classes:
   - wide

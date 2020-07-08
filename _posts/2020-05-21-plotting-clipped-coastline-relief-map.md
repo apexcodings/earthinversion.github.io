@@ -1,7 +1,7 @@
 ---
 title: "Topographic map clipped by coastlines [Python]"
 date: 2020-05-21
-tags: [Maps,  clipped, Python]
+tags: [Maps,  clipped, Python, geophysics]
 excerpt: "This post demonstrate how to use Python to set up clip topographic map based on coastlines."
 classes:
   - wide

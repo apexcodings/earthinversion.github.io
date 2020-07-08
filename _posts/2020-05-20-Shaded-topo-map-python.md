@@ -1,7 +1,7 @@
 ---
 title: "Topographic map with shading [Python]"
 date: 2020-05-20
-tags: [GMT, Maps, Shaded map, Python]
+tags: [GMT, Maps, Shaded map, Python, geophysics]
 excerpt: "Generating GMT style shaded relief map in Python"
 classes:
   - wide

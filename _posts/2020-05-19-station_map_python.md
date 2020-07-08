@@ -1,7 +1,7 @@
 ---
 title: "How to plot topographic station map [Python]"
 date: 2020-05-19
-tags: [station map, topographic, etopo1, Python]
+tags: [station map, topographic, etopo1, Python, geophysics]
 excerpt: "We read the station information from a file to plot the 1 arc-minute relief map"
 mathjax: "true"
 classes:

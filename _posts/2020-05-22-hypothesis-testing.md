@@ -1,7 +1,7 @@
 ---
 title: "Hypothesis Test [MATLAB]"
 date: 2020-05-22
-tags: [Statistics, MATLAB, hypothesis testing, Null hypothesis]
+tags: [Statistics, MATLAB, hypothesis testing, Null hypothesis, geophysics]
 excerpt: "Using Randomization to test the disprove the null hypothesis"
 classes:
   - wide
