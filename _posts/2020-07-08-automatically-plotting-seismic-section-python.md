@@ -14,14 +14,14 @@ Download the complete script:
 - Code to automatically plot the record section of largest earthquake event within the given time range and geographical selection.
 - Define the input parameters in `input_file.yml`
 <div class="button_group third">
-  <a href="https://github.com/earthinversion/automated_seismic_record_section/blob/master/input_file.yml" class="btn btn--success btn--small" style="font-size:0.6em">View File</a>
+  <a href="https://github.com/earthinversion/automated_seismic_record_section/blob/master/input_file.yml" class="btn btn--success btn--small" style="font-size:0.6em">View File <code>input_file.yml</code></a>
 </div>
 
 
 - Run the python script `plot_record_section.py`
 
 <div class="button_group third">
-  <a href="https://github.com/earthinversion/automated_seismic_record_section/blob/master/plot_record_section.py" class="btn btn--success btn--small" style="font-size:0.6em">View Code</a>
+  <a href="https://github.com/earthinversion/automated_seismic_record_section/blob/master/plot_record_section.py" class="btn btn--success btn--small" style="font-size:0.6em">View Code for <code>plot_record_section.py</code></a>
 </div>
 
 ## Run Script
