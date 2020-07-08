@@ -6,8 +6,10 @@ excerpt: "Python code to automatically plot the seismic section for the highest 
 classes:
   - wide
 ---
-Download the complete script [here](https://github.com/earthinversion/automated_seismic_record_section.git). 
-
+Download the complete script: 
+<a href="https://github.com/earthinversion/automated_seismic_record_section.git" download="Codes">
+    <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="Utpal_CV" width="40" height="40">
+</a>
 
 - Code to automatically plot the record section of largest earthquake event within the given time range and geographical selection.
 - Define the input parameters in `input_file.yml`
