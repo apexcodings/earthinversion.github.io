@@ -20,7 +20,7 @@ iCloud link to download the shortcut quickly: [https://www.icloud.com/shortcuts/
 </p>
 
 
-### NOTE 
+#### NOTE 
 You may have to toggle "Allow Untrusted Shortcuts" in your Settings -> Shortcuts
 
 <p align="center">
