@@ -4,6 +4,8 @@ main:
     url: /recent-posts/
   - title: "Research"
     url: /research/
+  - title: "AppleScripts"
+    url: /applescripts/
   - title: "Gallery"
     url: /gallery/
   - title: "Contact me"
