@@ -34,4 +34,4 @@ The user can check for the data in the Apple Health app. They can also manually 
 <img width="200" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig4.jpg">
 </p>
 
-<p>In order to get the raw export, go into the “Apple Health” app, tap on your user icon and then select “Export All Health Data”. This export process may take a few minutes, and, once completed, you should then have a filed called “export.zip”. You can share the file with yourself via AirDrop, Email or any other method. For more details for exporting and analyzing health data in Python, see [this](http://www.markwk.com/data-analysis-for-apple-health.html) post.</p>
+<p>In order to get the raw export, go into the “Apple Health” app, tap on your user icon and then select “Export All Health Data”. This export process may take a few minutes, and, once completed, you should then have a filed called “export.zip”. You can share the file with yourself via AirDrop, Email or any other method. For more details for exporting and analyzing health data in Python, see <a href="http://www.markwk.com/data-analysis-for-apple-health.html">this</a> post.</p>
