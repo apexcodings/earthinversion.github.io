@@ -6,7 +6,7 @@ excerpt: "Shortcut code for quickly logging temperature in Apple health app"
 classes:
   - wide
 ---
-Link to download the shortcut quickly: https://www.icloud.com/shortcuts/569cb69f77f341a1ad9f834894506bee
+iCloud link to download the shortcut quickly: [https://www.icloud.com/shortcuts/569cb69f77f341a1ad9f834894506bee](https://www.icloud.com/shortcuts/569cb69f77f341a1ad9f834894506bee)
 
 <p align="center">
 <img width="200" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig2.jpg">
