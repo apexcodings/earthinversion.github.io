@@ -20,9 +20,16 @@ iCloud link to download the shortcut quickly: [https://www.icloud.com/shortcuts/
 </p>
 
 
-## NOTE 
+### NOTE 
 You may have to toggle "Allow Untrusted Shortcuts" in your Settings -> Shortcuts
 
 <p align="center">
 <img width="200" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig0.jpg">
+</p>
+
+## Body Temperature in Health App
+The user can check for the data in the Apple Health app. They can also manually add the data using the "Add Data" feature.<br>
+
+<p align="center">
+<img width="200" src="{{ site.url }}{{ site.baseurl }}/images/iosShortcuts/Fig4.jpg">
 </p>
