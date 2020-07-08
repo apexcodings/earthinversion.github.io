@@ -4,6 +4,7 @@ permalink: "/applescripts/"
 mathjax: "true"
 classes:
   - wide
+layout: tags
 ---
 
 ## Mac AppleScripts
