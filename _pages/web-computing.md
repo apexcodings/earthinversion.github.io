@@ -37,3 +37,8 @@ classes:
   <figcaption>Sea Level Rise Monitoring (SLRM) Web-app - Observations</figcaption>
 </figure>
 
+
+# Posts
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% include posts-tag-webapp.html taxonomy=page.taxonomy type=page.entries_layout %}
+</div>

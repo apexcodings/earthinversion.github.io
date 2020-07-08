@@ -6,7 +6,9 @@ main:
     url: /geophysics-posts/
   - title: "AppleScripts"
     url: /applescripts/
-  - title: "Research"
+  - title: "Web Apps"
+    url: /web-computing/
+  - title: "My Research"
     url: /research/
   - title: "Gallery"
     url: /gallery/
