@@ -1,7 +1,7 @@
 ---
 title: "iPhone shortcut for quickly logging body temperature"
 date: 2020-07-08
-tags: [ios, log body temperature, iPhone, Health, Apple]
+tags: [IOS, log body temperature, iPhone, Health, Apple]
 excerpt: "Shortcut code for quickly logging temperature in Apple health app"
 classes:
   - wide
