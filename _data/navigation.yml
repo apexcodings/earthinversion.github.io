@@ -4,7 +4,7 @@ main:
     url: /recent-posts/
   - title: "Geophysics"
     url: /geophysics-posts/
-  - title: "AppleScripts"
+  - title: "appleScripts"
     url: /applescripts/
   - title: "webApps"
     url: /web-computing/
