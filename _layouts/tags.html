@@ -3,7 +3,7 @@ layout: archive
 ---
 
 {{ content }}
-<h2>Tags</h2>
+<h2>Tags in Chronological Order</h2>
 {% assign tags_max = 0 %}
 {% for tag in site.tags %}
   {% if tag[1].size > tags_max %}
@@ -25,7 +25,7 @@ layout: archive
   {% endfor %}
 </ul>
 
-<h2>Posts</h2>
+<h2>Posts with Each Tags</h2>
 {% for i in (1..tags_max) reversed %}
   {% for tag in site.tags %}
     {% if tag[1].size == i %}
