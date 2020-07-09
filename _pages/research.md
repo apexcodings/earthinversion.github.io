@@ -24,7 +24,7 @@ Three mysterious explosion sounds were heard in the coastal towns of Tamsui, wes
 We explore the Rayleigh wave phase velocity anomalies beneath the Gujarat, a westernmost province in India, in a broad period range of \\( 20-200s \\). Rayleigh wave dispersion curves are measured using the two-station approach and incorporating the broadband waveforms at 30 seismic stations from 1462 global earthquakes. We obtained 287 inter-station dispersion curves that are inverted for high resolution isotropic and azimuthally anisotropic phase velocity maps independently at each period. The shorter periods (20-40s) results coincide well with the known geological features - the thick sedimentary layers of Kachchh exhibits low-velocity anomaly while the reduced crustal thickness of Saurashtra Horst and Mainland Gujarat reflects relatively high-velocity anomalies. The three major rift zones of the region, consisting of thick sedimentary deposition, are revealed by the low-velocity anomalies at shorter periods (20-40s). The persistent low-velocity anomalies beneath the Kachchh zone at longer periods may be an indication of asthenospheric flow. Azimuthal anisotropy at longer periods \\( (> 70s) \\)  shows fast polarization directions broadly similar to the northward drift of the Indian plate towards the Eurasian plate. At shorter periods, the fast polarization direction has mostly east-west trend which correlates well with the E-W oriented rift faults of seismically most active Kachchh region.
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/Station_path_map.jpg" alt="Station path map" style="width:80%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/Station_path_map.jpg" alt="Station path map" style="width:80%"><br>
   <figcaption>Station Path Map</figcaption>
 </figure>
 
@@ -68,7 +68,7 @@ Utpal Kumara,b,c, Cédric P. Legendrec,*, Po-Fei Chena, Benjamin F. Chaoc, Bor-S
 Principal constraints on the source retrieval from the regional seismograms is the non-linearity of the course of steps, time-involved in estimating the stable and reliable solution. We have developed a fully-automated set of programs that can invert for the highly stable source-mechanism of an event using the given set of seismograms. In this study, we adopted the stable and reliable “cut-and-paste” source estimation technique (Zhao and Helmberger, 1994). We have modified and some programs to the original set of programs written by Lupei Zhu, to make it user-friendly. Our set of programs also includes the adaptive data preparation category, in addition to the green function calculation and the inversion of the seismograms. The additional programs have been currently written in Bash and Perl. We aim to re-write it in Python and also create graphical user interface (GUI) which can be run easily in Windows and Mac environment. We apply our programs for obtaining the focal mechanism and stress inversion in the northern Philippines.
 
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/CAP_overview.png" alt="cap overview" style="width:80%">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/CAP_overview.png" alt="cap overview" style="width:80%">br>
   <figcaption>CAP programs directory structure</figcaption>
 </figure>
 
