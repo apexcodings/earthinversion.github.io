@@ -5,6 +5,13 @@ mathjax: "true"
 classes:
   - wide
 ---
+<h1>Posts</h1>
+
+<div class="entries-{{ page.entries_layout | default: 'list' }}">
+  {% include posts-tag-webapp.html taxonomy=page.taxonomy type=page.entries_layout %}
+</div>
+
+
 <h1>Experience</h1>
 <p><ul style="font-size:1em">
     <li>Solid understanding of JavaScript and HTML5 (and CSS)</li>
@@ -59,8 +66,3 @@ classes:
 </figure>
 
 
-<h1>Posts</h1>
-
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {% include posts-tag-webapp.html taxonomy=page.taxonomy type=page.entries_layout %}
-</div>
