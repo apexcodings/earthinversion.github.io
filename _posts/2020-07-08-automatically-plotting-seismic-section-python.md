@@ -1,5 +1,5 @@
 ---
-title: "Automatically plotting seismic section for an earthquake in the given time range [Python]"
+title: "Automatically Plotting Seismic Section for an Earthquake in the Given Time Range [Python]"
 date: 2020-07-08
 tags: [seismic section, seismology, obspy, geophysics]
 excerpt: "Python code to automatically plot the seismic section for the highest magnitude earthquake in the given time range"
