@@ -56,7 +56,7 @@ Rainfall erosion has severe implication on agriculture, water, and land use mana
 
 ## ONGOING STUDY
 
-### Automated receiver functions and shear-wave splitting measurements beneath seismic stations in the USArray and Germany by STADIUM-Py [Under review in SRL]
+### STADIUM-Py: A Python-based automated software package for receiver function and shear-wave splitting analyses [Under review in SRL]
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Cédric P. Legendre, Po-Fei Chen, Li Zhao, Benjamin F. Chao, Bor-Shouh Huang</p>
 
 
