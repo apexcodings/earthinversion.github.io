@@ -14,7 +14,7 @@ Mac can be automated to boost productivity using two built-in tools - automator 
 The automator brings the power of muti-application automation to the user-level. It helps to control Mac like a pro. It includes a lot of built-in actions and also supported by many third-party apps. 
 
 <p align="center">
-<img width="200" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/automator.jpg">
+<img width="70%" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/automator.jpg">
 </p>
 
 - automates tasks on Mac
@@ -36,7 +36,7 @@ However, it has some limitations:
 - no scripting or coding required
 
 <p align="center">
-<img width="200" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/quick-action.jpg">
+<img width="70%" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/quick-action.jpg">
 </p>
 
 
@@ -48,7 +48,7 @@ However, it has some limitations:
   `tell the application "Finder" to make new folder at the desktop`
 
 <p align="center">
-<img width="200" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/applescript.jpg">
+<img width="70%" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/applescript.jpg">
 </p>
 
 Applescript is capable for batch processing, database publishing, image manipulation, file and folder maintainance, etc. However, it requires the applications to support AppleScript and hence is application dependent. Scriptable applications include an AppleScript dictionary. It can be checked by going into the Scripts app and then Window -> Library.
