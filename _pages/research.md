@@ -93,7 +93,7 @@ Theoretical Global Seismology by Dahlen and Tromp presents an advanced theoretic
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/TGS_orig.png" alt="TGS_orig.png" style="width:50%"><br>
   <figcaption>Original Theoretical Global Seismology by Dahlen and Tromp (1998)</figcaption>
 </p>
-
+<br>
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/TGS_Sol.png" alt="TGS_Sol.png" style="width:50%"><br>
   <figcaption>Solution in the Study Guide for Theoretical Global Seismology by Dahlen and Tromp (1998)</figcaption>
