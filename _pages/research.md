@@ -89,7 +89,15 @@ Principal constraints on the source retrieval from the regional seismograms is t
 
 Theoretical Global Seismology by Dahlen and Tromp presents an advanced theoretical treatment of global seismology, describing the normal-mode, body-wave, and surface wave methods employed in the determination of the Earth’s three-dimensional internal structure and the source-mechanisms of earthquakes. The book consists of thousands of equations in a very concise form and without a proper understanding of these equations, the readers will be short of grabbing its real purpose. We endeavor to prepare a comprehensive study guide consisting of all the details of the book and the stepwise derivation of all the equations. This will be approachable for the undergraduate students and other readers from different fields referring to this book.
 
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/TGS_orig.png" alt="TGS_orig.png" style="width:50%"><br>
+  <figcaption>Original Theoretical Global Seismology by Dahlen and Tromp (1998)</figcaption>
+</p>
 
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/TGS_Sol.png" alt="TGS_Sol.png" style="width:50%"><br>
+  <figcaption>Solution in the Study Guide for Theoretical Global Seismology by Dahlen and Tromp (1998)</figcaption>
+</p>
 
 ### Analysis of Anomalously Large Co-seismic Deformation in the 2016 ML6.6 Meinong, Taiwan, Earthquake using EOF method on dense continuous GPS data of Taiwan
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Benjamin Fong Chao</p>
