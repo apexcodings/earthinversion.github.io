@@ -28,8 +28,8 @@ classes:
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40">
 </a></li> 
     <li><a href="https://gev-info.herokuapp.com/">Global Eco-environmental vulnerability monitoring app</a></li>
-    <li><a href="https://iescoders.com">IESCODERS blog</a></li>
-    <li><a href="http://omnifood.herokuapp.com/">Omnifood Replication</a> based on Udemy course by Jonas Schmedtmann</li>
+    <li><a href="https://iescoders.com">IESCODERS blog</a> (wordpress blog)</li>
+    <li><a href="http://omnifood.herokuapp.com/">Omnifood Replication</a> based on Udemy course by Jonas Schmedtmann (built solely on HTML-CSS)</li>
   </ul>
 </p>
 
