@@ -68,6 +68,11 @@ Source Code: <a href="https://github.com/earthinversion/STADIUM-Py" download="Co
   <figcaption>SKS eigenvalue method</figcaption>
 </p>
 
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/STU_Q_profile.png" alt="Stadium-py" style="width:50%"><br>
+  <figcaption>Receiver Functions Profile</figcaption>
+</p>
+
 ### Fully-automated Focal Mechanism Determination System and it’s Application on the Events Located in Northern Philippines
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Po-Fei Chen, Li Zhao</p>
 
