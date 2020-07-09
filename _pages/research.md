@@ -120,7 +120,7 @@ The island of Taiwan is subject to active orogeny and associated seismicity as e
 
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/leastSquares.jpg" alt="leastSquares" style="width:80%"><br>
-  <figcaption>Least squares modeling of the GPS data </figcaption>
+  <figcaption>Least squares modeling of the GPS data for two stations (TOP and BOTTOM panel)</figcaption>
 </p>
 
 <br>
