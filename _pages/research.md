@@ -13,6 +13,9 @@ classes:
 
 Three mysterious explosion sounds were heard in the coastal towns of Tamsui, west of Taipei in northern Taiwan, in the early evening of December 5, 2013. The event left clear signals that are identified in the recordings of 12 regional seismometers and 3 infrasound sensors and processed by means of travel time analysis. The apparent velocity of \\( ∼ 330 m/s \\) of the signals confirms that the energy transmission was through the atmosphere, and the characteristics of the waveforms suggest the meteor-generated shockwaves. We use the graphical method as well as the Genetic Algorithm optimization approach to constrain the trajectory of the meteor and to locate its projected intercept with the ground \\( (25.33 N, 121.26 E) \\), approximately 20 km off the coast of Tamsui. The trajectory has azimuth (measured from north in a map view in the clockwise direction) of \\( 303^{\circ} \\) and (near-vertical) elevation angle of \\( 70^{\circ} \\). From the observed period of 1.3 s at the maximum amplitude of the infrasound signal, we estimate by conventional scaling law that the meteor in question had impact energy on the order of \\( 5 \times 1010 \\) J (equivalent to an earthquake of local magnitude 4) or roughly a size of \\( ∼ 0.5 \\) m across.
 
+<figure>
+  <a href="https://link.springer.com/article/10.1186/s40562-017-0079-2"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig1.jpg" alt="tamsui fig 1" style="width:80%"></a>
+</figure>
 
 
 ### Anisotropic Rayleigh Wave Phase Velocity Maps of Gujarat, India [Manuscript in Preparation]
@@ -20,7 +23,10 @@ Three mysterious explosion sounds were heard in the coastal towns of Tamsui, wes
 
 We explore the Rayleigh wave phase velocity anomalies beneath the Gujarat, a westernmost province in India, in a broad period range of \\( 20-200s \\). Rayleigh wave dispersion curves are measured using the two-station approach and incorporating the broadband waveforms at 30 seismic stations from 1462 global earthquakes. We obtained 287 inter-station dispersion curves that are inverted for high resolution isotropic and azimuthally anisotropic phase velocity maps independently at each period. The shorter periods (20-40s) results coincide well with the known geological features - the thick sedimentary layers of Kachchh exhibits low-velocity anomaly while the reduced crustal thickness of Saurashtra Horst and Mainland Gujarat reflects relatively high-velocity anomalies. The three major rift zones of the region, consisting of thick sedimentary deposition, are revealed by the low-velocity anomalies at shorter periods (20-40s). The persistent low-velocity anomalies beneath the Kachchh zone at longer periods may be an indication of asthenospheric flow. Azimuthal anisotropy at longer periods \\( (> 70s) \\)  shows fast polarization directions broadly similar to the northward drift of the Indian plate towards the Eurasian plate. At shorter periods, the fast polarization direction has mostly east-west trend which correlates well with the E-W oriented rift faults of seismically most active Kachchh region.
 
-
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/Station_path_map.jpg" alt="Station path map" style="width:80%">
+  <figcaption>Station Path Map</figcaption>
+</figure>
 
 
 ### Common-Mode Error in GPS Displacement Field of Taiwan in Relation to Atmospheric Mass Loading [Manuscript in Preparation]
@@ -41,6 +47,10 @@ Raindrop size distribution (RSD) characteristic variations between two southern 
 
 Rainfall erosion has severe implication on agriculture, water, and land use management. Though there were rainfall erosion studies on regional/global scale, tropical cyclones’ rainfall erosion is poorly assessed and have been not documented for some of the most cyclones affecting regions of the world like Taiwan. Here, using 15-years of raindrop size distributions and 60-years of hourly rain gauge data, we estimated cyclones’ (also called typhoons) rainfall erosivity over Taiwan, and establish that typhoons’ mean rainfall erosivity is higher than the global mean rainfall erosivity. Moreover, regional variability of typhoons rainfall erosivity showed an increasing pattern from north to south, with relatively higher values over the eastern and southern part of Taiwan.
 
+<figure>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/taiwan-typhoon.jpg" alt="taiwan typhoon" style="width:80%">
+  <figcaption>Spatial distribution of typhoons-induced (a) mean annual precipitation (b) R-factor, and (c) R-factor density map plotted with kriging over Taiwan during 1958–2017.</figcaption>
+</figure>
 
 
 
