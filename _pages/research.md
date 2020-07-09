@@ -119,7 +119,7 @@ The 2016 Meinong earthquake (Mw 6.4) occurred in the southern Taiwan, and caused
 The island of Taiwan is subject to active orogeny and associated seismicity as effects of the complex collision between the Philippine Sea Plate and the Eurasian Plate. Rapid anomalous elevation changes were detected in the Longitudinal Valley along the Eastern coast of Taiwan using tide-gauge/altimetry and GPS observations in the past. Here we apply the method of empirical orthogonal function (EOF) to the continuous GPS network data for 13 years (2005-2018). EOF extracts the coherent signals of the GPS deformation field apart from the seasonal and the common-mode error signals; the purpose is to inspect and understand the spatio-temporal tectonic motions of the Eastern coast during the period. We also try the complex EOF to search for any dynamical internal structure that may undergo propagation or wave-like pattern in the GPS deformation field along the coast.
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/leastSquares.jpg" alt="leastSquares" style="width:50%"><br>
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/leastSquares.jpg" alt="leastSquares" style="width:80%"><br>
   <figcaption>Least squares modeling of the GPS data </figcaption>
 </p>
 
