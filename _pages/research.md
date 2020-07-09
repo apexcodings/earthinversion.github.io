@@ -56,14 +56,10 @@ Rainfall erosion has severe implication on agriculture, water, and land use mana
 
 ## ONGOING STUDY
 
-### Automated receiver functions and shear-wave splitting measurements beneath seismic stations in the USArray and Germany by STADIUM-Py
+### Automated receiver functions and shear-wave splitting measurements beneath seismic stations in the USArray and Germany by STADIUM-Py [Under review in SRL]
 Utpal Kumara,b,c, Cédric P. Legendrec,*, Po-Fei Chena, Benjamin F. Chaoc, Bor-Shouh 
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Cédric P. Legendre, Po-Fei Chen, Li Zhao, Benjamin F. Chao, Bor-Shouh Huang</p>
 
-<figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/stadiumpy-sws.jpg" alt="SWS measurements" style="width:80%">
-  <figcaption>(a) SWS measurements using eigenvalue method for an event (2009-10- 04, 10:58:00.95, epicenter (6.6747, 123.5053), epicentral depth of 635.0 km and Mw =6.6). (a-1) North and East components of the seismogram and its (a-2) particle motion, (a-3) Radial and Transverse component of the seismogram with (a-4) corresponding particle motion. (b) Grid search to find the best fitting parameters for the phase and delay time. (c) SWS results for the broadband stations around Germany. The size of the filled circle indicates the delay time, and the orientation of the solid black line indicates the polarization direction. The color of the filled circles indicates the amount of measurements for the station.</figcaption>
-</figure>
 
 
 ### Fully-automated Focal Mechanism Determination System and it’s Application on the Events Located in Northern Philippines
