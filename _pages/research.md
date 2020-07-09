@@ -125,12 +125,13 @@ The island of Taiwan is subject to active orogeny and associated seismicity as e
 
 <br>
 
-<p align="center">
+<figure class="third">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeU.png" alt="EastCoastStns_slopeU" style="width:30%"><br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeU.png" alt="EastCoastStns_slopeN" style="width:30%"><br>
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeU.png" alt="EastCoastStns_slopeE" style="width:30%"><br>
   <figcaption>Linear Trend Plot of GPS data for (a) Vertical (b) North and (c) East components </figcaption>
-</p>
+</figure>
+
 
 ## OTHER NOTABLE PROJECTS
 ### Masters Thesis: Surface Wave Group Velocity Dispersion study of the Eastern Himalayan Foreland Basin
