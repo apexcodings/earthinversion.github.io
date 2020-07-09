@@ -51,11 +51,6 @@ Rainfall erosion has severe implication on agriculture, water, and land use mana
   <figcaption>Spatial distribution of typhoons-induced (a) mean annual precipitation (b) R-factor, and (c) R-factor density map plotted with kriging over Taiwan during 1958–2017.</figcaption>
 </p>
 
-
-
-
-## ONGOING STUDY
-
 ### STADIUM-Py: A Python-based automated software package for receiver function and shear-wave splitting analyses [Under review in SRL]
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Cédric P. Legendre, Po-Fei Chen, Li Zhao, Benjamin F. Chao, Bor-Shouh Huang</p>
 __DETAILS COMING SOON!__ <br>
@@ -72,6 +67,11 @@ Source Code: <a href="https://github.com/earthinversion/STADIUM-Py" download="Co
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/STU_Q_profile.png" alt="Stadium-py" style="width:50%"><br>
   <figcaption>Receiver Functions Profile</figcaption>
 </p>
+
+
+
+## ONGOING STUDY
+
 
 ### Fully-automated Focal Mechanism Determination System and it’s Application on the Events Located in Northern Philippines
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Po-Fei Chen, Li Zhao</p>
