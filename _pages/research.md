@@ -79,7 +79,7 @@ Source Code: <a href="https://github.com/earthinversion/STADIUM-Py" download="Co
 Principal constraints on the source retrieval from the regional seismograms is the non-linearity of the course of steps, time-involved in estimating the stable and reliable solution. We have developed a fully-automated set of programs that can invert for the highly stable source-mechanism of an event using the given set of seismograms. In this study, we adopted the stable and reliable “cut-and-paste” source estimation technique (Zhao and Helmberger, 1994). We have modified and some programs to the original set of programs written by Lupei Zhu, to make it user-friendly. Our set of programs also includes the adaptive data preparation category, in addition to the green function calculation and the inversion of the seismograms. The additional programs have been currently written in Bash and Perl. We aim to re-write it in Python and also create graphical user interface (GUI) which can be run easily in Windows and Mac environment. We apply our programs for obtaining the focal mechanism and stress inversion in the northern Philippines.
 
 <p align="center">
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/CAP_overview.png" alt="cap overview" style="width:50%"><br>
+<a href="https://www.youtube.com/watch?v=wTVSTkHPkJ8" <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/CAP_overview.png" alt="cap overview" style="width:50%"></a>
   <figcaption>CAP programs directory structure</figcaption>
 </p>
 
