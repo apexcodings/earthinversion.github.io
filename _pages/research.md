@@ -58,7 +58,7 @@ Rainfall erosion has severe implication on agriculture, water, and land use mana
 
 ### STADIUM-Py: A Python-based automated software package for receiver function and shear-wave splitting analyses [Under review in SRL]
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Cédric P. Legendre, Po-Fei Chen, Li Zhao, Benjamin F. Chao, Bor-Shouh Huang</p>
-COMING SOON!
+__DETAILS COMING SOON!__ <br>
 
 Source Code: <a href="https://github.com/earthinversion/STADIUM-Py" download="Codes">
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40">
