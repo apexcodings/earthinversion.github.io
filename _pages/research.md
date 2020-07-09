@@ -96,7 +96,7 @@ Theoretical Global Seismology by Dahlen and Tromp presents an advanced theoretic
 <br>
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/TGS_Sol.png" alt="TGS_Sol.png" style="width:50%"><br>
-  <figcaption>Solution in the Study Guide for Theoretical Global Seismology by Dahlen and Tromp (1998)</figcaption>
+  <figcaption>Solution in the Study Guide for Theoretical Global Seismology</figcaption>
 </p>
 
 ### Analysis of Anomalously Large Co-seismic Deformation in the 2016 ML6.6 Meinong, Taiwan, Earthquake using EOF method on dense continuous GPS data of Taiwan
