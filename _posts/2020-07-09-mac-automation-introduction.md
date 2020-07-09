@@ -11,7 +11,7 @@ The benefits of automation includes - faster work, fewer mistakes, accurate , co
 Mac can be automated to boost productivity using two built-in tools - automator (apps, workflows and quick actions), and applescripts. These can be very handy to manage repetitive and time consuming tasks in Mac by automating it.
 
 ## Automator:
-The automator brings the power of muti-aplpication automation to the user-level. It helps to control Mac like a pro. It includes a lot of built-in actions and also supported by many third-party apps. 
+The automator brings the power of muti-application automation to the user-level. It helps to control Mac like a pro. It includes a lot of built-in actions and also supported by many third-party apps. 
 
 <p align="center">
 <img width="200" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/automator.jpg">
