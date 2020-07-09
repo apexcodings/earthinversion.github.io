@@ -1,6 +1,6 @@
 ---
-title: "Apple Scripts"
-permalink: "/applescripts/"
+title: "Life Hacks"
+permalink: "/lifehacks/"
 mathjax: "true"
 classes:
   - wide
