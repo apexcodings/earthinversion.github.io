@@ -46,11 +46,11 @@ Raindrop size distribution (RSD) characteristic variations between two southern 
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Jayalakshmi Janapati, Balaji Kumar Seela, Pay Liam, Pao Wang, Utpal Kumar</p>
 
 Rainfall erosion has severe implication on agriculture, water, and land use management. Though there were rainfall erosion studies on regional/global scale, tropical cyclones’ rainfall erosion is poorly assessed and have been not documented for some of the most cyclones affecting regions of the world like Taiwan. Here, using 15-years of raindrop size distributions and 60-years of hourly rain gauge data, we estimated cyclones’ (also called typhoons) rainfall erosivity over Taiwan, and establish that typhoons’ mean rainfall erosivity is higher than the global mean rainfall erosivity. Moreover, regional variability of typhoons rainfall erosivity showed an increasing pattern from north to south, with relatively higher values over the eastern and southern part of Taiwan.
-
-<figure>
-  <a href="https://www.nature.com/articles/s41598-019-52028-5"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/taiwan-typhoon.jpg" alt="taiwan typhoon" style="width:80%"></a>
+<p align="center">
+<a href="https://www.nature.com/articles/s41598-019-52028-5"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/taiwan-typhoon.jpg" alt="taiwan typhoon" style="width:50%"></a>
   <figcaption>Spatial distribution of typhoons-induced (a) mean annual precipitation (b) R-factor, and (c) R-factor density map plotted with kriging over Taiwan during 1958–2017.</figcaption>
-</figure>
+</p>
+
 
 
 
@@ -67,8 +67,9 @@ Utpal Kumara,b,c, Cédric P. Legendrec,*, Po-Fei Chena, Benjamin F. Chaoc, Bor-S
 
 Principal constraints on the source retrieval from the regional seismograms is the non-linearity of the course of steps, time-involved in estimating the stable and reliable solution. We have developed a fully-automated set of programs that can invert for the highly stable source-mechanism of an event using the given set of seismograms. In this study, we adopted the stable and reliable “cut-and-paste” source estimation technique (Zhao and Helmberger, 1994). We have modified and some programs to the original set of programs written by Lupei Zhu, to make it user-friendly. Our set of programs also includes the adaptive data preparation category, in addition to the green function calculation and the inversion of the seismograms. The additional programs have been currently written in Bash and Perl. We aim to re-write it in Python and also create graphical user interface (GUI) which can be run easily in Windows and Mac environment. We apply our programs for obtaining the focal mechanism and stress inversion in the northern Philippines.
 
+
 <figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/CAP_overview.png" alt="cap overview" style="width:80%"><br>
+  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/CAP_overview.png" alt="cap overview" style="width:50%"><br>
   <figcaption>CAP programs directory structure</figcaption>
 </figure>
 
