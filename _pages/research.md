@@ -62,7 +62,7 @@ Source Code: <a href="https://github.com/earthinversion/STADIUM-Py" download="Co
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/SKS_gridsearch.png" alt="Stadium-py" style="width:50%"><br>
   <figcaption>SKS eigenvalue method</figcaption>
 </p>
-
+<br>
 <p align="center">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/STU_Q_profile.png" alt="Stadium-py" style="width:50%"><br>
   <figcaption>Receiver Functions Profile</figcaption>
