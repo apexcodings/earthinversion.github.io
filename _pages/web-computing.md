@@ -24,19 +24,38 @@ classes:
 <h1>Some works for demo</h1>
   <p style="font-size:1em">
     <ul style="font-size:1em">
-    <li><a href="http://slrm.herokuapp.com/">Sea Level Rise Monitoring Web-app</a></li>
+    <li><a href="http://slrm.herokuapp.com/">Sea Level Rise Monitoring Web-app</a>Download source code <a href="https://github.com/earthinversion/Sea-Level-Rise-Monitoring-Web-Application-Source-Code" download="Codes">
+    <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40">
+</a></li> 
     <li><a href="https://gev-info.herokuapp.com/">Global Eco-environmental vulnerability monitoring app</a></li>
-    <li><a href="iescoders.com">IESCODERS blog</a></li>
+    <li><a href="https://iescoders.com">IESCODERS blog</a></li>
     <li><a href="http://omnifood.herokuapp.com/">Omnifood Replication</a> based on Udemy course by Jonas Schmedtmann</li>
   </ul>
 </p>
 
 <figure>
+  <a href="http://slrm.herokuapp.com"><img src="{{ site.url }}{{ site.baseurl }}/images/slrm/dashboard.png" alt="dashboard" style="width:80%"></a>
+  <figcaption>Sea Level Rise Monitoring (SLRM) Web-app - Dashboard</figcaption>
+</figure>
+
+<figure>
   <a href="http://slrm.herokuapp.com/current_research"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/slrm_current_research.png" alt="Current-research-Sea-Level-Rising" style="width:80%"></a>
   <figcaption>Sea Level Rise Monitoring (SLRM) Web-app - Top Readings</figcaption>
+</figure>
 
+<figure>
   <a href="http://slrm.herokuapp.com/observations/image_comparison"><img src="https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/slrm_observations_image_comparison.png" alt="obervations_image_comparison" style="width:80%"></a>
   <figcaption>Sea Level Rise Monitoring (SLRM) Web-app - Observations</figcaption>
+</figure>
+
+<figure>
+  <a href="http://slrm.herokuapp.com/cluster_analysis"><img src="{{ site.url }}{{ site.baseurl }}/images/slrm/cluster-images.png" alt="cluster images" style="width:80%"></a>
+  <figcaption>Sea Level Rise Monitoring (SLRM) Web-app - Cluster images</figcaption>
+</figure>
+
+<figure>
+  <a href="https://iescoders.com"><img src="{{ site.url }}{{ site.baseurl }}/images/iescoders.png" alt="iescoders" style="width:80%"></a>
+  <figcaption>IESCODERS Blog</figcaption>
 </figure>
 
 
