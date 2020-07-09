@@ -47,7 +47,7 @@ Raindrop size distribution (RSD) characteristic variations between two southern 
 
 Rainfall erosion has severe implication on agriculture, water, and land use management. Though there were rainfall erosion studies on regional/global scale, tropical cyclones’ rainfall erosion is poorly assessed and have been not documented for some of the most cyclones affecting regions of the world like Taiwan. Here, using 15-years of raindrop size distributions and 60-years of hourly rain gauge data, we estimated cyclones’ (also called typhoons) rainfall erosivity over Taiwan, and establish that typhoons’ mean rainfall erosivity is higher than the global mean rainfall erosivity. Moreover, regional variability of typhoons rainfall erosivity showed an increasing pattern from north to south, with relatively higher values over the eastern and southern part of Taiwan.
 <p align="center">
-<a href="https://www.nature.com/articles/s41598-019-52028-5"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/taiwan-typhoon.jpg" alt="taiwan typhoon" style="width:50%"></a>
+<a href="https://www.nature.com/articles/s41598-019-52028-5"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/taiwan-typhoon.jpg" alt="taiwan typhoon" style="width:100%"></a>
   <figcaption>Spatial distribution of typhoons-induced (a) mean annual precipitation (b) R-factor, and (c) R-factor density map plotted with kriging over Taiwan during 1958–2017.</figcaption>
 </p>
 
