@@ -22,11 +22,11 @@ Three mysterious explosion sounds were heard in the coastal towns of Tamsui, wes
 <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> Utpal Kumar, Cédric Legendre, Ajay Pratap Singh, Santosh Kumar, Li Zhao</p>
 
 We explore the Rayleigh wave phase velocity anomalies beneath the Gujarat, a westernmost province in India, in a broad period range of \\( 20-200s \\). Rayleigh wave dispersion curves are measured using the two-station approach and incorporating the broadband waveforms at 30 seismic stations from 1462 global earthquakes. We obtained 287 inter-station dispersion curves that are inverted for high resolution isotropic and azimuthally anisotropic phase velocity maps independently at each period. The shorter periods (20-40s) results coincide well with the known geological features - the thick sedimentary layers of Kachchh exhibits low-velocity anomaly while the reduced crustal thickness of Saurashtra Horst and Mainland Gujarat reflects relatively high-velocity anomalies. The three major rift zones of the region, consisting of thick sedimentary deposition, are revealed by the low-velocity anomalies at shorter periods (20-40s). The persistent low-velocity anomalies beneath the Kachchh zone at longer periods may be an indication of asthenospheric flow. Azimuthal anisotropy at longer periods \\( (> 70s) \\)  shows fast polarization directions broadly similar to the northward drift of the Indian plate towards the Eurasian plate. At shorter periods, the fast polarization direction has mostly east-west trend which correlates well with the E-W oriented rift faults of seismically most active Kachchh region.
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/Station_path_map.jpg" alt="Station path map" style="width:50%"><br>
+<figcaption>Station Path Map</figcaption>
+</p>
 
-<figure>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/Station_path_map.jpg" alt="Station path map" style="width:80%"><br>
-  <figcaption>Station Path Map</figcaption>
-</figure>
 
 
 ### Common-Mode Error in GPS Displacement Field of Taiwan in Relation to Atmospheric Mass Loading [Manuscript in Preparation]
