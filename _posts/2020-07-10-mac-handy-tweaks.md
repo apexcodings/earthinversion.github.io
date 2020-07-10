@@ -44,3 +44,8 @@ I like to keep different versions of the file in the local disks (there are othe
 </p>
 
 Once this quick action is saved, you can select a bunch of file and then right click for the "Quick Actions" and look for the "renameWithDate" (I saved as this name) and then viola, you rename a bunch of files by adding a suffix of `year-month-date` to the name. You can customize the format in the quick actions if you prefer different style.
+
+<figure class="half">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mac-tweaks/renaming-demo.jpg" alt="renaming">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mac-tweaks/renaming-demo2.jpg" alt="renaming">
+</figure>
