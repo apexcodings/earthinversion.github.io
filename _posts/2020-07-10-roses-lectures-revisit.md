@@ -14,10 +14,10 @@ classes:
 - Organized by: [AGU]( https://www.agu.org), 2020
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
 
-## Schedule
-- 6/25 (Th) __ObsPy__ @Sydney Dybing 
-- 7/2 (Th) __Data and Metadata__ @Emily Wolin 
-- 7/9 (Th) __Time Series Analysis__ @German A. Prieto 
+## Contents
+- __ObsPy__ @Sydney Dybing 
+- __Data and Metadata__ @Emily Wolin 
+- __Time Series Analysis__ @German A. Prieto 
 - 7/14 (T) _Waveform Cross Correlation_ @Elizabeth Berg 
 - 7/21 (T) _Array Seismology/Network Analysis_ @Stephen Arrowsmith 
 - 7/28 (T) _Polarization Analysis_ @Dr. O
