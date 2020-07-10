@@ -140,9 +140,33 @@ tr.plot();
 </p>
 
   ```python
-tr.plot(color='b')
+tr.plot(color='b') #colored plot
 ```
 
 <p align="center">
 <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig2.jpg">
 </p>
+
+- stream with multiple traces
+```python
+ st = read('CWC_HNE.mseed') 
+ st += read('CWC_HNN.mseed') 
+ st += read('CWC_HNZ.mseed') 
+ print(st)
+```
+or
+
+  ```python
+tr1 = read('CWC_HNE.mseed') 
+tr2 = read('CWC_HNN.mseed') 
+tr3 = read('CWC_HNZ.mseed') 
+st = tr1 + tr2 + tr3 
+print(st)
+```
+
+  ```
+3 Trace(s) in Stream:
+CI.CWC..HNE | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 Hz, 24000 samples
+CI.CWC..HNN | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 Hz, 24000 samples
+CI.CWC..HNZ | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 Hz, 24000 samples
+```
