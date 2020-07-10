@@ -148,7 +148,7 @@ tr.plot(color='b') #colored plot
 <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig2.jpg">
 </p>
 
-- stream with multiple traces
+- reading stream with multiple traces
 ```python
  st = read('CWC_HNE.mseed') 
  st += read('CWC_HNN.mseed') 
