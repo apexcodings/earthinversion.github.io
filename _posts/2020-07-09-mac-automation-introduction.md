@@ -67,8 +67,8 @@ If you want to save the screenshot at some location in Mac such as Documents -> 
 - You can do it easily if you have macOS Mojave and newer. Click `command`+`shift`+`5` and go to options and change the location.
 
 <figure class="half">
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch//images/mac-automation/screenshot1.jpg" alt="screenshot">
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch//images/mac-automation/screenshot2.jpg" alt="screenshot">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/screenshot1.jpg" alt="screenshot">
+<img src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/screenshot2.jpg" alt="screenshot">
 </figure>
 
 - If you want to use terminal, then just type the command:
