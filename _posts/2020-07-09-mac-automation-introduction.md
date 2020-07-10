@@ -1,6 +1,7 @@
 ---
 title: "Introduction to Automating Mac [macOS]"
 date: 2020-07-09
+last_modified_at: 2020-07-10
 tags: [mac, automation, automator, services, quick actions, applescripts, apple]
 excerpt: "Mac can be easily automated by the help of several tools such as automator, quick actions, applescripts"
 classes:
@@ -53,3 +54,25 @@ However, it has some limitations:
 
 Applescript is capable for batch processing, database publishing, image manipulation, file and folder maintainance, etc. However, it requires the applications to support AppleScript and hence is application dependent. Scriptable applications include an AppleScript dictionary. It can be checked by going into the Scripts app and then Window -> Library.
 
+
+## Some handy MAC Tweaks
+
+### How to change the location where Screenshot is saved
+I uses screenshot frequently on Mac. It is super easy by 
+- Click `command`+`shift`+`3` to capture whole screen
+- Click `command`+`shift`+`4` to capture selected portion of screen
+- Click `control`+`command`+`shift`+`4` to capture selected portion of screen and save it in the clipboard. Then simply paste it into any applications such as mail or word.
+
+If you want to save the screenshot at some location in Mac such as Documents -> SCREENSHOTS. 
+- You can do it easily if you have macOS Mojave and newer. Click `command`+`shift`+`5` and go to options and change the location.
+
+<figure class="half">
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch//images/mac-automation/screenshot1.jpg" alt="screenshot">
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch//images/mac-automation/screenshot2.jpg" alt="screenshot">
+</figure>
+
+- If you want to use terminal, then just type the command:
+
+```
+defaults write com.apple.screencapture ~/Documents/SCREENSHOTS
+```
