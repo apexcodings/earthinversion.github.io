@@ -174,3 +174,22 @@ CI.CWC..HNZ | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 
   </p>
 
 <h3 id="obspy-downloading-data">Downloading data from online repositories</h3>
+- setting up the client
+```python
+from obspy.clients.fdsn import Client 
+from obspy import UTCDateTime #Times are managed in Obspy using a class called UTCDateTime
+client = Client('IRIS') #IRIS is just one “client” that stores data
+```
+```python
+ time = UTCDateTime('2019-07-06T03:19:53.04') 
+ print(time)
+starttime = time - 60 
+print(starttime)
+endtime = time + 15*60
+print(endtime)
+```
+```
+2019-07-06T03:19:53.040000Z
+2019-07-06T03:18:53.040000Z
+2019-07-06T03:34:53.040000Z
+```
