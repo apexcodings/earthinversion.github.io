@@ -210,3 +210,19 @@ IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig4.jpg">
   </p>
+
+- to download multiple channels
+```python
+chan = 'HH*'
+st = client.get_waveforms(net, sta, loc, chan, starttime, endtime) print(st)
+st.plot()
+```
+```
+3 Trace(s) in Stream:
+IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+IU.TUC.00.HH2 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+IU.TUC.00.HHZ | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+```
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig5.jpg">
+  </p>
