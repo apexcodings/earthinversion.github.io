@@ -58,7 +58,7 @@ Applescript is capable for batch processing, database publishing, image manipula
 ## Some handy MAC Tweaks
 
 ### How to change the location where Screenshot is saved
-I uses screenshot frequently on Mac. It is super easy by 
+I use screenshot frequently on Mac. It is super easy ([See here for details](https://support.apple.com/en-us/HT201361)).
 - Click `command`+`shift`+`3` to capture whole screen
 <p align="center">
 <img width="30%" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/mac-key-combo-diagram-shift-command-3.png">
