@@ -75,4 +75,5 @@ If you want to save the screenshot at some location in Mac such as Documents -> 
 
 ```
 defaults write com.apple.screencapture ~/Documents/SCREENSHOTS
+killall SystemUIServer
 ```
