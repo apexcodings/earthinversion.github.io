@@ -216,7 +216,8 @@ print(endtime)
 - to download multiple channels
 ```python
 chan = 'HH*'
-st = client.get_waveforms(net, sta, loc, chan, starttime, endtime) print(st)
+st = client.get_waveforms(net, sta, loc, chan, starttime, endtime) 
+print(st)
 st.plot()
 ```
 ```
