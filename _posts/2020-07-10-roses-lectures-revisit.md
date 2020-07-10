@@ -135,5 +135,5 @@ PB
 tr.plot();
 ```
 <p align="left">
-<img width="60%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig1.jpg">
+<img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig1.jpg">
 </p>
