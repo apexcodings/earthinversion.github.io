@@ -1,7 +1,7 @@
 ---
 title: "Remote Online Sessions for Emerging Seismologists (ROSES) Lectures: Revisited [Python]"
 date: 2020-07-10
-tags: [geophysics, roses, agu, iris, obspy, anaconda, read traces]
+tags: [geophysics, roses, agu, iris, obspy, anaconda, read seismic traces, seismology]
 excerpt: "ROSES lecture notes"
 classes:
   - wide
@@ -62,12 +62,12 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 (will first deactivate any previously activated environment)
 
 <h2 id="obspy">ObsPy: a Python toolbox for seismology</h2>
-- Download latex generated pdf of the follow along jupyter notebook by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
+- Download latex generated pdf of the "follow along jupyter notebook" by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40"></a>
 
 <h3>Outline</h3>
 1. <a href="#obspy-reading-data-file">Reading data from a file</a>
-2. Downloading data from online repositories 
+2. <a href="#obspy-downloading-data">Downloading data from online repositories</a>
 3. Removing instrument response
 4. Writing data to a file
 5. Some Obspy stream and trace methods
@@ -176,3 +176,5 @@ CI.CWC..HNZ | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig3.jpg">
   </p>
+
+<h3 id="obspy-downloading-data">Downloading data from online repositories</h3>
