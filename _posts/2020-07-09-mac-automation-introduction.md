@@ -60,7 +60,13 @@ Applescript is capable for batch processing, database publishing, image manipula
 ### How to change the location where Screenshot is saved
 I uses screenshot frequently on Mac. It is super easy by 
 - Click `command`+`shift`+`3` to capture whole screen
+<p align="center">
+<img width="30%" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/mac-key-combo-diagram-shift-command-3.png">
+</p>
 - Click `command`+`shift`+`4` to capture selected portion of screen
+<p align="center">
+<img width="30%" src="{{ site.url }}{{ site.baseurl }}/images/mac-automation/mac-key-combo-diagram-shift-command-4.png">
+</p>
 - Click `control`+`command`+`shift`+`4` to capture selected portion of screen and save it in the clipboard. Then simply paste it into any applications such as mail or word.
 
 If you want to save the screenshot at some location in Mac such as Documents -> SCREENSHOTS. The default location is `~/Desktop` 
