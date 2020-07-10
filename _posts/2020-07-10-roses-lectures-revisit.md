@@ -193,3 +193,20 @@ print(endtime)
 2019-07-06T03:18:53.040000Z
 2019-07-06T03:34:53.040000Z
 ```
+```python
+net = 'IU' #Identifies which network the data belongs to
+sta = 'TUC' #The station within a network 
+loc = '00' #stations can have more than one instrument at them
+chan = 'HH1' #Three character code
+
+st = client.get_waveforms(net, sta, loc, chan, starttime, endtime) 
+print(st)
+st.plot()
+```
+```
+1 Trace(s) in Stream:
+IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+```
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig4.jpg">
+  </p>
