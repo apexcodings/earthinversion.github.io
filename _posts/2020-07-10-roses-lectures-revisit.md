@@ -30,7 +30,7 @@ classes:
 
 ## Pre-lecture preparation
 
-### Installation of `roses` environment in anaconda
+### Installation of the environment in anaconda
 NOTE: It is important to use specified version of the libraries otherwise there may be some inconsistencies such as the bandpass filter command of `obspy` may throw some error.
 
 - `roses_env.yml` environment yml file can be downloaded from [here](https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/blob/master/roses_env.yml)
