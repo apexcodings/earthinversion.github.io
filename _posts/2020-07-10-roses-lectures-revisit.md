@@ -15,7 +15,7 @@ classes:
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
 
 ## Contents
-- <a href="prelecture">__Pre-lecture preparation__</a>
+- <a href="#prelecture">__Pre-lecture preparation__</a>
 - __ObsPy__ by Sydney Dybing 
 - __Data and Metadata__ by Emily Wolin 
 - __Time Series Analysis__ by German A. Prieto 
