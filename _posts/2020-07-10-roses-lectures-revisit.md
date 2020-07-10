@@ -1,7 +1,7 @@
 ---
 title: "Remote Online Sessions for Emerging Seismologists (ROSES) Lectures: Revisited [Python]"
 date: 2020-07-10
-tags: [geophysics, roses, agu, iris, obspy]
+tags: [geophysics, roses, agu, iris, obspy, anaconda]
 excerpt: "ROSES lecture notes"
 classes:
   - wide
