@@ -70,7 +70,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 6. Plotting with Matplotlib
 
 <h3 id="obspy-reading-data-file">Reading data from a file</h3>
-- With the read function, you basically just only need the path to the file on your computer.
+- With the `read` function, you basically just only need the path to the file on your computer.
 ```python
 from obspy import read
 st = read('B082_EHZ.mseed')
@@ -174,15 +174,15 @@ CI.CWC..HNZ | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 
   </p>
 
 <h3 id="obspy-downloading-data">Downloading data from online repositories</h3>
-- setting up the client
+- Setting up the client and managing times
 ```python
 from obspy.clients.fdsn import Client 
 from obspy import UTCDateTime #Times are managed in Obspy using a class called UTCDateTime
 client = Client('IRIS') #IRIS is just one “client” that stores data
 ```
 ```python
- time = UTCDateTime('2019-07-06T03:19:53.04') 
- print(time)
+time = UTCDateTime('2019-07-06T03:19:53.04') 
+print(time)
 starttime = time - 60 
 print(starttime)
 endtime = time + 15*60
