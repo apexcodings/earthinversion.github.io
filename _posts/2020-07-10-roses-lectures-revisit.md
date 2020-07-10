@@ -100,13 +100,11 @@ PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0
 ```python
 data = tr.data 
 print(data)
-print()
 print(tr.stats) #To view the metadata
 ```
 
   ```
 [ 49 52 50 ... 6979 7201 7440]
-
 network: PB
 station: B082
 location:
