@@ -123,3 +123,22 @@ MSEED
 AttribDict({'dataquality': 'M', 'number_of_records': 134,
 'encoding': 'STEIM2', 'byteorder': '>', 'record_length': 512, 'filesize': 68608})
 ```
+
+```python
+print(tr.stats.network) 
+print(tr.stats.npts)
+```
+
+```
+PB 
+30000
+```
+
+- make simple plots of traces
+
+```python
+tr.plot();
+```
+<p align="center">
+<img width="60%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig1.jpg">
+</p>
