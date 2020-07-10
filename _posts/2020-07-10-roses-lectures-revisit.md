@@ -15,8 +15,8 @@ classes:
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
 
 ## Contents
-- <a href="#prelecture">__Pre-lecture preparation__</a>
-- __ObsPy__ by Sydney Dybing 
+- <a href="#prelecture">Pre-lecture preparation</a>
+- <a href="obspy">ObsPy: a Python toolbox for seismology</a> by Sydney Dybing
 - __Data and Metadata__ by Emily Wolin 
 - __Time Series Analysis__ by German A. Prieto 
 - 7/14 (T) _Waveform Cross Correlation_ by Elizabeth Berg 
@@ -60,3 +60,25 @@ conda activate roses
 alias roses='conda deactivate; conda deactivate; conda activate roses'
 ```
 (will first deactivate any previously activated environment)
+
+<h2 id="obspy">ObsPy: a Python toolbox for seismology</h2>
+<h3>Outline</h3>
+1. <a href="#obspy-reading-data-file">Reading data from a file</a>
+2. Downloading data from online repositories 
+3. Removing instrument response
+4. Writing data to a file
+5. Some Obspy stream and trace methods
+6. Plotting with Matplotlib
+
+<h3 id="obspy-reading-data-file">Reading data from a file</h3>
+- With the read function, you basically just only need the path to the file on your computer.
+```python
+from obspy import read
+st = read('B082_EHZ.mseed')
+print(st)
+```
+
+```
+1 Trace(s) in Stream:
+PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
+```
