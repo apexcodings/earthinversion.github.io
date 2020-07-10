@@ -15,17 +15,17 @@ classes:
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
 
 ## Contents
-- __ObsPy__ @Sydney Dybing 
-- __Data and Metadata__ @Emily Wolin 
-- __Time Series Analysis__ @German A. Prieto 
-- 7/14 (T) _Waveform Cross Correlation_ @Elizabeth Berg 
-- 7/21 (T) _Array Seismology/Network Analysis_ @Stephen Arrowsmith 
-- 7/28 (T) _Polarization Analysis_ @Dr. O
-- 8/4 (T) _Machine Learning_ @Ross, Zachary E. 
-- 8/11 (T)  _PyGMT_ @Liam Toney 
-- 8/18 (T) _Inversion, Bayesian_ @Steve Myers 
-- 8/25 (T) _Inversion, kriging_ @Tony Lowry 
-- 9/1 (T) @Suzan van der Lee
+- __ObsPy__ by Sydney Dybing 
+- __Data and Metadata__ by Emily Wolin 
+- __Time Series Analysis__ by German A. Prieto 
+- 7/14 (T) _Waveform Cross Correlation_ by Elizabeth Berg 
+- 7/21 (T) _Array Seismology/Network Analysis_ by Stephen Arrowsmith 
+- 7/28 (T) _Polarization Analysis_ by Dr. O
+- 8/4 (T) _Machine Learning_ by Ross, Zachary E. 
+- 8/11 (T)  _PyGMT_ by Liam Toney 
+- 8/18 (T) _Inversion, Bayesian_ by Steve Myers 
+- 8/25 (T) _Inversion, kriging_ by Tony Lowry 
+- 9/1 (T) by Suzan van der Lee
 
 
 ## Pre-lecture preparation
