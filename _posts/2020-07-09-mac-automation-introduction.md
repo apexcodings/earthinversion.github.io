@@ -2,7 +2,7 @@
 title: "Introduction to Automating Mac [macOS]"
 date: 2020-07-09
 last_modified_at: 2020-07-10
-tags: [mac, automation, automator, services, quick actions, applescripts, apple]
+tags: [mac, automation, automator, services, quick actions, applescripts, apple, screenshot]
 excerpt: "Mac can be easily automated by the help of several tools such as automator, quick actions, applescripts"
 classes:
   - wide
