@@ -141,8 +141,8 @@ tr.plot();
 
 
   ```python
-tr.plot(color='b') #colored plot
-```
+  tr.plot(color='b') #colored plot
+  ```
 
 <p align="center">
 <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig2.jpg">
