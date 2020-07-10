@@ -134,6 +134,6 @@ PB
 ```python
 tr.plot();
 ```
-  <p align="left">
+  <p align="center">
 <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig1.jpg">
 </p>
