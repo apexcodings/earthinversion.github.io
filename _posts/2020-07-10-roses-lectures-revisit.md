@@ -1,7 +1,7 @@
 ---
 title: "Remote Online Sessions for Emerging Seismologists (ROSES) Lectures: Revisited [Python]"
 date: 2020-07-10
-tags: [geophysics, roses, agu, iris, obspy, anaconda]
+tags: [geophysics, roses, agu, iris, obspy, anaconda, read traces]
 excerpt: "ROSES lecture notes"
 classes:
   - wide
@@ -169,3 +169,10 @@ CI.CWC..HNE | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 
 CI.CWC..HNN | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 Hz, 24000 samples
 CI.CWC..HNZ | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 Hz, 24000 samples
 ```
+
+  ```python
+  st.plot()
+  ```
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig3.jpg">
+  </p>
