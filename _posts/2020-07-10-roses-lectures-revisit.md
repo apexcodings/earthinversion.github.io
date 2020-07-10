@@ -75,6 +75,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 
 <h3 id="obspy-reading-data-file">Reading data from a file</h3>
 - With the read function, you basically just only need the path to the file on your computer.
+
 ```python
 from obspy import read
 st = read('B082_EHZ.mseed')
