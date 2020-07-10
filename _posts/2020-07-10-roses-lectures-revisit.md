@@ -62,6 +62,9 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 (will first deactivate any previously activated environment)
 
 <h2 id="obspy">ObsPy: a Python toolbox for seismology</h2>
+- Download latex generated pdf of the follow along jupyter notebook by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
+    <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40"></a>
+
 <h3>Outline</h3>
 1. <a href="#obspy-reading-data-file">Reading data from a file</a>
 2. Downloading data from online repositories 
@@ -81,4 +84,42 @@ print(st)
 ```
 1 Trace(s) in Stream:
 PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
+```
+
+- Access the trace object
+
+```python
+tr = st[0] 
+print(tr)
+```
+
+```
+PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
+```
+
+- View the data and metadata
+
+```python
+data = tr.data 
+print(data)
+print()
+print(tr.stats) #To view the metadata
+```
+
+```
+[ 49 52 50 ... 6979 7201 7440]
+
+network: PB
+station: B082
+location:
+channel: EHZ
+starttime: endtime: sampling_rate: delta:
+2010-04-04T22:40:42.368400Z 2010-04-04T22:45:42.358400Z 100.0
+0.01
+npts: 30000
+calib: _format: mseed:
+1.0
+MSEED
+AttribDict({'dataquality': 'M', 'number_of_records': 134,
+'encoding': 'STEIM2', 'byteorder': '>', 'record_length': 512, 'filesize': 68608})
 ```
