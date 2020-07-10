@@ -36,26 +36,22 @@ NOTE: It is important to use specified version of the libraries otherwise there 
 
 - `roses_env.yml` environment yml file can be downloaded from [here](https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/blob/master/roses_env.yml)
 - Install environment using anaconda and the `roses_env.yml`
-
 ```
 conda env create -f roses_env.yml
 ```
 
 - [OPTIONAL] Install on macOS (without Anaconda) using the file `roses-env2-osx.txt` (<a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/find/master" download="Codes">
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40"></a>):
-
 ```
 conda create --name roses --file roses-env2-osx.txt
 ```
 
 - Activate `roses` anaconda environment 
-
 ```
 conda activate roses
 ```
 
 - Create alias for activating `roses` environment in the `~/.bash_profile` (for mac) or `~/.bashrc` (for linux)
-
 ```
 alias roses='conda deactivate; conda deactivate; conda activate roses'
 ```
