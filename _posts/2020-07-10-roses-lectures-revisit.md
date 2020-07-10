@@ -134,19 +134,17 @@ PB
 ```python
 tr.plot();
 ```
-
-<p align="center">
-<img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig1.jpg">
-</p>
+  <p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig1.jpg">
+  </p>
 
 
   ```python
   tr.plot(color='b') #colored plot
   ```
-
-<p align="center">
-<img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig2.jpg">
-</p>
+  <p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig2.jpg">
+  </p>
 
 - reading stream with multiple traces
 ```python
