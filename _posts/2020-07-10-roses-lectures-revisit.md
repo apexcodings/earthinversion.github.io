@@ -16,7 +16,7 @@ classes:
 
 ## Contents
 - <a href="#prelecture">Pre-lecture preparation</a>
-- <a href="obspy">ObsPy: a Python toolbox for seismology</a> by Sydney Dybing
+- <a href="#obspy">ObsPy: a Python toolbox for seismology</a> by Sydney Dybing
 - __Data and Metadata__ by Emily Wolin 
 - __Time Series Analysis__ by German A. Prieto 
 - 7/14 (T) _Waveform Cross Correlation_ by Elizabeth Berg 
