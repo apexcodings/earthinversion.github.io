@@ -1,8 +1,8 @@
 ---
 title: "Some handy Mac Tweaks [macOS]"
 date: 2020-07-10
-tags: [mac, apple, screenshot]
-excerpt: "Some handy tweaks for mac like relocating default screenshot location etc"
+tags: [mac, apple, screenshot, batch renaming, quick action]
+excerpt: "Some handy tweaks for mac like relocating default screenshot location, renaming batch files etc"
 classes:
   - wide
 ---
