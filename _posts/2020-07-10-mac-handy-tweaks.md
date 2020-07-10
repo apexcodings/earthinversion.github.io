@@ -1,5 +1,5 @@
 ---
-title: "Some handy MAC Tweaks [macOS]"
+title: "Some handy Mac Tweaks [macOS]"
 date: 2020-07-10
 tags: [mac, apple, screenshot]
 excerpt: "Some handy tweaks for mac like relocating default screenshot location etc"
