@@ -15,6 +15,7 @@ classes:
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
 
 ## Contents
+- <a href="prelecture">__Pre-lecture preparation__</a>
 - __ObsPy__ by Sydney Dybing 
 - __Data and Metadata__ by Emily Wolin 
 - __Time Series Analysis__ by German A. Prieto 
@@ -28,7 +29,7 @@ classes:
 - 9/1 (T) by Suzan van der Lee
 
 
-## Pre-lecture preparation
+<h2 id="prelecture">Pre-lecture preparation</h2>
 
 ### Installation of the environment in anaconda
 NOTE: It is important to use specified version of the libraries otherwise there may be some inconsistencies such as the bandpass filter command of `obspy` may throw some error.
