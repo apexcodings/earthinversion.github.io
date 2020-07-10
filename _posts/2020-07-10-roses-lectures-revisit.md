@@ -88,18 +88,16 @@ PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0
 ```
 
 - Access the trace object
-
 ```python
 tr = st[0] 
 print(tr)
 ```
 
-```
+  ```
 PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
 ```
 
 - View the data and metadata
-
 ```python
 data = tr.data 
 print(data)
@@ -107,7 +105,7 @@ print()
 print(tr.stats) #To view the metadata
 ```
 
-```
+  ```
 [ 49 52 50 ... 6979 7201 7440]
 
 network: PB
@@ -125,18 +123,17 @@ AttribDict({'dataquality': 'M', 'number_of_records': 134,
 'encoding': 'STEIM2', 'byteorder': '>', 'record_length': 512, 'filesize': 68608})
 ```
 
-```python
+  ```python
 print(tr.stats.network) 
 print(tr.stats.npts)
 ```
 
-```
+  ```
 PB 
 30000
 ```
 
 - make simple plots of traces
-
 ```python
 tr.plot();
 ```
