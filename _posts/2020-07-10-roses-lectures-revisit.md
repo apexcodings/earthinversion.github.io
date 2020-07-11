@@ -745,7 +745,8 @@ st_rem.plot()
 
   print(st_rem[0].stats.sampling_rate)
   st_rem.remove_response(output = 'VEL', plot = True, pre_filt=[0.0036, 0.006, 0.1, 0.5])
-  st.plot() st_rem.plot(color='blue');
+  st.plot() 
+  st_rem.plot(color='blue');
   ```
     - pre_filt is specified in Hz
     - best not to work too close to Nyquist (highest freq should be no higher than about `0.75*fny`)
