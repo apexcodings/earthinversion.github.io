@@ -60,7 +60,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 (will first deactivate any previously activated environment)
 
 <h2 id="obspy">ObsPy: a Python toolbox for seismology</h2>
-- Download latex generated pdf of the "follow along jupyter notebook" by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
+- Download latex-generated-pdf of the "follow along jupyter notebook" by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40"></a>
 
 <h3>Outline</h3>
@@ -614,12 +614,16 @@ st_rem.plot()
 
 <p align="center">
   <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig33.jpg">
+    <figcaption>Source: Emily Wolin PPT</figcaption>
+
 </p>
 
 <br>
 
 <p align="center">
   <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig32.jpg">
+  <figcaption>Source: Emily Wolin PPT</figcaption>
+
 </p>
 
 - The goal is to explore different options in ObsPy’s `remove_response` method and how they affect the output signal after deconvolution.
@@ -762,5 +766,5 @@ st_rem.plot()
 
 <p align="center">
   <img width="60%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig34.jpg">
-  <figcaption>PSDs, PDFs, and noise models. At T>20s, horizontal components are usually noisier than verticals due to local tilt effects. Horizontal noise decreases with increasing depth of installation.</figcaption>
+  <figcaption>PSDs, PDFs, and noise models. At T>20s, horizontal components are usually noisier than verticals due to local tilt effects. Horizontal noise decreases with increasing depth of installation. Source: Emily Wolin PPT</figcaption>
 </p>
