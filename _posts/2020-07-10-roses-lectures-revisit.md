@@ -527,7 +527,7 @@ st_rem.plot()
   HHZ_times = st[2].times()
   ```
 
-  ```python
+  ```python 
   fig= plt.figure(figsize=(8,10))
   plt.subplot(311) 
   plt.plot(HH1_times, HH1_data)
