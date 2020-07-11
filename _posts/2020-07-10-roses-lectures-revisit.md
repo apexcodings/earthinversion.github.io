@@ -699,7 +699,7 @@ st_rem.plot()
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig26.jpg">
   </p>
 
-- By default, ObsPy removes the mean of the signal and applies a 5% cosine taper to the ends of the signal before removing the response: https://docs.obspy.org/packages/autogen/obspy.core.trace.Trace.remove_response.html
+- By default, ObsPy removes the mean of the signal and applies a 5% cosine taper to the ends of the signal before removing the response: [https://docs.obspy.org/packages/autogen/obspy.core.trace.Trace.remove_response.html]
 
 - What happens if we don’t remove the mean or taper the signal?? Let's also add a larger offset to the data to mimic a seismometer with masses that have drifted off-center (a common occurrence).
 
