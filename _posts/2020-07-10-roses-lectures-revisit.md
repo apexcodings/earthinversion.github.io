@@ -441,3 +441,165 @@ st_rem.plot()
   96000 
   96000
   ```
+
+  ```python
+  import matplotlib.pyplot as plt
+  plt.plot(times, data);
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig15.jpg">
+  </p>
+
+- to clean up this basic plot a bit
+
+  ```python
+  net = st[0].stats.network
+  sta = st[0].stats.station
+  loc = st[0].stats.location
+  chan = st[0].stats.channel
+  plt.plot(times, data)
+  plt.xlim(0,960)
+  plt.xlabel('Times (s)')
+  plt.ylabel('Ground velocity (m/s)')
+  plt.title(f'M7.1 Ridgecrest Earthquake - {net}.{sta}.{loc}.{chan}');
+  ```
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig16.jpg">
+  </p>
+
+- use subplots
+
+  ```python
+  time = UTCDateTime("2019-07-06T03:19:53.04") 
+  starttime = time - 60
+  endtime = time + 60*15
+
+  net = "IU" 
+  sta = "TUC" 
+  loc = "00" 
+  chan = "HH*"
+
+  st = client.get_waveforms(net, sta, loc, chan, starttime, endtime, attach_response = True)
+  print(st) 
+  st.remove_response(output = 'VEL') 
+  st.plot();
+  ```
+
+  ```
+  /Users/utpalkumar50/miniconda3/envs/roses/lib/python3.7/site-packages/obspy/io/stationxml/core.py:84: UserWarning: The StationXML file has version 1.1, ObsPy can deal with version 1.0. Proceed with caution.
+  root.attrib["schemaVersion"], SCHEMA_VERSION))
+
+  3 Trace(s) in Stream:
+  IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+  IU.TUC.00.HH2 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+  IU.TUC.00.HHZ | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig17.jpg">
+  </p>
+
+- Let’s plot each of these three channels on their own subplots
+
+  ```python
+  for i in range(3): 
+    st[i].plot();
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig18.jpg">
+  </p>
+
+  ```python
+  HH1_data = st[0].data 
+  HH1_times = st[0].times()
+
+  HH2_data = st[1].data
+  HH2_times = st[1].times()
+
+  HHZ_data = st[2].data 
+  HHZ_times = st[2].times()
+  ```
+
+  ```python
+  fig= plt.figure(figsize=(8,10))
+  plt.subplot(311) 
+  plt.plot(HH1_times, HH1_data)
+
+  plt.subplot(312) 
+  plt.plot(HH2_times, HH2_data)
+
+  plt.subplot(313) 
+  plt.plot(HHZ_times, HHZ_data)
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig19.jpg">
+  </p>
+
+- let’s clean it up with some labels, like we did last time, and add some other features like legends and colors
+
+  ```python
+  fig = plt.figure(figsize = (8,10))
+  plt.suptitle(f"M7.1 Ridgecrest Earthquake - {net}.{sta}.{loc}",fontsize=20) 
+
+  plt.subplot(311)
+  plt.plot(HH1_times, HH1_data, label='HH1', color='C0')
+  plt.xlim(0,960)
+  plt.ylabel('Ground velocity (m/s)',fontsize=14)
+  plt.legend()
+
+  plt.subplot(312)
+  plt.plot(HH2_times, HH2_data, label='HH2', color='C1') 
+  plt.xlim(0,960)
+  plt.ylabel('Ground velocity (m/s)',fontsize=14) 
+  plt.legend()
+
+  plt.subplot(313)
+  plt.plot(HHZ_times, HHZ_data, label='HHZ', color='C2') 
+  plt.xlim(0,960)
+  plt.ylabel('Ground velocity (m/s)',fontsize=14) plt.legend()
+  plt.xlabel('Times (s)', fontsize=14);
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig20.jpg">
+  </p>
+
+- plotting UTC times on the x-axis, rather than just seconds from zero, using `matplotlib.dates`
+
+  ```python
+  import matplotlib.dates as mdates
+  chan = 'HH1'
+  HH1_times_mpl = st[0].times(type = 'matplotlib')
+
+  fig, ax = plt.subplots()
+  ax.plot(HH1_times_mpl,HH1_data) 
+  ax.set_xlim(HH1_times_mpl[0],HH1_times_mpl[-1]) 
+  ax.set_xlabel('UTC Time')
+  ax.set_ylabel('Ground velocity (m/s)')
+  ax.set_title(f"M7.1 Ridgecrest Earthquake - {net}.{sta}.{loc}");
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig21.jpg">
+  </p>
+
+- we need to make the dates on the x-axis actually useful. We can do this with a locator.
+
+  ```python
+  fig, ax = plt.subplots()
+  ax.plot(HH1_times_mpl, HH1_data)
+  ax.set_xlim(HH1_times_mpl[0], HH1_times_mpl[-1])
+  ax.set_xlabel("UTC Time")
+  ax.set_ylabel("Ground Velocity (m/s)")
+  ax.set_title("M7.1 Ridgecrest Earthquake - " + net + "." + sta + "." + loc + "." + chan);
+
+  locator = ax.xaxis.set_major_locator(mdates.AutoDateLocator()) 
+  ax.xaxis.set_major_formatter(mdates.ConciseDateFormatter(locator))
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig22.jpg">
+  </p>
