@@ -623,7 +623,7 @@ st_rem.plot()
   client = Client("IRIS")
   ```
 
-- List of available clients: https://docs.obspy.org/packages/obspy.clients.fdsn.html
+- List of available clients: [https://docs.obspy.org/packages/obspy.clients.fdsn.html]
 
   ```python
   # Edit this to request metadata from your favorite station(s)
