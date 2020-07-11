@@ -265,12 +265,13 @@ root.attrib["schemaVersion"], SCHEMA_VERSION))
   print(st_rem) 
   print(st)
   ``` 
-```
-1 Trace(s) in Stream:
-IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
-1 Trace(s) in Stream:
-IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
-```
+
+  ```
+  1 Trace(s) in Stream:
+  IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+  1 Trace(s) in Stream:
+  IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+  ```
 
   ```python
   st_rem.remove_response(output='VEL') #DISP, ACC 
@@ -280,10 +281,10 @@ IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
   # response from st_rem. If you want to do it again and try something else, you either have to make a new copy
   # of the original st again, or go back and re-run the previous cell that copied st.
   ```
-<p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig7.jpg">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig8.jpg">
-</p>
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig7.jpg">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig8.jpg">
+  </p>
 
 - We can visualize what remove_response is doing by using the `plot = True` option
 ```python
