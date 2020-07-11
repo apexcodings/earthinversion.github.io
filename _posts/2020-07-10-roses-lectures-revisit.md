@@ -64,7 +64,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 <h3>Outline</h3>
 1. <a href="#obspy-reading-data-file">Reading data from a file</a>
 2. <a href="#obspy-downloading-data">Downloading data from online repositories</a>
-3. Removing instrument response
+3. <a href="#removing-instrument-response">Removing instrument response</a>
 4. Writing data to a file
 5. Some Obspy stream and trace methods
 6. Plotting with Matplotlib
@@ -229,3 +229,67 @@ IU.TUC.00.HHZ | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig5.jpg">
   </p>
+
+<h2 id="removing-instrument-response">Removing instrument response</h2>
+- without removing the instrument response, the data is quantitaitvely meaningless [see Havskov and Alguacil, 2015](https://books.google.com.tw/books?id=5PPuCgAAQBAJ&pg=PA197&lpg=PA197&dq=10.1007/978-3-319-21314-9_6&source=bl&ots=R_XJrZxu59&sig=ACfU3U2YdUF5_nlVwRFs0Hbvdm5fHI7_Xw&hl=en&sa=X&q=10.1007/978-3-319-21314-9_6&redir_esc=y#v=snippet&q=10.1007%2F978-3-319-21314-9_6&f=false).
+
+  ```python
+time = UTCDateTime("2019-07-06T03:19:53.04") 
+starttime = time - 60
+endtime = time + 60*15
+
+net = "IU" 
+sta = "TUC" 
+loc = "00" 
+chan = "HH1"
+
+st = client.get_waveforms(net, sta, loc, chan, starttime, endtime,␣ 􏰀→attach_response = True)
+print(st) 
+st.plot();
+```
+```
+1 Trace(s) in Stream:
+IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+/Users/utpalkumar50/miniconda3/envs/roses/lib/python3.7/site- packages/obspy/io/stationxml/core.py:84: UserWarning: The StationXML file has version 1.1, ObsPy can deal with version 1.0. Proceed with caution.
+root.attrib["schemaVersion"], SCHEMA_VERSION))
+```
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig6.jpg">
+</p>
+```python
+## To remove the response, it is a good practice to copy the stream
+st_rem = st.copy() 
+print(st_rem) 
+print(st)
+``` 
+```
+1 Trace(s) in Stream:
+IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+1 Trace(s) in Stream:
+IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+```
+
+  ```python
+st_rem.remove_response(output='VEL') #DISP, ACC 
+st.plot()
+st_rem.plot()
+# Remember, if you run this cell multiple times, your output will be strange because you already removed the
+# response from st_rem. If you want to do it again and try something else, you either have to make a new copy
+# of the original st again, or go back and re-run the previous cell that copied st.
+```
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig7.jpg">
+</p>
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig8.jpg">
+</p>
+
+- We can visualize what remove_response is doing by using the `plot = True` option
+```python
+st_rem = st.copy() # repeating this since the last cell will have removed the response from st_rem already
+st_rem.remove_response(output='VEL', plot=True) # other options: output = 'DISP', 'ACC'
+```
+```
+1 Trace(s) in Stream:
+IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+```
