@@ -66,7 +66,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 2. <a href="#obspy-downloading-data">Downloading data from online repositories</a>
 3. <a href="#removing-instrument-response">Removing instrument response</a>
 4. <a href="#writing-data-into-file">Writing data to a file</a>
-5. Some Obspy stream and trace methods
+5. <a href="some-stream-trace-method">Some Obspy stream and trace methods</a>
 6. Plotting with Matplotlib
 
 <h3 id="obspy-reading-data-file">Reading data from a file</h3>
@@ -331,3 +331,5 @@ st_rem.plot()
   <p align="center">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig11.jpg">
   </p>
+
+<h3 id="some-stream-trace-method">Some Stream and Trace Methods</h3>
