@@ -370,3 +370,18 @@ st_rem.plot()
   mseed: AttribDict({'dataquality': 'M', 'number_of_records': 1715,
   'encoding': 'FLOAT64', 'byteorder': '>', 'record_length': 512, 'filesize': 878080})
   ```
+
+  ```python
+  #say we want to chop 6 minutes off the end of this trace, and 2 minutes off the front
+  starttime = st[0].stats.starttime + 2*60 
+  endtime = st[0].stats.endtime - 6*60
+
+  st_trim = st_filt.copy() 
+  st_trim.trim(starttime=starttime, endtime=endtime) 
+  st_filt.plot()
+  st_trim.plot()
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig13.jpg">
+  </p>
