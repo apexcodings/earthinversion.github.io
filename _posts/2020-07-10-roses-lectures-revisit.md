@@ -232,7 +232,7 @@ IU.TUC.00.HHZ | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 
 <h2 id="removing-instrument-response">Removing instrument response</h2>
 
-- without removing the instrument response, the data is quantitaitvely meaningless [see Havskov and Alguacil, 2015](https://books.google.com.tw/books?id=5PPuCgAAQBAJ&pg=PA197&lpg=PA197&dq=10.1007/978-3-319-21314-9_6&source=bl&ots=R_XJrZxu59&sig=ACfU3U2YdUF5_nlVwRFs0Hbvdm5fHI7_Xw&hl=en&sa=X&q=10.1007/978-3-319-21314-9_6&redir_esc=y#v=snippet&q=10.1007%2F978-3-319-21314-9_6&f=false).
+- without removing the instrument response, the data is quantitaitvely meaningless (see[ Havskov and Alguacil, 2015](https://books.google.com.tw/books?id=5PPuCgAAQBAJ&pg=PA197&lpg=PA197&dq=10.1007/978-3-319-21314-9_6&source=bl&ots=R_XJrZxu59&sig=ACfU3U2YdUF5_nlVwRFs0Hbvdm5fHI7_Xw&hl=en&sa=X&q=10.1007/978-3-319-21314-9_6&redir_esc=y#v=snippet&q=10.1007%2F978-3-319-21314-9_6&f=false)).
 ```python
 time = UTCDateTime("2019-07-06T03:19:53.04") 
 starttime = time - 60
@@ -279,8 +279,6 @@ st_rem.plot()
 ```
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig7.jpg">
-</p>
-<p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig8.jpg">
 </p>
 
