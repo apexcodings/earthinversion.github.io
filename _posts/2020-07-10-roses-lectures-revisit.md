@@ -333,3 +333,17 @@ st_rem.plot()
   </p>
 
 <h3 id="some-stream-trace-method">Some Stream and Trace Methods</h3>
+- The stream and trace objects in Obspy both have a number of public methods that can be used to modify the data.
+<h4>Filtering</h4>
+- One thing we might want to do is look at a specific frequency range of data in our earthquake. We can use the “filter” method for this.
+
+  ```python
+  #bandpass filter
+  st_filt = st.copy()
+  st_filt.filter('bandpass',freqmin = 1.0, freqmax = 20.0) 
+  st.plot()
+  st_filt.plot()
+  ```
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig12.jpg">
+  </p>
