@@ -1,7 +1,8 @@
 ---
 title: "Remote Online Sessions for Emerging Seismologists (ROSES) Lectures: Revisited [Python]"
 date: 2020-07-10
-tags: [geophysics, roses, agu, iris, obspy, anaconda, read seismic traces, seismology]
+last_modified_at: 2020-07-11
+tags: [geophysics, roses, agu, iris, obspy, anaconda, read seismic traces, seismology, removing instrument response, writing stream to file, filtering, trimming data, changing sampling rates, matplotlib]
 excerpt: "ROSES lecture notes"
 classes:
   - wide
