@@ -255,9 +255,9 @@ IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 /Users/utpalkumar50/miniconda3/envs/roses/lib/python3.7/site- packages/obspy/io/stationxml/core.py:84: UserWarning: The StationXML file has version 1.1, ObsPy can deal with version 1.0. Proceed with caution.
 root.attrib["schemaVersion"], SCHEMA_VERSION))
 ```
-<p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig6.jpg">
-</p>
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig6.jpg">
+  </p>
 
   ```python
   ## To remove the response, it is a good practice to copy the stream
