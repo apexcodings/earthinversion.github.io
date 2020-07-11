@@ -13,7 +13,7 @@ classes:
 
 Three mysterious explosion sounds were heard in the coastal towns of Tamsui, west of Taipei in northern Taiwan, in the early evening of December 5, 2013. The event left clear signals that are identified in the recordings of 12 regional seismometers and 3 infrasound sensors and processed by means of travel time analysis. The apparent velocity of \\( ∼ 330 m/s \\) of the signals confirms that the energy transmission was through the atmosphere, and the characteristics of the waveforms suggest the meteor-generated shockwaves. We use the graphical method as well as the Genetic Algorithm optimization approach to constrain the trajectory of the meteor and to locate its projected intercept with the ground \\( (25.33 N, 121.26 E) \\), approximately 20 km off the coast of Tamsui. The trajectory has azimuth (measured from north in a map view in the clockwise direction) of \\( 303^{\circ} \\) and (near-vertical) elevation angle of \\( 70^{\circ} \\). From the observed period of 1.3 s at the maximum amplitude of the infrasound signal, we estimate by conventional scaling law that the meteor in question had impact energy on the order of \\( 5 \times 10^{10} \\) J (equivalent to an earthquake of local magnitude 4) or roughly a size of \\( ∼ 0.5 \\) m across.
 
-<figure class="half">
+<figure class="half2">
 <a href="https://link.springer.com/article/10.1186/s40562-017-0079-2"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig1.jpg" alt="tamsui fig 1" style="width:50%"></a>
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig3.jpg" alt="tamsui_fig3">
 </figure>
@@ -124,7 +124,7 @@ The island of Taiwan is subject to active orogeny and associated seismicity as e
 
 <br>
 
-<figure class="third">
+<figure class="third2">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeU.png" alt="EastCoastStns_slopeU">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeN.png" alt="EastCoastStns_slopeN">
 <img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeE.png" alt="EastCoastStns_slopeE">
