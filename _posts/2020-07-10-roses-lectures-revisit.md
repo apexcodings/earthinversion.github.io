@@ -347,3 +347,15 @@ st_rem.plot()
   <p align="center">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig12.jpg">
   </p>
+
+<h4>Trimming data</h4>
+- You can shorten a stream and remove unwanted data with the “trim” method.
+
+  ```python
+  print(st[0].stats)
+  ```
+
+  ```
+  network: IU
+  station: TUC
+  ```
