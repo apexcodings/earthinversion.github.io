@@ -355,21 +355,21 @@ st_rem.plot()
   print(st[0].stats)
   ```
 
-  ```
-  network: IU
-  station: TUC
-  location: 00
-  channel: HH1
-  starttime: 2019-07-06T03:18:53.048393Z 
-  endtime: 2019-07-06T03:34:53.038393Z
-  sampling_rate: 100.0 
-  delta: 0.01
-  npts: 96000 
-  calib: 1.0
-  _format: MSEED
-  mseed: AttribDict({'dataquality': 'M', 'number_of_records': 1715,
-  'encoding': 'FLOAT64', 'byteorder': '>', 'record_length': 512, 'filesize': 878080})
-  ```
+    ```
+    network: IU
+    station: TUC
+    location: 00
+    channel: HH1
+    starttime: 2019-07-06T03:18:53.048393Z 
+    endtime: 2019-07-06T03:34:53.038393Z
+    sampling_rate: 100.0 
+    delta: 0.01
+    npts: 96000 
+    calib: 1.0
+    _format: MSEED
+    mseed: AttribDict({'dataquality': 'M', 'number_of_records': 1715,
+    'encoding': 'FLOAT64', 'byteorder': '>', 'record_length': 512, 'filesize': 878080})
+    ```
 
   ```python
   #say we want to chop 6 minutes off the end of this trace, and 2 minutes off the front
