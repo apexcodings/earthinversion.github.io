@@ -248,7 +248,7 @@ figure {
         width: calc(50% - 0.5em);
       }
     }
-    
+
     > img {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
@@ -264,6 +264,12 @@ figure {
 
   &.third {
     > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(33.3333% - 0.5em);
+      }
+    }
+    
     > img {
       @include breakpoint($small) {
         width: calc(33.3333% - 0.5em);
