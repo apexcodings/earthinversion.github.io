@@ -6,7 +6,7 @@ excerpt: "Python code to automatically plot the record section for the highest m
 classes:
   - wide
 ---
-A seismic record section displays numerous seismic records in a single figure.
+A seismic record section displays numerous seismic records in a single figure. The ray paths of the seismic waves are curved due to increasing velocity with depth. Hence, the longer the distance to the station from the event, the deeper the ray goes.
 
 Download the complete script: 
 <a href="https://github.com/earthinversion/automated_seismic_record_section.git" download="Codes">
