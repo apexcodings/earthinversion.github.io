@@ -124,10 +124,10 @@ The island of Taiwan is subject to active orogeny and associated seismicity as e
 
 <br>
 
-<figure class="third2">
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeU.png" alt="EastCoastStns_slopeU">
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeN.png" alt="EastCoastStns_slopeN">
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeE.png" alt="EastCoastStns_slopeE">
+<figure class="third">
+<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeU.png" alt="EastCoastStns_slopeU"></a>
+<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeN.png" alt="EastCoastStns_slopeN"></a>
+<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeE.png" alt="EastCoastStns_slopeE"></a>
 <figcaption>Linear Trend Plot of GPS data for (a) Vertical (b) North and (c) East components </figcaption>
 </figure>
 

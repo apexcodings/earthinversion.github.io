@@ -255,41 +255,9 @@ figure {
     }
   }
 
-  &.half2 {
-    > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-    > img {
-      @include breakpoint($small) {
-        width: calc(50% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-      text-align: center;
-    }
-  }
 
   &.third {
     > a,
-    > img {
-      @include breakpoint($small) {
-        width: calc(33.3333% - 0.5em);
-      }
-    }
-
-    figcaption {
-      width: 100%;
-      text-align: center;
-    }
-  }
-
-  &.third2 {
-
     > img {
       @include breakpoint($small) {
         width: calc(33.3333% - 0.5em);
