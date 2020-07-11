@@ -258,12 +258,12 @@ root.attrib["schemaVersion"], SCHEMA_VERSION))
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig6.jpg">
 </p>
-```python
-## To remove the response, it is a good practice to copy the stream
-st_rem = st.copy() 
-print(st_rem) 
-print(st)
-``` 
+  ```python
+  ## To remove the response, it is a good practice to copy the stream
+  st_rem = st.copy() 
+  print(st_rem) 
+  print(st)
+  ``` 
 ```
 1 Trace(s) in Stream:
 IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
