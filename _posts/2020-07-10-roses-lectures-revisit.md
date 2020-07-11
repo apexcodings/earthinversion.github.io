@@ -272,13 +272,13 @@ IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 ```
 
   ```python
-st_rem.remove_response(output='VEL') #DISP, ACC 
-st.plot()
-st_rem.plot()
-# Remember, if you run this cell multiple times, your output will be strange because you already removed the
-# response from st_rem. If you want to do it again and try something else, you either have to make a new copy
-# of the original st again, or go back and re-run the previous cell that copied st.
-```
+  st_rem.remove_response(output='VEL') #DISP, ACC 
+  st.plot()
+  st_rem.plot()
+  # Remember, if you run this cell multiple times, your output will be strange because you already removed the
+  # response from st_rem. If you want to do it again and try something else, you either have to make a new copy
+  # of the original st again, or go back and re-run the previous cell that copied st.
+  ```
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig7.jpg">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig8.jpg">
