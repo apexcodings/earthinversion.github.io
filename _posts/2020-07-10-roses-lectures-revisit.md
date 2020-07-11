@@ -234,6 +234,7 @@ IU.TUC.00.HHZ | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 <h3 id="removing-instrument-response">Removing instrument response</h3>
 
 - without removing the instrument response, the data is quantitaitvely meaningless
+
 ```python
 time = UTCDateTime("2019-07-06T03:19:53.04") 
 starttime = time - 60
@@ -244,7 +245,7 @@ sta = "TUC"
 loc = "00" 
 chan = "HH1"
 
-st = client.get_waveforms(net, sta, loc, chan, starttime, endtime,␣ 􏰀→attach_response = True)
+st = client.get_waveforms(net, sta, loc, chan, starttime, endtime, attach_response = True)
 print(st) 
 st.plot();
 ```
