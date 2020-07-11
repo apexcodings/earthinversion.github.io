@@ -14,11 +14,12 @@ classes:
 - __ROSES__: Remote Online Sessions for Emerging Seismologists
 - Organized by: [AGU]( https://www.agu.org), 2020
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
+- WARNING: THIS POST IS MY NOTES OF THE LECTURES
 
 ## Contents
 - <a href="#prelecture">Pre-lecture preparation</a>
 - <a href="#obspy">ObsPy: a Python toolbox for seismology</a> by Sydney Dybing
-- __Data and Metadata__ by Emily Wolin 
+- <a href="#data-and-metadata">Data and Metadata</a> by Emily Wolin   
 - __Time Series Analysis__ by German A. Prieto 
 - 7/14 (T) _Waveform Cross Correlation_ by Elizabeth Berg 
 - 7/21 (T) _Array Seismology/Network Analysis_ by Stephen Arrowsmith 
@@ -606,4 +607,94 @@ st_rem.plot()
 
   <p align="center">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig22.jpg">
+  </p>
+
+
+<h2 id="data-and-metadata">Data and Metadata</h2>
+
+- The goal is to explore different options in ObsPy’s remove_response method and how they affect the output signal after deconvolution.
+
+- start with the usual imports
+
+  ```python
+  import obspy
+  from obspy.clients.fdsn import Client
+  # Edit client to use your data center of interest
+  client = Client("IRIS")
+  ```
+
+- List of available clients: https://docs.obspy.org/packages/obspy.clients.fdsn.html
+
+  ```python
+  # Edit this to request metadata from your favorite station(s)
+  t1 = obspy.UTCDateTime("2020-07-01")
+  inv = client.get_stations(network="IW", station="PLID", channel="BHZ",level="response", starttime=t1)
+  inv += client.get_stations(network="GS", station="PR01", channel="HHZ",level="response", starttime=t1)
+  # may get a warning about StationXML1.1 -- OK to ignore it
+  ```
+
+  ```
+  /Users/utpalkumar50/miniconda3/envs/roses/lib/python3.7/site- packages/obspy/io/stationxml/core.py:84: UserWarning: The StationXML file has version 1.1, ObsPy can deal with version 1.0. Proceed with caution.
+  root.attrib["schemaVersion"], SCHEMA_VERSION))
+  ```
+
+  ```python
+  inv.plot_response(min_freq=1e-3) 
+  inv.write("inventory.xml", format="stationxml") 
+  print(inv)
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig23.jpg">
+  </p>
+
+  ```
+  Inventory created at 2020-07-02T17:21:09.802508Z 
+  Created by: ObsPy 1.1.0
+  https://www.obspy.org Sending institution: IRIS-DMC (IRIS-DMC)
+  Contains:
+          Networks (2):
+                  GS, IW
+          Stations (2):
+                  GS.PR01 (PR01, Lajas)
+                  IW.PLID (Pearl Lake, Idaho, USA) 
+          Channels (2):
+                  GS.PR01.00.HHZ, IW.PLID.00.BHZ
+  ```
+
+- Let’s revisit the example in the previous lecture (__Obspy__) using the 2019 M7.1 Ridgecrest earthquake and GSN station IU.TUC in Tucson, Arizona.
+
+  ```python
+  time = obspy.UTCDateTime("2019-07-06T03:19:53.04") 
+  starttime = time - 60
+  endtime = time + 60*15
+  net = "IU" 
+  sta = "TUC" 
+  loc = "00" 
+  chan = "HH1"
+
+  # Requesting waveforms with attach_response=True tells ObsPy to request an inventory object for the channels requested.
+  st = client.get_waveforms(net, sta, loc, chan, starttime, endtime, attach_response = True)
+  print(st)
+  st_rem = st.copy() # make a copy of our original stream so we can try different options later
+  st_rem.remove_response(output = 'VEL', plot = True) # Use ObsPy defaults to remove response
+
+  # What happens if you choose a different water_level? What if you set water_level = 0?
+  st.plot() 
+  st_rem.plot(color='red');
+  # Remember, if you remove the response from the same trace multiple times, your output will be strange (and non-physical).
+  # This is why we make a new copy of st for each example below.
+  ```
+
+  ```
+  /Users/utpalkumar50/miniconda3/envs/roses/lib/python3.7/site- packages/obspy/io/stationxml/core.py:84: UserWarning: The StationXML file has version 1.1, ObsPy can deal with version 1.0. Proceed with caution.
+  root.attrib["schemaVersion"], SCHEMA_VERSION))
+  1 Trace(s) in Stream:
+  IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig24.jpg">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig25.jpg">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig26.jpg">
   </p>
