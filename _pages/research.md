@@ -15,7 +15,7 @@ Three mysterious explosion sounds were heard in the coastal towns of Tamsui, wes
 
 <figure class="half">
 <a href="https://link.springer.com/article/10.1186/s40562-017-0079-2"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig1.jpg" alt="tamsui fig 1"></a>
-<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig3.jpg" alt="tamsui_fig3"></a>
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig3.jpg" alt="tamsui_fig3">
 </figure>
 
 ### Anisotropic Rayleigh Wave Phase Velocity Maps of Gujarat, India [Manuscript in Preparation]
