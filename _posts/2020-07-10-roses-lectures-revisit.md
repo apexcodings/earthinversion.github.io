@@ -78,9 +78,9 @@ print(st)
 ```
 
   ```
-1 Trace(s) in Stream:
-PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
-```
+  1 Trace(s) in Stream:
+  PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
+  ```
 
 - Access the trace object
 ```python
@@ -89,8 +89,8 @@ print(tr)
 ```
 
   ```
-PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
-```
+  PB.B082..EHZ | 2010-04-04T22:40:42.368400Z - 2010-04-04T22:45:42.358400Z | 100.0 Hz, 30000 samples
+  ```
 
 - View the data and metadata
 ```python
