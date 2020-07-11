@@ -258,6 +258,7 @@ root.attrib["schemaVersion"], SCHEMA_VERSION))
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig6.jpg">
 </p>
+
   ```python
   ## To remove the response, it is a good practice to copy the stream
   st_rem = st.copy() 
