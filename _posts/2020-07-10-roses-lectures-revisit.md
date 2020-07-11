@@ -67,7 +67,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 3. <a href="#removing-instrument-response">Removing instrument response</a>
 4. <a href="#writing-data-into-file">Writing data to a file</a>
 5. <a href="#some-stream-trace-method">Some Obspy stream and trace methods</a>
-6. Plotting with Matplotlib
+6. <a href="#matplotlib">Plotting with Matplotlib</a>
 
 <h3 id="obspy-reading-data-file">Reading data from a file</h3>
 - With the `read` function, you basically just only need the path to the file on your computer.
@@ -385,3 +385,59 @@ st_rem.plot()
   <p align="center">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig13.jpg">
   </p>
+
+- While trimming data, you also have an option to fill gaps with a value, and for this you just set `fill_value=somenumber` in the method after defining the start and end time.
+
+<h4>Changing sampling rates</h4>
+
+- There are three methods in Obspy for changing the sampling rates of data in a stream or trace:
+  1. Decimate: downsamples data by an integer factor
+  2. Interpolate: increase sampling rate by interpolating (many method options)
+  3. Resample: resamples data using a Fourier method
+
+  ```python
+  st_trim[0].stats.sampling_rate
+  ```
+  ```
+  100.0
+  ```
+
+  ```python
+  st_dec = st_trim.copy() 
+  st_dec.decimate(10) 
+  st_trim.plot() 
+  st_dec.plot()
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig14.jpg">
+  </p>
+
+- check the stats again
+
+  ```python
+  st_dec[0].stats.sampling_rate
+  ```
+  ```
+  10.0
+  ```
+
+<h3 id="matplotlib">Matplotlib</h3>
+
+- Let’s examine how we can make some basic plots of seismic data in Matplotlib.
+
+  ```python
+  data = st[0].data 
+  times = st[0].times()
+  print(data)
+  print(times)
+  print(len(data))
+  print(len(times))
+  ```
+
+  ```
+  [-9.40377808e-07 -9.38652106e-07 -9.40177916e-07 ... -9.52581960e-07 -1.10261625e-06 -9.28648806e-07]
+  [0.0000e+00 1.0000e-02 2.0000e-02 ... 9.5997e+02 9.5998e+02 9.5999e+02]
+  96000 
+  96000
+  ```
