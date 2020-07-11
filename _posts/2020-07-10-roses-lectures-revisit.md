@@ -312,3 +312,19 @@ st_rem.plot()
   filename = f'{sta}_{chan}.mseed' 
   st_rem.write(filename, format='MSEED')
   ```
+  ```
+  /Users/utpalkumar50/miniconda3/envs/roses/lib/python3.7/site- packages/obspy/io/mseed/core.py:772: UserWarning: The encoding specified in trace.stats.mseed.encoding does not match the dtype of the data.
+  A suitable encoding will be chosen.
+  warnings.warn(msg, UserWarning)
+  ```
+
+  ```python
+   st = read('TUC_HH1.mseed') 
+   print(st)
+  st.plot()
+  ```
+  ```
+  1 Trace(s) in Stream:
+  IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.0 Hz, 96000 samples
+  ```
+  
