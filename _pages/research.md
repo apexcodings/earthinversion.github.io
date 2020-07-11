@@ -15,7 +15,7 @@ Three mysterious explosion sounds were heard in the coastal towns of Tamsui, wes
 
 <figure class="half2">
 <a href="https://link.springer.com/article/10.1186/s40562-017-0079-2"><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig1.jpg" alt="tamsui fig 1" style="width:50%"></a>
-<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig3.jpg" alt="tamsui_fig3">
+<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/tamsui_fig3.jpg" alt="tamsui_fig3"></a>
 </figure>
 
 ### Anisotropic Rayleigh Wave Phase Velocity Maps of Gujarat, India [Manuscript in Preparation]
@@ -124,12 +124,11 @@ The island of Taiwan is subject to active orogeny and associated seismicity as e
 
 <br>
 
-<figure class="third">
-<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeU.png" alt="EastCoastStns_slopeU"></a>
-<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeN.png" alt="EastCoastStns_slopeN"></a>
-<a><img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slopeE.png" alt="EastCoastStns_slopeE"></a>
+<p align="center">
+<img src="{{ site.url }}{{ site.baseurl }}/images/myResearch/EastCoastStns_slope.png" alt="EastCoastStns_slope" style="width:100%">
 <figcaption>Linear Trend Plot of GPS data for (a) Vertical (b) North and (c) East components </figcaption>
-</figure>
+</p>
+
 
 
 ## OTHER NOTABLE PROJECTS
