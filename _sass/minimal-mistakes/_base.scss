@@ -256,6 +256,12 @@ figure {
   }
 
   &.half2 {
+    > a,
+    > img {
+      @include breakpoint($small) {
+        width: calc(50% - 0.5em);
+      }
+    }
     > img {
       @include breakpoint($small) {
         width: calc(50% - 0.5em);
