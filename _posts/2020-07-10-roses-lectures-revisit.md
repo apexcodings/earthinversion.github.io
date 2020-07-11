@@ -760,6 +760,6 @@ st_rem.plot()
   </p>
 
 <p align="center">
-  <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig34.jpg">
+  <img width="60%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig34.jpg">
   <figcaption>PSDs, PDFs, and noise models. At T>20s, horizontal components are usually noisier than verticals due to local tilt effects. Horizontal noise decreases with increasing depth of installation.</figcaption>
 </p>
