@@ -66,7 +66,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 2. <a href="#obspy-downloading-data">Downloading data from online repositories</a>
 3. <a href="#removing-instrument-response">Removing instrument response</a>
 4. <a href="#writing-data-into-file">Writing data to a file</a>
-5. <a href="some-stream-trace-method">Some Obspy stream and trace methods</a>
+5. <a href="#some-stream-trace-method">Some Obspy stream and trace methods</a>
 6. Plotting with Matplotlib
 
 <h3 id="obspy-reading-data-file">Reading data from a file</h3>
@@ -358,4 +358,15 @@ st_rem.plot()
   ```
   network: IU
   station: TUC
+  location: 00
+  channel: HH1
+  starttime: 2019-07-06T03:18:53.048393Z 
+  endtime: 2019-07-06T03:34:53.038393Z
+  sampling_rate: 100.0 
+  delta: 0.01
+  npts: 96000 
+  calib: 1.0
+  _format: MSEED
+  mseed: AttribDict({'dataquality': 'M', 'number_of_records': 1715,
+  'encoding': 'FLOAT64', 'byteorder': '>', 'record_length': 512, 'filesize': 878080})
   ```
