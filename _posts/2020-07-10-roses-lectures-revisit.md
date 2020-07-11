@@ -7,6 +7,7 @@ excerpt: "ROSES lecture notes"
 classes:
   - wide
 ---
+- WARNING: THIS POST IS MY "EASILY-ACCESSIBLE" NOTES OF THE LECTURES. I share it on my blog with the hope that it may be useful for other seismologists as well.
 
 ## Introduction to ROSES
 > Amidst many choices for on-learning, on-line networking, and on-line collaboration, the ROSES 2020 summer school will run once a week for 11 weeks, starting on June 25. The school is targeted towards advanced Ph.D. students, who have used Python before and are familiar navigating in Linux/Unix.
@@ -14,7 +15,6 @@ classes:
 - __ROSES__: Remote Online Sessions for Emerging Seismologists
 - Organized by: [AGU]( https://www.agu.org), 2020
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
-- WARNING: THIS POST IS MY NOTES OF THE LECTURES
 
 ## Contents
 - <a href="#prelecture">Pre-lecture preparation</a>
@@ -697,4 +697,54 @@ st_rem.plot()
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig24.jpg">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig25.jpg">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig26.jpg">
+  </p>
+
+- By default, ObsPy removes the mean of the signal and applies a 5% cosine taper to the ends of the signal before removing the response: https://docs.obspy.org/packages/autogen/obspy.core.trace.Trace.remove_response.html
+
+- What happens if we don’t remove the mean or taper the signal?? Let's also add a larger offset to the data to mimic a seismometer with masses that have drifted off-center (a common occurrence).
+
+  ```python
+  st_rem = st.copy() # repeating this since the last cell will have removed the response from st_rem already
+  # ObsPy's remove_response command automatically removes the mean and applies a 5% taper
+  # This supresses low and high-frequency artifacts
+
+  # What happens if you turn these off?
+  # Let's add a big offset to the data to exaggerate the effects st_rem[0].data = st_rem[0].data + 3e6
+  st_rem.remove_response(output = 'VEL', plot = True, taper=0, zero_mean=False)
+  st.plot() 
+  st_rem.plot(color='green');
+  ```
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig27.jpg">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig28.jpg">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig29.jpg">
+  </p>
+
+- use the pre_filt option to apply a filter to your data before removing the response. This helps stabilize the deconvolution and avoids blowing up long-period noise.
+
+  ```python
+  st_rem = st.copy() # repeating this since the last cell will have removed the response from st_rem already
+  # Use pre_filt command to filter the signal in your frequency band of interest 
+  # Here's an example with pre_filt parameters useful for surface-wave studies 
+  
+  # Experiment with changing the 4 frequencies to see how this modifies the red pre_filt curve in the first row of plots
+  # Try modifying it to a frequency band that emphasizes body waves (~1 s) and filters out surface waves (~10s-100s of sec)
+  
+  # Note: pre_filt is specified in Hz
+  # Remember: best not to work too close to Nyquist (highest freq should be no higher than about 0.75*fny)
+
+  print(st_rem[0].stats.sampling_rate)
+  st_rem.remove_response(output = 'VEL', plot = True, pre_filt=[0.0036, 0.006, 0.1, 0.5])
+  st.plot() st_rem.plot(color='blue');
+  ```
+    - pre_filt is specified in Hz
+    - best not to work too close to Nyquist (highest freq should be no higher than about `0.75*fny`)
+
+  ```
+  100.0
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig30.jpg">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig31.jpg">
   </p>
