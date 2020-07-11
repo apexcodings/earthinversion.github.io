@@ -6,6 +6,8 @@ excerpt: "Python code to automatically plot the record section for the highest m
 classes:
   - wide
 ---
+A seismic record section displays numerous seismic records in a single figure.
+
 Download the complete script: 
 <a href="https://github.com/earthinversion/automated_seismic_record_section.git" download="Codes">
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="seismicSection" width="40" height="40">
@@ -43,3 +45,6 @@ Download the complete script:
 
 
 Download the complete script [here](https://github.com/earthinversion/automated_seismic_record_section.git). 
+
+## References
+1. [Seismic record sections](https://pubs.geoscienceworld.org/geophysics/article-abstract/16/4/613/67001/Seismic-record-sections?redirectedFrom=fulltext)
