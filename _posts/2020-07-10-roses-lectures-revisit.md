@@ -296,3 +296,10 @@ IU.TUC.00.HH1 | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig9.jpg">
 </p>
+- data after removing the response
+```python
+st_rem.plot()
+```
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig10.jpg">
+</p>
