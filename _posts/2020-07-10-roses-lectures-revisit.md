@@ -612,7 +612,7 @@ st_rem.plot()
 
 <h2 id="data-and-metadata">Data and Metadata</h2>
 
-- The goal is to explore different options in ObsPy’s remove_response method and how they affect the output signal after deconvolution.
+- The goal is to explore different options in ObsPy’s `remove_response` method and how they affect the output signal after deconvolution.
 
 - start with the usual imports
 
