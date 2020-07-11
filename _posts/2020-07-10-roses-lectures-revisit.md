@@ -67,6 +67,9 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 3. <a href="#removing-instrument-response">Removing instrument response</a>
 4. <a href="#writing-data-into-file">Writing data to a file</a>
 5. <a href="#some-stream-trace-method">Some Obspy stream and trace methods</a>
+  - <a href="#filtering">Filtering</a>
+  - <a href="#trimming-data">Trimming data</a>
+  - <a href="#changing-sampling-rates">Changing sampling rates</a>
 6. <a href="#matplotlib">Plotting with Matplotlib</a>
 
 <h3 id="obspy-reading-data-file">Reading data from a file</h3>
@@ -334,7 +337,7 @@ st_rem.plot()
 
 <h3 id="some-stream-trace-method">Some Stream and Trace Methods</h3>
 - The stream and trace objects in Obspy both have a number of public methods that can be used to modify the data.
-<h4>Filtering</h4>
+<h4 id="filtering">Filtering</h4>
 - One thing we might want to do is look at a specific frequency range of data in our earthquake. We can use the “filter” method for this.
 
   ```python
@@ -348,7 +351,7 @@ st_rem.plot()
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig12.jpg">
   </p>
 
-<h4>Trimming data</h4>
+<h4 id="trimming-data">Trimming data</h4>
 - You can shorten a stream and remove unwanted data with the “trim” method.
 
   ```python
@@ -388,7 +391,7 @@ st_rem.plot()
 
 - While trimming data, you also have an option to fill gaps with a value, and for this you just set `fill_value=somenumber` in the method after defining the start and end time.
 
-<h4>Changing sampling rates</h4>
+<h4 id="changing-sampling-rates">Changing sampling rates</h4>
 
 - There are three methods in Obspy for changing the sampling rates of data in a stream or trace:
   1. Decimate: downsamples data by an integer factor
