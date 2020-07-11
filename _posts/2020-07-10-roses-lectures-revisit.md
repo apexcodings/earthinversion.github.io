@@ -612,6 +612,16 @@ st_rem.plot()
 
 <h2 id="data-and-metadata">Data and Metadata</h2>
 
+<p align="center">
+  <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig33.jpg">
+</p>
+
+<br>
+
+<p align="center">
+  <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig32.jpg">
+</p>
+
 - The goal is to explore different options in ObsPy’s `remove_response` method and how they affect the output signal after deconvolution.
 
 - start with the usual imports
@@ -748,3 +758,8 @@ st_rem.plot()
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig30.jpg">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig31.jpg">
   </p>
+
+<p align="center">
+  <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig34.jpg">
+  <figcaption>PSDs, PDFs, and noise models. At T>20s, horizontal components are usually noisier than verticals due to local tilt effects. Horizontal noise decreases with increasing depth of installation.</figcaption>
+</p>
