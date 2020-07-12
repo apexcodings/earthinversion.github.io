@@ -13,7 +13,7 @@ classes:
 2. <a href="#rename-files-in-batch">Renaming files in batch</a>
 3. <a href="#file-in-terminal">Opening the location of the file or folder in terminal</a>
 
-<h3 id="change-screenshot-location">How to change the location where Screenshot is saved <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></h3>
+<h3 id="change-screenshot-location">How to change the location where Screenshot is saved <a href="#top">BACK TO TOP <i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 I use screenshot frequently on Mac. It is super easy ([See here for details](https://support.apple.com/en-us/HT201361)).
 - Click `command`+`shift`+`3` to capture whole screen
 <p align="center">
