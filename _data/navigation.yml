@@ -1,18 +1,18 @@
 # main links
 main:
-  - title: '<i class="fa fa-list-alt" aria-hidden="true"></i> blogPosts'
+  - title: 'blogPosts'
     url: /recent-posts/
-  - title: '<i class="fa fa-globe" aria-hidden="true"></i> geophysicsPosts'
+  - title: 'geophysicsPosts'
     url: /geophysics-posts/
-  - title: '<i class="fa fa-laptop" aria-hidden="true"></i> lifeHacks'
+  - title: 'lifeHacks'
     url: /lifehacks/
-  - title: '<i class="fa fa-terminal fa-stack-1x fa-inverse"></i> webApps'
+  - title: 'webApps'
     url: /web-computing/
-  - title: '<i class="fa fa-skull-crossbones" aria-hidden="true"></i> myResearch'
+  - title: 'myResearch'
     url: /research/
-  - title: '<i class="fa fa-file-image-o" aria-hidden="true"></i> postsGallery'
+  - title: 'postsGallery'
     url: /gallery/
-  - title: '<i class="fa fa-male" aria-hidden="true"></i> aboutMe'
+  - title: 'aboutMe'
     url: /about-me/
   # - title: "Sample Posts"
   #   url: /year-archive/
