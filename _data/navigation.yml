@@ -6,13 +6,13 @@ main:
     url: /geophysics-posts/
   - title: '<i class="fa fa-laptop" aria-hidden="true"></i> lifeHacks'
     url: /lifehacks/
-  - title: '<i class="fa fa-chrome" aria-hidden="true"></i> webApps'
+  - title: '<i class="fa fa-cog fa-spin fa-3x fa-fw"></i> webApps'
     url: /web-computing/
   - title: '<i class="fa fa-skull-crossbones" aria-hidden="true"></i> myResearch'
     url: /research/
-  - title: '<i class="fa fa-picture-o" aria-hidden="true"></i> postsGallery'
+  - title: '<i class="fa fa-file-image-o" aria-hidden="true"></i> postsGallery'
     url: /gallery/
-  - title: '<i class="fa fa-user" aria-hidden="true"></i> aboutMe'
+  - title: '<i class="fa fa-male" aria-hidden="true"></i> aboutMe'
     url: /about-me/
   # - title: "Sample Posts"
   #   url: /year-archive/
