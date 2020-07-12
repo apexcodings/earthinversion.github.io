@@ -300,6 +300,16 @@ figure {
     display: block;
     margin: 0 auto;
   }
+  a, 
+  > img {
+    height: 300px;
+    width: auto;
+    border-radius: $border-radius;
+    -webkit-transition: $global-transition;
+    transition: $global-transition;
+    display: block;
+    margin: 0 auto;
+  }
   .cardContainer {
     width: 100%;
     padding: 1px 10px 1px;
