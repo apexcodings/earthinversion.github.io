@@ -6,7 +6,10 @@ main:
     url: /geophysics-posts/
   - title: '<i class="fa fa-laptop" aria-hidden="true"></i> lifeHacks'
     url: /lifehacks/
-  - title: '<i class="fa fa-cog fa-spin fa-3x fa-fw"></i> webApps'
+  - title: '<span class="fa-stack fa-lg">
+  <i class="fa fa-square fa-stack-2x"></i>
+  <i class="fa fa-terminal fa-stack-1x fa-inverse"></i>
+</span> webApps'
     url: /web-computing/
   - title: '<i class="fa fa-skull-crossbones" aria-hidden="true"></i> myResearch'
     url: /research/
