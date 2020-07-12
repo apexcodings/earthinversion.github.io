@@ -13,7 +13,7 @@ classes:
 2. <a href="#rename-files-in-batch">Renaming files in batch</a>
 3. <a href="#file-in-terminal">Opening the location of the file or folder in terminal</a>
 
-<h3 id="change-screenshot-location">How to change the location where Screenshot is saved <a href="#top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+<h3 id="change-screenshot-location">How to change the location where Screenshot is saved <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 I use screenshot frequently on Mac. It is super easy ([See here for details](https://support.apple.com/en-us/HT201361)).
 - Click `command`+`shift`+`3` to capture whole screen
 <p align="center">
@@ -40,7 +40,7 @@ defaults write com.apple.screencapture ~/Documents/SCREENSHOTS
 killall SystemUIServer
 ```
 
-<h3 id="rename-files-in-batch">Renaming files in batch <a href="#top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+<h3 id="rename-files-in-batch">Renaming files in batch <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 I like to keep different versions of the file in the local disks (there are other ways to manage versions such as GitHub and even Time Machine). But if I am working on a manuscript with several co-authors, then I like to keep their versions of edit with the suffix of dates. This can be easily set using the "Quick Actions" on Mac.
 
 <p align="center">
@@ -54,7 +54,7 @@ Once this quick action is saved, you can select a bunch of file and then right c
 <img src="{{ site.url }}{{ site.baseurl }}/images/mac-tweaks/renaming-demo2.jpg" alt="renaming">
 </figure>
 
-<h3 id="file-in-terminal">Opening the location of the file or folder in terminal <a href="#top"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+<h3 id="file-in-terminal">Opening the location of the file or folder in terminal <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 If you like using terminal frequently for many tasks on Mac, it is important to open the location of the file in terminal. The easiest way is to set up a `quick action`, which can open the location in terminal. So you don't need to navigate to the location of the file every time you need to work in a particular directory.
 
 <p align="center">

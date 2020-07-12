@@ -16,7 +16,7 @@ __WARNING__: THIS POST IS MY "EASILY-ACCESSIBLE" NOTES OF THE LECTURES. I share 
 - Organized by: [AGU]( https://www.agu.org), 2020
 - ROSES Lectures and Labs will become available on __IRIS__, with some days of delay, at the [this link](https://www.iris.edu/hq/inclass/course/roses).
 
-## Contents
+<h2 id="#top">Contents</h2>
 - <a href="#prelecture">Pre-lecture preparation</a>
 - <a href="#obspy">ObsPy: a Python toolbox for seismology</a> by Sydney Dybing
 - <a href="#data-and-metadata">Data and Metadata</a> by Emily Wolin   
@@ -31,7 +31,7 @@ __WARNING__: THIS POST IS MY "EASILY-ACCESSIBLE" NOTES OF THE LECTURES. I share 
 - 9/1 (T) by Suzan van der Lee
 
 
-<h2 id="prelecture">Pre-lecture preparation</h2>
+<h2 id="prelecture">Pre-lecture preparation <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 ### Installation of the environment in anaconda
 NOTE: It is important to use specified version of the libraries otherwise there may be some inconsistencies such as the bandpass filter command of `obspy` may throw some error.
@@ -59,11 +59,11 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 ```
 (will first deactivate any previously activated environment)
 
-<h2 id="obspy">ObsPy: a Python toolbox for seismology</h2>
+<h2 id="obspy">ObsPy: a Python toolbox for seismology <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 - Download latex-generated-pdf of the "follow along jupyter notebook" by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40"></a>
 
-<h3>Outline</h3>
+<h3 id="obspy-outline">Outline</h3>
 1. <a href="#obspy-reading-data-file">Reading data from a file</a>
 2. <a href="#obspy-downloading-data">Downloading data from online repositories</a>
 3. <a href="#removing-instrument-response">Removing instrument response</a>
@@ -74,7 +74,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
   - <a href="#changing-sampling-rates">Changing sampling rates</a>
 6. <a href="#matplotlib">Plotting with Matplotlib</a>
 
-<h3 id="obspy-reading-data-file">Reading data from a file</h3>
+<h3 id="obspy-reading-data-file">Reading data from a file <a href="#obspy-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 - With the `read` function, you basically just only need the path to the file on your computer.
 ```python
 from obspy import read
@@ -178,7 +178,7 @@ CI.CWC..HNZ | 2019-07-05T11:06:53.048393Z - 2019-07-05T11:10:53.038393Z | 100.0 
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig3.jpg">
   </p>
 
-<h3 id="obspy-downloading-data">Downloading data from online repositories</h3>
+<h3 id="obspy-downloading-data">Downloading data from online repositories <a href="#obspy-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 - Setting up the client and managing times
 ```python
 from obspy.clients.fdsn import Client 
@@ -236,7 +236,7 @@ IU.TUC.00.HHZ | 2019-07-06T03:18:53.048393Z - 2019-07-06T03:34:53.038393Z | 100.
 </p>
 
 
-<h3 id="removing-instrument-response">Removing instrument response</h3>
+<h3 id="removing-instrument-response">Removing instrument response <a href="#obspy-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
 - without removing the instrument response, the data is quantitaitvely meaningless (see <a href="https://books.google.com.tw/books?id=5PPuCgAAQBAJ&pg=PA197&lpg=PA197&dq=10.1007/978-3-319-21314-9_6&source=bl&ots=R_XJrZxu59&sig=ACfU3U2YdUF5_nlVwRFs0Hbvdm5fHI7_Xw&hl=en&sa=X&q=10.1007/978-3-319-21314-9_6&redir_esc=y#v=snippet&q=10.1007%2F978-3-319-21314-9_6&f=false">Havskov and Alguacil, 2015<a>)
 
@@ -311,7 +311,7 @@ st_rem.plot()
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig10.jpg">
 </p>
 
-<h3 id="writing-data-into-file">Writing downloaded data to a file</h3>
+<h3 id="writing-data-into-file">Writing downloaded data to a file <a href="#obspy-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 - This can be done with `st.write()` - you just specify the desired file path, name, extension, and data format (SAC, MSEED, etc.).
 
   ```python
@@ -337,7 +337,7 @@ st_rem.plot()
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig11.jpg">
   </p>
 
-<h3 id="some-stream-trace-method">Some Stream and Trace Methods</h3>
+<h3 id="some-stream-trace-method">Some Stream and Trace Methods <a href="#obspy-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 - The stream and trace objects in Obspy both have a number of public methods that can be used to modify the data.
 <h4 id="filtering">Filtering</h4>
 - One thing we might want to do is look at a specific frequency range of data in our earthquake. We can use the “filter” method for this.
@@ -427,7 +427,7 @@ st_rem.plot()
   10.0
   ```
 
-<h3 id="matplotlib">Matplotlib</h3>
+<h3 id="matplotlib">Matplotlib <a href="#obspy-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
 - Let’s examine how we can make some basic plots of seismic data in Matplotlib.
 
@@ -610,7 +610,7 @@ st_rem.plot()
   </p>
 
 
-<h2 id="data-and-metadata">Data and Metadata</h2>
+<h2 id="data-and-metadata">Data and Metadata <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 <p align="center">
   <img width="100%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig33.jpg">
