@@ -2,17 +2,17 @@
 main:
   - title: '<i class="fa fa-list-alt" aria-hidden="true"></i> blogPosts'
     url: /recent-posts/
-  - title: "geophysicsPosts"
+  - title: '<i class="fa fa-globe" aria-hidden="true"></i> geophysicsPosts'
     url: /geophysics-posts/
-  - title: "lifeHacks"
+  - title: '<i class="fa fa-laptop" aria-hidden="true"></i> lifeHacks'
     url: /lifehacks/
-  - title: "webApps"
+  - title: '<i class="fa fa-chrome" aria-hidden="true"></i> webApps'
     url: /web-computing/
-  - title: "myResearch"
+  - title: '<i class="fa fa-skull-crossbones" aria-hidden="true"></i> myResearch'
     url: /research/
-  - title: "postsGallery"
+  - title: '<i class="fa fa-picture-o" aria-hidden="true"></i> postsGallery'
     url: /gallery/
-  - title: "aboutMe"
+  - title: '<i class="fa fa-user" aria-hidden="true"></i> aboutMe'
     url: /about-me/
   # - title: "Sample Posts"
   #   url: /year-archive/
