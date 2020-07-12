@@ -335,12 +335,6 @@ figure {
       width: calc(50% - 0.5em);
     }
   }
-  a,
-  > .card {
-    @include breakpoint($small) {
-      width: calc(50% - 0.5em);
-    }
-  }
 
 }
 
