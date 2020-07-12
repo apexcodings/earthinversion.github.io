@@ -1,5 +1,5 @@
 ---
-title: "Some handy Mac Tweaks [macOS]"
+title: "Some Handy Mac Tweaks [macOS]"
 date: 2020-07-10
 last_modified_at: 2020-07-12
 tags: [mac, apple, screenshot, batch renaming, quick action]
@@ -8,12 +8,12 @@ classes:
   - wide
 ---
 
-## Some handy MAC Tweaks
+<h2 id="top">Some handy MAC Tweaks</h2>
 1. <a href="#change-screenshot-location">How to change the location where Screenshot is saved</a>
 2. <a href="#rename-files-in-batch">Renaming files in batch</a>
 3. <a href="#file-in-terminal">Opening the location of the file or folder in terminal</a>
 
-<h3 id="change-screenshot-location">How to change the location where Screenshot is saved</h3>
+<h3 id="change-screenshot-location">How to change the location where Screenshot is saved <a href="#top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a></h3>
 I use screenshot frequently on Mac. It is super easy ([See here for details](https://support.apple.com/en-us/HT201361)).
 - Click `command`+`shift`+`3` to capture whole screen
 <p align="center">
