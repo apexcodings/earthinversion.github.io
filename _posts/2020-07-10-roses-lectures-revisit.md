@@ -7,7 +7,7 @@ excerpt: "ROSES lecture notes"
 classes:
   - wide
 ---
-__WARNING__: THIS POST IS MY "EASILY-ACCESSIBLE" NOTES OF THE LECTURES. I share it on my blog with the hope that it may be useful for other seismologists as well.
+__WARNING__: THIS POST IS MY "EASILY-ACCESSIBLE" NOTES OF THE LECTURES. I share it on my blog with the hope that it may benefit other seismologists as well.
 
 ## Introduction to ROSES
 > Amidst many choices for on-learning, on-line networking, and on-line collaboration, the ROSES 2020 summer school will run once a week for 11 weeks, starting on June 25. The school is targeted towards advanced Ph.D. students, who have used Python before and are familiar navigating in Linux/Unix.

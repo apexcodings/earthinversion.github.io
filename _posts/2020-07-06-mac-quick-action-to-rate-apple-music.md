@@ -106,3 +106,13 @@ end if
 <figure>
     <img width="400" src="{{ site.url }}{{ site.baseurl }}/images/mac-quick-action/figure5.jpg">
 </figure>
+
+
+## Applescript to rate and love the tracks in apple music app
+We need to first work on the algorithm. My algorithm is simple:
+- Since there are already many songs in my library that has not been rated, but has been played and skipped many times. So, I will rate the song `+5` if the song has been played once and `-5` if it has been skipped once. NOTE: You can choose it to be `1` or even less based on your usage. If you listen to songs a lot and most of your songs are played over 20 times then it will be ridiculous to use the value of `5` otherwise most of the songs will have 5 stars (100 ratings).
+- If the rating exceeds `70`, then it will be automatically be `loved`.
+- The maximum rating is `100` (5 stars) and minimum rating is `20` (1 star).
+
+
+
