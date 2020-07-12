@@ -9,21 +9,21 @@ classes:
 
 <p>For basic tutorial, please visit <a href="https://earthinversion.com/GMT_tutorial_for_beginners/">here.</a></p>
 
-## Contents
+<h2 id="top">Contents</h2>
 <ol>
-<li>Plotting three-dimensional mesh</li>
-<li>Plotting three-dimensional surface</li>
-<li>Plot histograms (standard and polar)</li>
-<li>Plot basemap with earthquakes and isochrons etc</li>
-<li>Plot wiggle along track from geoid deflections</li>
-<li>Plot 3-D bar graph on top of perspective map</li>
+<li><a href="#plotting-three-dimensional-mesh">Plotting three-dimensional mesh</a></li>
+<li><a href="#plotting-three-dimensional-surface">Plotting three-dimensional surface</a></li>
+<li><a href="#plot-histograms">Plot histograms (standard and polar)</a></li>
+<li><a href="#plot-basemap-with-earthquakes">Plot basemap with earthquakes and isochrons etc</a></li>
+<li><a href="#plot-wiggle-along-track">Plot wiggle along track from geoid deflections</a></li>
+<li><a href="#Plot-3-D-bar-graph">Plot 3-D bar graph on top of perspective map</a></li>
 </ol>
 
 <p>This tutorial consists of Bash script files to run the GMT. The data files required to run the scripts can be downloaded from <a href="https://github.com/earthinversion/GMT-Advanced-Tutorials/tree/master/Data">here</a>. Most codes are minor modifications of the <a href="http://gmt.soest.hawaii.edu/doc/5.3.2/Gallery.html">GMT historical collections</a>.</p>
 
 <h2>Bash Scripts:</h2>
 
-### Plotting three-dimensional mesh
+<h3 id="plotting-three-dimensional-mesh">Plotting three-dimensional mesh <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/2three-dimensional-mesh-plot.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -72,7 +72,7 @@ rm -f *_intens.nc
 rm -f *.history
 ```
 
-### Plotting three-dimensional surface
+<h3 id="plotting-three-dimensional-surface">Plotting three-dimensional surface <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/3three-D-surface.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -104,7 +104,7 @@ echo "4.1 5.5 z(r) = cos (2@~p@~r/8) @~\327@~e@+-r/10@+" | gmt pstext -R0/11/0/8
 rm -f g.cpt sombrero.nc intensity.nc *.history
 ```
 
-### Plot histograms (standard and polar)
+<h3 id="plot-histograms">Plot histograms (standard and polar) <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/4plot_histogram.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -129,7 +129,7 @@ gmt pshistogram -Bxa2000f1000+l"Topography (m)" -Bya10f5+l"Frequency"+u" %" \
 	-Y5.0i -X-0.5i -L1p -Z1 -W250 >> ${fig[1]} #-L1p-> bar outline thickness, Z1->frequency in percent, -Wbin_width
 ```
 
-### Plot basemap with earthquakes and isochrons etc
+<h3 id="plot-basemap-with-earthquakes">Plot basemap with earthquakes and isochrons etc <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/5simple_location_map.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -167,7 +167,7 @@ END
 rm *.history
 ```
 
-### Plot wiggle along track from geoid deflections
+<h3 id="plot-wiggle-along-track">Plot wiggle along track from geoid deflections <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/6time_series_along_tracks.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -204,7 +204,7 @@ EOF
 rm -f *.history
 ```
 
-### Plot 3-D bar graph on top of perspective map
+<h3 id="Plot-3-D-bar-graph">Plot 3-D bar graph on top of perspective map <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/7geographical_plots.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>

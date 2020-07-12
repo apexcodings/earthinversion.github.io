@@ -9,15 +9,15 @@ classes:
 
 ## Continuation of [Part I](/GMT-advanced/)
 
-## Contents
+<h2 id="top">Contents</h2>
 <ol>
-<li>Missing data: Gridding and clipping</li>
-<li>Clipping of map along coastlines</li>
-<li>Plot custom symbols</li>
-<li>Plot of last 7 days of seismicity from USGS</li>
-<li>Plot of shortest path between two places</li>
-<li>Extract subset of data based on geospatial criteria</li>
-<li>Map inserts</li>
+<li><a href="#missing-data">Missing data: Gridding and clipping</a></li>
+<li><a href="#clipping-map">Clipping of map along coastlines</a></li>
+<li><a href="#plot-custom-symbols">Plot custom symbols</a></li>
+<li><a href="#plot-7-days-seismicity">Plot of last 7 days of seismicity from USGS</a></li>
+<li><a href="#plot-shortest-path">Plot of shortest path between two places</a></li>
+<li><a href="#extract-subset-data">Extract subset of data based on geospatial criteria</a></li>
+<li><a href="#map-inserts">Map inserts</a></li>
 </ol>
 
 <p>For basic tutorial, please visit <a href="https://earthinversion.com/GMT_tutorial_for_beginners/">here.</a></p>
@@ -26,7 +26,7 @@ classes:
 
 <h2>Bash Scripts:</h2>
 
-### Missing data: Gridding and clipping
+<h3 id="missing-data">Missing data: Gridding and clipping <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/8gridding_contouring_masking.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -83,7 +83,7 @@ rm -f ship.b ship_10m.b ship.nc ship_clipped.nc gmt*
 
 ```
 
-### Clipping of map along coastlines
+<h3 id="clipping-map">Clipping of map along coastlines <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/9clipping_image.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -136,7 +136,7 @@ END
 
 rm -f geoid.cpt shade.cpt *_i.nc
 ```
-### Plot custom symbols
+<h3 id="plot-custom-symbols">Plot custom symbols <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/10Plotting_custom_symbols.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -197,7 +197,7 @@ rm -f hotspots*.d cities.d gmt*
 
 ```
 
-### Plot of last 7 days of seismicity from USGS
+<h3 id="plot-7-days-seismicity">Plot of last 7 days of seismicity from USGS <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/11seismicity.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
 </a>
@@ -291,7 +291,7 @@ gmt pslegend -DJBC+o0/0.4i+w7i/1.7i -R -J -O -F+p+glightyellow neis.legend  >> $
 rm -f neis.* gmt.conf
 ```
 
-### Plot of shortest path between two places
+<h3 id="plot-shortest-path">Plot of shortest path between two places <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/12great_circle_paths.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
@@ -356,7 +356,7 @@ gmt grdtrack -Gdist.nc cities.d \
 rm -f cities.d dist.nc
 ```
 
-### Extract subset of data based on geospatial criteria
+<h3 id="extract-subset-data">Extract subset of data based on geospatial criteria <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/13Data_selection_geospatial_criteria.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
@@ -403,7 +403,7 @@ rm -f point.txt dateline.txt
 
 ```
 
-### Map inserts
+<h3 id="map-inserts">Map inserts <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 <a href="https://raw.githubusercontent.com/earthinversion/GMT-Advanced-Tutorials/master/14map_inserts.sh" download="download code">
   <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="download code" width="30" height="30">
