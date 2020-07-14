@@ -4,6 +4,7 @@ date: 2020-07-10
 last_modified_at: 2020-07-11
 tags: [geophysics, roses, agu, iris, obspy, anaconda, read seismic traces, seismology, removing instrument response, writing stream to file, filtering, trimming data, changing sampling rates, matplotlib, python]
 excerpt: "ROSES lecture notes"
+mathjax: "true"
 classes:
   - wide
 ---
@@ -20,7 +21,7 @@ __WARNING__: THIS POST IS MY "EASILY-ACCESSIBLE" NOTES OF THE LECTURES. I share 
 - <a href="#prelecture">Pre-lecture preparation</a>
 - <a href="#obspy">ObsPy: a Python toolbox for seismology</a> by Sydney Dybing
 - <a href="#data-and-metadata">Data and Metadata</a> by Emily Wolin   
-- __Time Series Analysis__ by German A. Prieto 
+- <a href="#time-series-analysis">Time Series Analysis</a> by German A. Prieto 
 - 7/14 (T) _Waveform Cross Correlation_ by Elizabeth Berg 
 - 7/21 (T) _Array Seismology/Network Analysis_ by Stephen Arrowsmith 
 - 7/28 (T) _Polarization Analysis_ by Dr. O
@@ -61,6 +62,7 @@ alias roses='conda deactivate; conda deactivate; conda activate roses'
 PS: The two `deactivate` commands is to safely deactivate double nested environment. You can choose to use `conda deactivate; conda activate roses`.
 
 <h2 id="obspy">ObsPy: a Python toolbox for seismology <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
+
 - Download latex-generated-pdf of the "follow along jupyter notebook" by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
     <img src="https://img.icons8.com/carbon-copy/100/000000/download-2.png" alt="slrm" width="40" height="40"></a>
 
@@ -769,3 +771,104 @@ st_rem.plot()
   <img width="60%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig34.jpg">
   <figcaption>PSDs, PDFs, and noise models. At T>20s, horizontal components are usually noisier than verticals due to local tilt effects. Horizontal noise decreases with increasing depth of installation. Source: Emily Wolin PPT</figcaption>
 </p>
+
+<h2 id="time-series-analysis">Time Series Analysis <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
+
+<h3 id="time-series-analysis-outline">Outline</h3>
+<ol>
+<li><a href="#fft-intuition">Some initial intuition on the FFT</a></li>
+<li><a href="#computing-psd">Computing the PSD (or amplitude spectrum)</a></li>
+<li><a href="#dealing-fourier-transforms">Good Practices to dealing with Fourier transforms</a></li>
+</ol>
+
+
+<h3 id="fft-intuition">Some initial intuition on the FFT <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+
+Let's visit some examples to understand how most algorithms of the FFT store the data once FFT is computed.
+
+  ```python
+  import numpy as np
+  import scipy
+  import scipy.signal as signal
+  import matplotlib.pyplot as plt import obspy
+  from obspy.clients.fdsn import Client
+  ```
+
+- The Fourier Transform of a real signal is symmetric \\( \hat{f}(\nu) = \hat{f}(-\nu) \\). To demonstrate this, let's take two real-valued random sequences, with 10 and 11 points, zero-mean and \\(\sigma = 0\\).
+
+  ```python
+  nx = 10
+  ny = 11
+  x = np.random.normal(0.0,0.5,(nx,1)) 
+  y = np.random.normal(0.0,0.5,(ny,1)) 
+  print(x)
+  print('')
+  print(y)
+  ```
+  ```
+  [[-0.18087004]
+  [ 0.42576673]
+  [ 0.19175834]
+  [ 0.24833008]
+  [ 0.38652315]
+  [-0.20192222]
+  [ 0.71790958]
+  [ 0.00834092]
+  [ 0.5592964 ]
+  [ 0.46869672]]
+
+  [[-0.39022371]
+  [-0.94168346]
+  [ 0.09322267]
+  [-0.30768772]
+  [ 0.71110194]
+  [-0.43521681]
+  [-0.49482095]
+  [ 0.42947471]
+  [ 1.07826146]
+  [-0.7189414 ]
+  [ 0.33758408]]
+  ```
+
+- Computing FFT of each sequence, `x` and `y`
+Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0\\) Hz) is real, while the rest is complex. Also, notice the difference between the FFT of an even sequence (\\(x\\) and an odd sequence (\\(y\\). 
+
+  ```python
+  fx = scipy.fft.fft(x, axis=0)
+  fy = scipy.fft.fft(y, axis=0)
+  print(fx)
+  print('')
+  print(fy)
+  ```
+  ```
+  [[ 2.62382964-0.j        ]
+  [ 0.00395644+0.34132389j]
+  [-0.58036663+0.08275716j]
+  [-0.31402859+0.28102471j]
+  [-1.68852886-0.74734316j]
+  [ 0.7254052 -0.j        ]
+  [-1.68852886+0.74734316j]
+  [-0.31402859-0.28102471j]
+  [-0.58036663-0.08275716j]
+  [ 0.00395644-0.34132389j]]
+
+  [[-0.6389292 -0.j        ]
+  [-1.12257563+1.09506396j]
+  [-1.91549567+0.47038812j]
+  [ 2.18478857+0.03705081j]
+  [-0.73805273+2.49487829j]
+  [-0.23543034+2.04411055j]
+  [-0.23543034-2.04411055j]
+  [-0.73805273-2.49487829j]
+  [ 2.18478857-0.03705081j]
+  [-1.91549567-0.47038812j]
+  [-1.12257563-1.09506396j]]
+  ```
+
+- For $nx$ even, the number of frequency points is $nf=(nx/2)+1$, that is $nx=10$, $nf=6$
+
+- For $ny$ odd,  the number of frequency points is $nf=(nx+1)/2$, that is $ny=11$, $nf=6$
+
+<h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+<h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+
