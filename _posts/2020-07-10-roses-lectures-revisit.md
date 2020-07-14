@@ -1099,6 +1099,62 @@ The Sumatran earthquake of December 2004, excited many of the normal modes of th
   <p align="center">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig38.jpg">
   </p>
+
+- **Here we will pad with zeros to double the length of the signal**. This does not improve the resolution of the FFT, but avoids the cycling issue of the FFT. This is especially important for correlations, deconvolution, etc. 
+
+- Amplitude spectrum 
+  ```python
+  #-------------------------------------------
+  # Get the data, npts, and padd ing length
+  #-------------------------------------------
+
+  tr    = st[0]
+  data  = tr.data
+  dt    = tr.stats.delta
+  npts  = tr.stats.npts
+  npts2 = 2*npts
+  nf    = int(npts2/2 + 1) #number of frequency points
+
+  x3    = signal.detrend(data,type='constant')
+  xvar3 = np.var(x3)
+  Tall  = dt*npts2   # the length of the series
+
+  #---------------------------------------------------------------
+  # Calculate hanning PSD, pad to twice the length
+  #---------------------------------------------------------------
+  hann= np.hanning(npts)
+  dwin = np.zeros(npts2)
+  dwin[0:npts] = x3*hann #data window
+  # ...Px3
+  #---------------------------------------
+  # Frequency vector
+  #---------------------------------------
+  freq3 = scipy.fft.fftfreq(npts2,dt)
+  freq3 = freq3[0:nf]
+  df3 = freq3[1]
+  #---------------------------------------
+  # Get amplitude spectrum
+  #---------------------------------------
+  Px3 = scipy.fft.fft(dwin, npts2)
+  Px3   = abs(Px3)**2
+  Ssc  = xvar/(np.sum(Px3)*df3)
+  Px3   = Px3*Ssc
+
+  Ax3 =np.sqrt(2*Px3[0:nf]*Tall)
+
+
+
+  fig = plt.figure()
+  ax = fig.add_subplot(211)
+  ax.plot(freq3*1000,Ax3)
+  ax.set_xlim(0.2 , 1)
+  ax.set_ylim(0,0.25e8)
+  ax.set_xlabel('Frequency (mHz)')
+  ax.set_ylabel('Amplitude (m/Hz)')
+  ```
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig39.jpg">
+  </p>
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
