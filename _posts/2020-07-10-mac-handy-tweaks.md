@@ -10,8 +10,12 @@ classes:
 
 <h2 id="top">Some handy MAC Tweaks</h2>
 1. <a href="#change-screenshot-location">How to change the location where Screenshot is saved</a>
-2. <a href="#rename-files-in-batch">Renaming files in batch</a>
-3. <a href="#file-in-terminal">Opening the location of the file or folder in terminal</a>
+2. <a href="#change-screenshot-type">How to change the type of Screenshot</a>
+3. <a href="#rename-files-in-batch">Renaming files in batch</a>
+4. <a href="#file-in-terminal">Opening the location of the file or folder in terminal</a>
+5. <a href="#recommended-apps-mac">Some recommended system management apps in Mac</a>
+
+__NOTE:__ There are several ways for achieving these tasks in Mac, but I list the ways which are easiest to follow and I personally prefer.
 
 <h3 id="change-screenshot-location">How to change the location where Screenshot is saved <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 I use screenshot frequently on Mac. It is super easy ([See here for details](https://support.apple.com/en-us/HT201361)).
@@ -39,6 +43,14 @@ If you want to save the screenshot at some location in Mac such as Documents -> 
 defaults write com.apple.screencapture ~/Documents/SCREENSHOTS
 killall SystemUIServer
 ```
+
+<h3 id="change-screenshot-type">How to change the type of the screenshot <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+Go to terminal and type:
+```
+defaults write com.apple.screencapture type jpg
+```
+
+I personally prefer the `.jpg` format because it is much more compressed and is usually smaller size than `.png` or `.tiff`. But you can change it to any format based on your needs, even `.pdf`. 
 
 <h3 id="rename-files-in-batch">Renaming files in batch <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 I like to keep different versions of the file in the local disks (there are other ways to manage versions such as GitHub and even Time Machine). But if I am working on a manuscript with several co-authors, then I like to keep their versions of edit with the suffix of dates. This can be easily set using the "Quick Actions" on Mac.
@@ -78,3 +90,13 @@ on run {input, parameters}
 end run
 ```
 Source: [MacWorld](https://www.macworld.com/article/1047793/folderinterm.html)
+
+<h3 id="recommended-apps-mac">Some recommended system management apps in Mac <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+
+1. Clean My Mac
+2. iStats Menus
+3. Bartender
+4. Better Touch Tool
+5. Better Snap Tool
+
+NOTE: Most of these apps can be made available by simply subscribing to the "Setapp" on Mac and you can save some money. Over that you can avail many more fun apps as well.
