@@ -1020,6 +1020,37 @@ __Note:__ You should never really do this, but just so you know, this is how one
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig36.jpg">
   </p>
 
+- Calculate tapered periodogram (with a hanning taper, or other)
+In this case I will use a Hanning taper, but you could easily apply other tapers, including the prolate tapers (used in the multitaper algorithm). for example `dpss,v = signal.windows.dpss(nwin, tbp, Kmax=kspec, return_ratios=True)`
+
+  ```python
+  #---------------------------------------
+  # Calculate hanning, and taper series
+  #---------------------------------------
+  hann = np.hanning(npts)
+  xhan = x2*hann
+
+  #---------------------------------------
+  # PSD and normalize
+  #---------------------------------------
+  Sh   = scipy.fft.fft(xhan,npts)
+  Sh   = abs(Sh)**2
+  Ssc  = xvar/(np.sum(Sh)*df)
+  Sh   = Sh*Ssc
+  Sh   = 2*Sh[0:nf]
+
+  fig = plt.figure()
+  ax = fig.add_subplot(111)
+  ax.semilogy(freq,Sp)
+  ax.semilogy(freq,Sh)
+  ax.set_title('Trace = '+str(itr));
+  ax.set_xlabel('Frequency (Hz)')
+  ax.set_ylabel('$A^2/$Hz');
+  ```
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig37.jpg">
+  </p>
+
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
