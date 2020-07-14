@@ -944,7 +944,7 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
 
 Here, the key things to remember are:
 - The FFT algorithm (as implemented) displays first the positive frequencies, and then the negative frequencies.
-- If the number of points of the time series $nx$ is greater, the frequency sampling \\(df \\) is smaller. **Be careful, smaller frequency sampling, does not mean higher resolution** for example when applying zero-padding.  
+- If the number of points of the time series \\(nx\\) is greater, the frequency sampling \\(df \\) is smaller. **Be careful, smaller frequency sampling, does not mean higher resolution** for example when applying zero-padding.  
 
 <h4 id="fft-synthetic-example">A synthetic example</h4>
 
@@ -1060,20 +1060,21 @@ Here it is clear why _spectral leakage_ is a real problem. You need to avoid usi
 - Always use a taper.
 - Zero padding is a good idea. But pad after tapering, not before. 
 - Always (done roughly here) normalize your power spectrum, to get the right units. The integral of the PSD is equal to the variance of the time series.  
-- Amplitude spectrum = \\(\sqrt{S(f)*T})\\, where \\(T)\\ is the length of the time series in seconds. 
+- Amplitude spectrum = \\(\sqrt{S(f)*T}\\), where \\(T\\) is the length of the time series in seconds. 
 - Spectra units 
-    - PSD - \\(units^2/Hz)\\
-    - Amplitude spectrum \\(units/Hz=units.s)\\. 
+    - PSD - \\(units^2/Hz\\)
+    - Amplitude spectrum \\(units/Hz=units.s\\). 
 
 <h4 id="fft-seismology-example">Seismology example - Normal modes for Sumatra Earthquake</h4>
-The Sumatran earthquake of December 2004, excited many of the normal modes of the Earth. The modes of our planet are of the order of \\(m)\\Hz, with examples 
 
-- \\(_0S_0)\\, having a frequency 0.81 \\(m)\\Hz, period of about 20 min.
-- \\(_0S_4)\\, having a frequency 0.62 \\(m)\\Hz, period of about 26 min.
-- \\(_0S_3)\\, having a frequency 0.47 \\(m)\\Hz, period of about 37 min.
+The Sumatran earthquake of December 2004, excited many of the normal modes of the Earth. The modes of our planet are of the order of \\(m\\)Hz, with examples 
+
+- \\( _0S_0 \\), having a frequency 0.81 \\(m\\)Hz, period of about 20 min.
+- \\(_0S_4\\), having a frequency 0.62 \\(m\\)Hz, period of about 26 min.
+- \\(_0S_3\\), having a frequency 0.47 \\(m\\)Hz, period of about 37 min.
 
   ```python
-  # SDownload data from IRIS (only if you need to)
+  # Download data from IRIS (only if you need to)
   #client = Client("IRIS")
   #t1 = obspy.UTCDateTime("2004-12-26")
   #starttime = t1
