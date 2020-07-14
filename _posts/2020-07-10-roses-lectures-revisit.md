@@ -894,6 +894,11 @@ Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0
   [-0.73805273+2.49487829j]
   [-0.23543034+2.04411055j]]
   ```
+
+- What frequency is represented for the FFT?
+The Nyquist frequency in the above example with \\(dt=1.0 s \\), is \\( f_{nyq}=0.5=1/dt\\). 
+Note that the frequency array is slightly different, even though \\( nf\\) is the same for both. 
+
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
