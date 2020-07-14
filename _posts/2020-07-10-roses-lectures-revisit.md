@@ -780,6 +780,8 @@ st_rem.plot()
   <ol>
     <li><a href="#computing-fft-x-y">Computing FFT of each sequence, x and y</a></li>
     <li><a href="#fft-synthetic-example">A synthetic example</a></li>
+    <li><a href="#fft-notes">Summary</a></li>
+    <li><a href="#fft-seismology-example">Seismology example - Normal modes for Sumatra Earthquake</a></li>
   </ol>
 <li><a href="#computing-psd">Computing the PSD (or amplitude spectrum)</a></li>
 <li><a href="#dealing-fourier-transforms">Good Practices to dealing with Fourier transforms</a></li>
@@ -1050,6 +1052,21 @@ In this case I will use a Hanning taper, but you could easily apply other tapers
   <p align="center">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig37.jpg">
   </p>
+
+<h4 href="#fft-notes">Summary</h4>
+Here it is clear why _spectral leakage_ is a real problem. You need to avoid using the raw periodogram. 
+
+**Good Practice**
+- Detrend the signal (or at least demean the signal).
+- Always use a taper.
+- Zero padding is a good idea. But pad after tapering, not before. 
+- Always (done roughly here) normalize your power spectrum, to get the right units. The integral of the PSD is equal to the variance of the time series.  
+- Amplitude spectrum = \\(\sqrt{S(f)*T})\\, where \\(T)\\ is the length of the time series in seconds. 
+- Spectra units 
+    - PSD - \\(units^2/Hz)\\
+    - Amplitude spectrum \\(units/Hz=units.s)\\. 
+
+<h4 id="fft-seismology-example">Seismology example - Normal modes for Sumatra Earthquake</h4>
 
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
