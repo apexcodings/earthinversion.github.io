@@ -865,9 +865,9 @@ Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0
   [-1.12257563-1.09506396j]]
   ```
 
-- For $nx$ even, the number of frequency points is (\\nf=(nx/2)+1\\), that is (\\nx=10\\), (\\nf=6\\).
+- For $nx$ even, the number of frequency points is \\(nf=(nx/2)+1 \\) , that is \\( nx=10\\) , \\(nf=6 \\).
 
-- For $ny$ odd,  the number of frequency points is (\\nf=(nx+1)/2\\), that is (\\ny=11\\), (\\nf=6\\).
+- For $ny$ odd,  the number of frequency points is \\(nf=(nx+1)/2 \\), that is \\( ny=11\\), \\( nf=6\\).
 
 - If you are dealing with a complex time series, or if you want to do correlations, coherence, deconvolution, you need to keep the entire fourier transform it is recommended to use the `scipy.fft.fft`. Just keep in mind $nf$ if you want to plot the PSD. 
 
