@@ -918,7 +918,6 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
   [ 0.          0.09090909  0.18181818  0.27272727  0.36363636  0.45454545
   -0.45454545 -0.36363636 -0.27272727 -0.18181818 -0.09090909]
   ```
-
   ```python
   # Define corresponding frequency vector
   freqx = scipy.fft.rfftfreq(nx)
@@ -932,7 +931,6 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
 
   [0.         0.09090909 0.18181818 0.27272727 0.36363636 0.45454545]
   ```
-
   ```python
   # Freq vector for a long time series
   freq_long = scipy.fft.fftfreq(100*nx)
