@@ -13,6 +13,7 @@ classes:
   <li><a href="#download-data">Download stream using Obspy</a></li>
   <li><a href="#add-data">Add data to the ppsd estimate</a></li>
   <li><a href="#visualizing">Visualization using Obspy</a></li>
+  <li><a href="#figures">Output Figures</a></li>
   <li><a href="#references">References</a></li>
 </ol>
 
@@ -89,6 +90,8 @@ if add_status:
     ppsd.plot_spectrogram(filename=filename_prefix+"-spectrogram.png", show=False)
 
 ```
+
+<h3 id="figures">Output Figures <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd.png">
