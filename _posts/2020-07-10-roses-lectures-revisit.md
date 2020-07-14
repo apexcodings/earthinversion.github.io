@@ -785,6 +785,7 @@ st_rem.plot()
 <h3 id="fft-intuition">Some initial intuition on the FFT <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
 Let's visit some examples to understand how most algorithms of the FFT store the data once FFT is computed.
+
 -
   ```python
   import numpy as np
