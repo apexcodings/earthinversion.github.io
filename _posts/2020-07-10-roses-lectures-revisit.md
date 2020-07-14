@@ -784,7 +784,7 @@ st_rem.plot()
     <li><a href="#fft-seismology-example">Seismology example - Normal modes for Sumatra Earthquake</a></li>
   </ol>
 <li><a href="#computing-psd">Computing the PSD (or amplitude spectrum)</a></li>
-<li><a href="#dealing-fourier-transforms">Good Practices to dealing with Fourier transforms</a></li>
+<li><a href="#spectral-analysis-california">Spectral analysis of seismic data in California</a></li>
 </ol>
 
 
@@ -955,7 +955,6 @@ The toy signal really has 10 *realizations*, in the code below one of the *reali
 
 $$ var(x) = \int_{-1/2}^{1/2} S(f) df = \sum_{n=0}^{nfft} S(f) * df$$
 
-- 
   ```python
   # Load data. 
   x       = np.loadtxt('test1.dat')
@@ -1157,5 +1156,10 @@ The Sumatran earthquake of December 2004, excited many of the normal modes of th
   <p align="center">
     <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig39.jpg">
   </p>
-<h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+
+<h3 id="spectral-analysis-california">Spectral analysis of seismic data in California <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+In the last few 15-20 years, seismologist  have started to extract more and more information from the *noise*. From tracking storms, to performing 3D seismic tomography using surface waves, it is today a *standard tool*.
+
+We will work with 24-hour of data from two seismic stations in California (PASC and ADO). They are separated about 150 km and record the ambient seismic field. I chose a particular day (randomly), but this should more or less work if you choose any other day of the year, **except if you have a large earthquake in the middle**. 
+
 
