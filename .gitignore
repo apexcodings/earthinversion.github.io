@@ -2,3 +2,5 @@ push_github.sh
 .DS_Store
 _posts/.DS_Store
 images/.DS_Store
+_posts/ARCHIVED-POSTS/*
+images/ARCHIVED_IMAGES/*
