@@ -948,6 +948,14 @@ Here, the key things to remember are:
 
 <h4 id="fft-synthetic-example">A synthetic example</h4>
 
+The toy signal has a fundamental frequency (that WE NEED to determine), inmersed in a background colored-spectra.
+The toy signal really has 10 *realizations*, in the code below one of the *realizations* is randomly selected.
+
+**To avoid complications in explaining the codes, I normalize the spectrum in a quick way (could be better). One should always do it**
+
+$$ var(x) = \int_{-1/2}^{1/2} S(f) df = \sum_{n=0}^{nfft} S(f) * df$$
+
+
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
