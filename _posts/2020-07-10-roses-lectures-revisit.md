@@ -927,6 +927,7 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
   print()
   print(freqy)
   ```
+  - 
   ```
   [0.  0.1 0.2 0.3 0.4 0.5]
 
@@ -938,6 +939,7 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
   freq_long = scipy.fft.fftfreq(100*nx)
   print(freq_long[0:3])
   ```
+  - 
   ```
   [0.    0.001 0.002]
   ```
