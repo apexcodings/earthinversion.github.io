@@ -18,7 +18,7 @@ classes:
 </ol>
 
 <p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png">
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png">
 </p>
 
 <h3 id="import-libraries">Import necessary libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
@@ -94,24 +94,24 @@ if add_status:
 <h3 id="figures">Output Figures <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 <p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd.png">
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd.png">
   <figcaption>Probabilistic Power Spectral Densities with colormap used by [McNamara2004] </figcaption>
 </p>
 <br>
 <p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd_cumulative.png">
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd_cumulative.png">
   <figcaption>Cumulative version of the histogram </figcaption>
 </p>
 
 <br>
 <p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd_temporal_plot.png">
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd_temporal_plot.png">
   <figcaption>Plot the evolution of PSD value of one (or more) period bins over time. </figcaption>
 </p>
 
 <br>
 <p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-spectrogram.png">
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-spectrogram.png">
   <figcaption>Spectrogram of the estimate </figcaption>
 </p>
 
