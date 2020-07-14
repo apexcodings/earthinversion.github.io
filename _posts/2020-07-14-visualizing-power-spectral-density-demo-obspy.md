@@ -7,7 +7,7 @@ classes:
   - wide
 ---
 
-<h2 id="top">Outline</h2>
+<h2 id="top">Contents</h2>
 <ol>
   <li><a href="#import-libraries">Import necessary libraries</a></li>
   <li><a href="#download-data">Download stream using Obspy</a></li>
