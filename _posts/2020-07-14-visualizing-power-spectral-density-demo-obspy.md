@@ -19,11 +19,17 @@ classes:
 
 
 <figure class="half">
-  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
-  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.jpg">
-  <figcaption>(LEFT) Location of the event and station (RIGHT) Downloaded stream</figcaption>
-
 </figure>
+
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
+  <figcaption>Location of the event and station</figcaption>
+</p>
+<br>
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.jpg">
+  <figcaption>Downloaded stream</figcaption>
+</p>
 
 <h3 id="import-libraries">Import necessary libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
