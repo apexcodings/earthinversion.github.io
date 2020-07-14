@@ -18,8 +18,7 @@ classes:
 </ol>
 
 
-<figure class="half">
-</figure>
+
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
