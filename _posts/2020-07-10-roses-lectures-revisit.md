@@ -1071,7 +1071,6 @@ Here it is clear why _spectral leakage_ is a real problem. You need to avoid usi
 <h4 id="fft-seismology-example">Seismology example - Normal modes for Sumatra Earthquake</h4>
 
 The Sumatran earthquake of December 2004, excited many of the normal modes of the Earth. The modes of our planet are of the order of \\(m\\)Hz, with examples 
-
 - \\( _0S_0 \\), having a frequency 0.81 \\(m\\)Hz, period of about 20 min.
 - \\(_0S_4\\), having a frequency 0.62 \\(m\\)Hz, period of about 26 min.
 - \\(_0S_3\\), having a frequency 0.47 \\(m\\)Hz, period of about 37 min.
@@ -1107,7 +1106,6 @@ The Sumatran earthquake of December 2004, excited many of the normal modes of th
 
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
-- 
   ```python
   #-------------------------------------------
   # Get the data, npts, and padd ing length
