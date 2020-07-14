@@ -955,6 +955,28 @@ The toy signal really has 10 *realizations*, in the code below one of the *reali
 
 $$ var(x) = \int_{-1/2}^{1/2} S(f) df = \sum_{n=0}^{nfft} S(f) * df$$
 
+- 
+  ```python
+  # Load data. 
+  x       = np.loadtxt('test1.dat')
+  npts    = np.size(x,0)
+  ntr     = np.size(x,1)
+  dt      = 1.0  # 1 sps
+  t       = np.arange(0,npts)*dt
+
+  # randomly select one trace
+  itr     = np.random.randint(0,ntr)
+  x2      = x[:,itr]
+  xvar    = np.var(x2)
+
+  # Plot time series
+  fig = plt.figure()
+  ax  = fig.add_subplot(111)
+  ax.plot(t,x2)
+  ax.set_title('Selected Trace '+str(itr));
+  ax.set_xlabel('Time (s)')
+  ax.set_ylabel('Amplitude (A.U.)');
+  ```
 
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
