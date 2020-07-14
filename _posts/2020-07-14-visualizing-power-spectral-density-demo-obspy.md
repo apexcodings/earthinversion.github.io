@@ -20,7 +20,7 @@ classes:
 
 <figure class="half">
   <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
-  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png">
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.jpg">
   <figcaption>(LEFT) Location of the event and station (RIGHT) Downloaded stream</figcaption>
 
 </figure>
