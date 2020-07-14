@@ -785,7 +785,7 @@ st_rem.plot()
 <h3 id="fft-intuition">Some initial intuition on the FFT <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
 Let's visit some examples to understand how most algorithms of the FFT store the data once FFT is computed.
-
+-
   ```python
   import numpy as np
   import scipy
@@ -865,12 +865,35 @@ Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0
   [-1.12257563-1.09506396j]]
   ```
 
-- For $nx$ even, the number of frequency points is (\\nf=(nx/2)+1\\), that is (\\nx=10\\), (\\nf=6\\)
+- For $nx$ even, the number of frequency points is (\\nf=(nx/2)+1\\), that is (\\nx=10\\), (\\nf=6\\).
 
 - For $ny$ odd,  the number of frequency points is (\\nf=(nx+1)/2\\), that is (\\ny=11\\), (\\nf=6\\).
 
 - If you are dealing with a complex time series, or if you want to do correlations, coherence, deconvolution, you need to keep the entire fourier transform it is recommended to use the `scipy.fft.fft`. Just keep in mind $nf$ if you want to plot the PSD. 
 
+  ```python
+  # The rfft version
+  fx = scipy.fft.rfft(x,axis=0)
+  fy = scipy.fft.rfft(y,axis=0)
+  print(fx)
+  print()
+  print(fy)
+  ```
+  ```
+  [[ 2.62382964+0.j        ]
+  [ 0.00395644+0.34132389j]
+  [-0.58036663+0.08275716j]
+  [-0.31402859+0.28102471j]
+  [-1.68852886-0.74734316j]
+  [ 0.7254052 +0.j        ]]
+
+  [[-0.6389292 +0.j        ]
+  [-1.12257563+1.09506396j]
+  [-1.91549567+0.47038812j]
+  [ 2.18478857+0.03705081j]
+  [-0.73805273+2.49487829j]
+  [-0.23543034+2.04411055j]]
+  ```
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
