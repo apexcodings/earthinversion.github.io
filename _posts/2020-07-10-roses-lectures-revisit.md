@@ -1163,3 +1163,39 @@ In the last few 15-20 years, seismologist  have started to extract more and more
 We will work with 24-hour of data from two seismic stations in California (PASC and ADO). They are separated about 150 km and record the ambient seismic field. I chose a particular day (randomly), but this should more or less work if you choose any other day of the year, **except if you have a large earthquake in the middle**. 
 
 
+  ```python
+  # Edit client to use your data center of interest
+  client = Client("IRIS")
+  client = Client("SCEDC")
+  t1 = obspy.UTCDateTime("2010-04-01")
+  starttime = t1
+  endtime = t1 + 24*60*60  # 24 hours of data
+
+  net = "CI"
+  sta = "PASC"
+  loc = "00"
+  chan = "LHZ"
+  st1 = client.get_waveforms(net, sta, loc, chan, starttime, endtime, attach_response = True)
+  st1.remove_response(output = 'VEL')
+
+  net  = "CI"
+  sta  = "ADO"
+  loc  = "*"
+  chan = "LHZ"
+  st2  = client.get_waveforms(net, sta, loc, chan, starttime, endtime, attach_response = True)
+  st2.remove_response(output = 'VEL')
+
+  st1.write("pasc.mseed", format="MSEED")  
+  st2.write("ado.mseed", format="MSEED")  
+
+  st1 = obspy.read('pasc.mseed')
+  st2 = obspy.read('ado.mseed') 
+  print(st1)
+  print(st2)
+  ```
+  ```
+  1 Trace(s) in Stream:
+  CI.PASC.00.LHZ | 2010-04-01T00:00:00.069400Z - 2010-04-01T23:59:59.069400Z | 1.0 Hz, 86400 samples
+  1 Trace(s) in Stream:
+  CI.ADO..LHZ | 2010-04-01T00:00:00.690700Z - 2010-04-01T23:59:59.690700Z | 1.0 Hz, 86400 samples
+  ```
