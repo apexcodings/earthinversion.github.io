@@ -1073,6 +1073,32 @@ The Sumatran earthquake of December 2004, excited many of the normal modes of th
 - \\(_0S_4)\\, having a frequency 0.62 \\(m)\\Hz, period of about 26 min.
 - \\(_0S_3)\\, having a frequency 0.47 \\(m)\\Hz, period of about 37 min.
 
+  ```python
+  # SDownload data from IRIS (only if you need to)
+  #client = Client("IRIS")
+  #t1 = obspy.UTCDateTime("2004-12-26")
+  #starttime = t1
+  #endtime = t1 + 4*24*60*60  # 4 days of data
+  #net = "IU"
+  #sta = "ANMO"
+  #loc = "00"
+  #chan = "LHZ"
+  #st = client.get_waveforms(net, sta, loc, chan, starttime, endtime, attach_response = True)
+  #st.remove_response(output = 'DISP')
+  #st = st.write("sumatra.mseed", format="MSEED")  
+
+  st = obspy.read('sumatra.mseed')
+
+  print(st)
+  st.plot()
+  ```
+  ```
+  1 Trace(s) in Stream:
+  IU.ANMO.00.LHZ | 2004-12-26T00:00:00.485600Z - 2004-12-29T23:59:59.485600Z | 1.0 Hz, 345600 samples
+  ```
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig38.jpg">
+  </p>
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
