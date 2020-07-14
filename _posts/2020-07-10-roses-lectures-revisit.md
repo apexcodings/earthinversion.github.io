@@ -980,6 +980,50 @@ $$ var(x) = \int_{-1/2}^{1/2} S(f) df = \sum_{n=0}^{nfft} S(f) * df$$
   ax.set_ylabel('Amplitude (A.U.)');
   ```
 
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig35.jpg">
+  </p>
+
+- Calculate Periodogram (with box car taper).
+__Note:__ You should never really do this, but just so you know, this is how one would do it. 
+
+  ```python
+  #---------------------------------------
+  # Check if data is even or odd, define nf
+  #---------------------------------------
+  if (npts%2 == 0):
+      nf = int(npts/2)+1
+  else:
+      nf = int((npts+1)/2)+1
+
+  #---------------------------------------
+  # Get frequency vector
+  #---------------------------------------
+  freq = scipy.fft.fftfreq(npts,dt)
+  freq=abs(freq[0:nf])
+  df = freq[1]
+
+  #---------------------------------------
+  # calculate Periodogram (***** bad idea, never do *****)
+  #---------------------------------------
+  Sp = scipy.fft.fft(x2,npts)
+  Sp = abs(Sp)**2
+  Ssc = xvar/(np.sum(Sp)*df) #normalize power spectrum Parseval's theorem
+  Sp = Sp * Ssc
+  Sp = Sp[0:nf]*2.0 #negative and positive part need to be added up
+
+  fig = plt.figure()
+  ax = fig.add_subplot(111)
+  ax.semilogy(freq,Sp)
+  ax.set_title('Trace = '+str(itr))
+  ax.set_xlabel('Frequency (Hz)')
+  ax.set_ylabel('$A^2/$Hz');
+  ```
+
+  <p align="center">
+    <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/roses/fig36.jpg">
+  </p>
+
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
