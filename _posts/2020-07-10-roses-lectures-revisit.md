@@ -927,7 +927,6 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
   print()
   print(freqy)
   ```
-  - 
   ```
   [0.  0.1 0.2 0.3 0.4 0.5]
 
@@ -939,8 +938,6 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
   freq_long = scipy.fft.fftfreq(100*nx)
   print(freq_long[0:3])
   ```
-
-  - 
   ```
   [0.    0.001 0.002]
   ```
@@ -958,7 +955,6 @@ The toy signal really has 10 *realizations*, in the code below one of the *reali
 
 $$ var(x) = \int_{-1/2}^{1/2} S(f) df = \sum_{n=0}^{nfft} S(f) * df$$
 
-- 
   ```python
   # Load data. 
   x       = np.loadtxt('test1.dat')
