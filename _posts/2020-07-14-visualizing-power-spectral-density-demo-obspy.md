@@ -1,7 +1,7 @@
 ---
 title: "Visualizing power spectral density using Obspy [Python]"
 date: 2020-07-10
-tags: [psd, probabilistic power spectral density, temporal plot, spectrogram ppsd, obspy]
+tags: [psd, probabilistic power spectral density, temporal plot, spectrogram ppsd, obspy, geophysics]
 excerpt: "Short demonstration of the ppsd class defined in Obspy using 3 days of data for station PB-B075"
 classes:
   - wide
