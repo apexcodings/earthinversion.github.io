@@ -953,6 +953,7 @@ The toy signal really has 10 *realizations*, in the code below one of the *reali
 
 $$ var(x) = \int_{-1/2}^{1/2} S(f) df = \sum_{n=0}^{nfft} S(f) * df$$
 
+- 
   ```python
   # Load data. 
   x       = np.loadtxt('test1.dat')
