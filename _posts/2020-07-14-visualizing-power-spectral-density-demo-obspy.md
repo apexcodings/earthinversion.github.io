@@ -19,8 +19,8 @@ classes:
 
 
 <figure class="half">
-  <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg"></a>
-  <a href=""><img src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png"></a>
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
+  <img width="50%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png">
   <figcaption>(LEFT) Location of the event and station (RIGHT) Downloaded stream</figcaption>
 
 </figure>
