@@ -831,7 +831,7 @@ Let's visit some examples to understand how most algorithms of the FFT store the
   ```
 
 - Computing FFT of each sequence, `x` and `y`
-Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0\\) Hz) is real, while the rest is complex. Also, notice the difference between the FFT of an even sequence (\\(x\\) and an odd sequence (\\(y\\). 
+Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0\\) Hz) is real, while the rest is complex. Also, notice the difference between the FFT of an even sequence (\\(x\\) and an odd sequence (\\(y\\)). 
 
   ```python
   fx = scipy.fft.fft(x, axis=0)
@@ -865,9 +865,11 @@ Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0
   [-1.12257563-1.09506396j]]
   ```
 
-- For $nx$ even, the number of frequency points is $nf=(nx/2)+1$, that is $nx=10$, $nf=6$
+- For $nx$ even, the number of frequency points is (\\nf=(nx/2)+1\\), that is (\\nx=10\\), (\\nf=6\\)
 
-- For $ny$ odd,  the number of frequency points is $nf=(nx+1)/2$, that is $ny=11$, $nf=6$
+- For $ny$ odd,  the number of frequency points is (\\nf=(nx+1)/2\\), that is (\\ny=11\\), (\\nf=6\\).
+
+- If you are dealing with a complex time series, or if you want to do correlations, coherence, deconvolution, you need to keep the entire fourier transform it is recommended to use the `scipy.fft.fft`. Just keep in mind $nf$ if you want to plot the PSD. 
 
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
