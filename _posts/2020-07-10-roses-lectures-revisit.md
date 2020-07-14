@@ -900,6 +900,48 @@ Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0
 The Nyquist frequency in the above example with \\(dt=1.0 s \\), is \\( f_{nyq}=0.5=1/dt\\). 
 Note that the frequency array is slightly different, even though \\( nf\\) is the same for both. 
 
+  ```python
+  # Define corresponding frequency vector
+  freqx = scipy.fft.fftfreq(nx)
+  freqy = scipy.fft.fftfreq(ny)
+  print(freqx)
+  print()
+  print(freqy)
+  ```
+  ```
+  [ 0.   0.1  0.2  0.3  0.4 -0.5 -0.4 -0.3 -0.2 -0.1]
+
+  [ 0.          0.09090909  0.18181818  0.27272727  0.36363636  0.45454545
+  -0.45454545 -0.36363636 -0.27272727 -0.18181818 -0.09090909]
+  ```
+
+  ```python
+  # Define corresponding frequency vector
+  freqx = scipy.fft.rfftfreq(nx)
+  freqy = scipy.fft.rfftfreq(ny)
+  print(freqx)
+  print()
+  print(freqy)
+  ```
+  ```
+  [0.  0.1 0.2 0.3 0.4 0.5]
+
+  [0.         0.09090909 0.18181818 0.27272727 0.36363636 0.45454545]
+  ```
+
+  ```python
+  # Freq vector for a long time series
+  freq_long = scipy.fft.fftfreq(100*nx)
+  print(freq_long[0:3])
+  ```
+  ```
+  [0.    0.001 0.002]
+  ```
+
+Here, the key things to remember are:
+- The FFT algorithm (as implemented) displays first the positive frequencies, and then the negative frequencies.
+- If the number of points of the time series $nx$ is greater, the frequency sampling \\(df \\) is smaller. **Be careful, smaller frequency sampling, does not mean higher resolution** for example when applying zero-padding.  
+
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 
