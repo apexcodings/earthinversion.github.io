@@ -22,7 +22,7 @@ For details, visit [Visualizing Probabilistic Power Spectral Densities](https://
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
-  <figcaption>Location of the event and station [Screenshot from IRIS]</figcaption>
+  <figcaption>Location of the event (yellow star) and station (green triangle) [Screenshot from IRIS]</figcaption>
 </p>
 <br>
 <p align="center">
