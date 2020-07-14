@@ -1,8 +1,8 @@
 ---
 title: "How to visualize power spectral density using Obspy [Python]"
 date: 2020-07-10
-tags: [psd, probabilistic power spectral density, obspy]
-excerpt: "Short demonstration of the ppsd class defined in Obspy"
+tags: [psd, probabilistic power spectral density, temporal plot, spectrogram ppsd, obspy]
+excerpt: "Short demonstration of the ppsd class defined in Obspy using 3 days of data for station PB-B075"
 classes:
   - wide
 ---
@@ -10,9 +10,15 @@ classes:
 <h2 id="top">Outline</h2>
 <ol>
   <li><a href="#import-libraries">Import necessary libraries</a></li>
-  <li><a href="#references">Import necessary libraries</a></li>
+  <li><a href="#download-data">Download stream using Obspy</a></li>
+  <li><a href="#add-data">Add data to the ppsd estimate</a></li>
+  <li><a href="#visualizing">Visualization using Obspy</a></li>
+  <li><a href="#references">References</a></li>
 </ol>
 
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png">
+</p>
 
 <h3 id="import-libraries">Import necessary libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
@@ -24,10 +30,14 @@ from obspy import UTCDateTime, read_inventory, read
 import os, glob
 import matplotlib.pyplot as plt
 from obspy.imaging.cm import pqlx
-# import warnings
-# warnings.filterwarnings('ignore')
+import warnings
+warnings.filterwarnings('ignore')
+```
 
+<h3 id="download-data">Download stream using Obspy <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
+```python
+## Downloading inventory
 net = 'PB' 
 sta = 'B075' 
 loc='*'
@@ -37,10 +47,10 @@ mseedfiles = glob.glob(filename_prefix+".mseed")
 xmlfiles = glob.glob(filename_prefix+'_stations.xml')
 
 if not len(mseedfiles) or not len(xmlfiles):
-    print("--> No mseed or station xml file found, downloading...")
+    print("--> Missing mseed / station xml file, downloading...")
     time = UTCDateTime('2008-02-19T13:30:00') 
     wf_starttime = time - 60*60
-    wf_endtime = time + 8 * 60 * 60 #requires atleast 1 hour of data
+    wf_endtime = time + 3 * 24 * 60 * 60 #3 days of data (requires atleast 1 hour)
 
     client = Client('IRIS')
 
@@ -51,38 +61,57 @@ if not len(mseedfiles) or not len(xmlfiles):
 else:
     st = read(filename_prefix+".mseed")
     inventory = read_inventory(filename_prefix+'_stations.xml')
+```
 
+<h3 id="add-data">Add data to the ppsd estimate <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+
+```python
 tr = st.select(channel="EHZ")[0]
 print(st)
+st.plot(outfile=filename_prefix+"traces.png",show=False)
 ppsd = PPSD(tr.stats, metadata=inventory)
-add_status = ppsd.add(st)
-print(add_status)
+add_status = ppsd.add(st) #add data (either trace or stream objects) to the ppsd estimate
+```
+
+<h3 id="visualizing">Visualization using Obspy <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+
+```python
 if add_status:
     print(ppsd)
     print(ppsd.times_processed[:2]) #check what time ranges are represented in the ppsd estimate
     print("Number of psd segments:", len(ppsd.times_processed))
-    ppsd.plot(filename_prefix+"-ppsd.png",cmap=pqlx) 
+    ppsd.plot(filename_prefix+"-ppsd.png",cmap=pqlx) #colormap used by PQLX / [McNamara2004] 
     plt.close('all')
-    ppsd.plot(filename_prefix+"-ppsd_cumulative.png",cumulative=True,cmap=pqlx)
+    ppsd.plot(filename_prefix+"-ppsd_cumulative.png",cumulative=True,cmap=pqlx) #cumulative version of the histogram
     plt.close('all')
-    ppsd.plot_temporal(period=[0.1, 1, 10], filename=filename_prefix+"-ppsd_temporal_plot.png")
+    ppsd.plot_temporal(period=[0.1, 1.0, 10], filename=filename_prefix+"-ppsd_temporal_plot.png") #The central period closest to the specified period is selected
     plt.close('all')
+    ppsd.plot_spectrogram(filename=filename_prefix+"-spectrogram.png", show=False)
+
 ```
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd.png">
+  <figcaption>Probabilistic Power Spectral Densities with colormap used by [McNamara2004] </figcaption>
 </p>
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd_cumulative.png">
+  <figcaption>Cumulative version of the histogram </figcaption>
 </p>
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-ppsd_temporal_plot.png">
+  <figcaption>Plot the evolution of PSD value of one (or more) period bins over time. </figcaption>
+</p>
+
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075-spectrogram.png">
+  <figcaption>Spectrogram of the estimate </figcaption>
 </p>
 
 <h3 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <ol>
-  <li>McNamara, D. E., & Boaz, R. I. (2006). Seismic noise analysis system using power spectral density probability density functions: A stand-alone software package. Citeseer.</li>
   <li>McNamara, D. E., & Buland, R. P. (2004). Ambient Noise Levels in the Continental United States. Bulletin of the Seismological Society of America, 94(4), 1517–1527.</li>
+  <li>McNamara, D. E., & Boaz, R. I. (2006). Seismic noise analysis system using power spectral density probability density functions: A stand-alone software package. Citeseer.</li>
 </ol>
