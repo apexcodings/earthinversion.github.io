@@ -6,7 +6,7 @@ excerpt: "Short demonstration of the ppsd class defined in Obspy using 3 days of
 classes:
   - wide
 ---
-
+For details, visit [Visualizing Probabilistic Power Spectral Densities](https://docs.obspy.org/tutorial/code_snippets/probabilistic_power_spectral_density.html).
 <h2 id="top">Contents</h2>
 <ol>
   <li><a href="#import-libraries">Import necessary libraries</a></li>
@@ -22,7 +22,7 @@ classes:
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
-  <figcaption>Location of the event and station</figcaption>
+  <figcaption>Location of the event and station [Screenshot from IRIS]</figcaption>
 </p>
 <br>
 <p align="center">
