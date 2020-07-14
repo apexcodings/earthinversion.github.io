@@ -17,9 +17,13 @@ classes:
   <li><a href="#references">References</a></li>
 </ol>
 
-<p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png">
-</p>
+
+<figure class="half">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/pb_075_loc.jpg">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/visualizing-ppsd/PB_B075traces.png">
+  <figcaption>(LEFT) Location of the event and station (RIGHT) Downloaded stream</figcaption>
+
+</figure>
 
 <h3 id="import-libraries">Import necessary libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
