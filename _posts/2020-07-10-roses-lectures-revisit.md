@@ -777,6 +777,10 @@ st_rem.plot()
 <h3 id="time-series-analysis-outline">Outline</h3>
 <ol>
 <li><a href="#fft-intuition">Some initial intuition on the FFT</a></li>
+  <ol>
+    <li><a href="#computing-fft-x-y">Computing FFT of each sequence, x and y</a></li>
+    <li><a href="#fft-synthetic-example">A synthetic example</a></li>
+  </ol>
 <li><a href="#computing-psd">Computing the PSD (or amplitude spectrum)</a></li>
 <li><a href="#dealing-fourier-transforms">Good Practices to dealing with Fourier transforms</a></li>
 </ol>
@@ -831,7 +835,7 @@ Let's visit some examples to understand how most algorithms of the FFT store the
   [ 0.33758408]]
   ```
 
-- Computing FFT of each sequence, `x` and `y`
+<h4 id="computing-fft-x-y">Computing FFT of each sequence, `x` and `y`</h4>
 Notice the symmetry of the transformed data. Also, how the first point (\\(\nu=0\\) Hz) is real, while the rest is complex. Also, notice the difference between the FFT of an even sequence (\\(x\\) and an odd sequence (\\(y\\)). 
 
   ```python
@@ -941,6 +945,8 @@ Note that the frequency array is slightly different, even though \\( nf\\) is th
 Here, the key things to remember are:
 - The FFT algorithm (as implemented) displays first the positive frequencies, and then the negative frequencies.
 - If the number of points of the time series $nx$ is greater, the frequency sampling \\(df \\) is smaller. **Be careful, smaller frequency sampling, does not mean higher resolution** for example when applying zero-padding.  
+
+<h4 id="fft-synthetic-example">A synthetic example</h4>
 
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
 <h3 id="dealing-fourier-transforms">Good Practices to dealing with Fourier transforms <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
