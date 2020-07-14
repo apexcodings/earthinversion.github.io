@@ -786,7 +786,7 @@ st_rem.plot()
 
 Let's visit some examples to understand how most algorithms of the FFT store the data once FFT is computed.
 
--
+- 
   ```python
   import numpy as np
   import scipy
