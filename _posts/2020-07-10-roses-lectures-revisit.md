@@ -1103,6 +1103,7 @@ The Sumatran earthquake of December 2004, excited many of the normal modes of th
 - **Here we will pad with zeros to double the length of the signal**. This does not improve the resolution of the FFT, but avoids the cycling issue of the FFT. This is especially important for correlations, deconvolution, etc. 
 
 <h3 id="computing-psd">Computing the PSD (or amplitude spectrum) <a href="#time-series-analysis-outline"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a></h3>
+
 - 
   ```python
   #-------------------------------------------
