@@ -58,6 +58,7 @@ conda activate roses
 alias roses='conda deactivate; conda deactivate; conda activate roses'
 ```
 (will first deactivate any previously activated environment)
+PS: The two `deactivate` commands is to safely deactivate double nested environment. You can choose to use `conda deactivate; conda activate roses`.
 
 <h2 id="obspy">ObsPy: a Python toolbox for seismology <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 - Download latex-generated-pdf of the "follow along jupyter notebook" by Sydney Dybing: <a href="https://github.com/earthinversion/Remote-Online-Sessions-for-Emerging-Seismologists-ROSES-Lectures-Revisited/raw/master/Obspy_Tutorial_Follow_Along_Notebook.pdf" download="Codes">
