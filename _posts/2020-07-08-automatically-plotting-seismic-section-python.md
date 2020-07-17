@@ -37,7 +37,7 @@ Download the complete script:
 <img src="{{ site.url }}{{ site.baseurl }}/images/seismicSection/example_inputFile.jpg" width="80%" alt="Input file">
 
 
-<img src="{{ site.url }}{{ site.baseurl }}/images/seismicSection/record_section_2013-05-24_SEA-OF-OKHOTSK.png" width="80%" alt="Record section 1">
+<img src="{{ site.url }}{{ site.baseurl }}/images/seismicSection/record_section_example.jpg" width="80%" alt="Record section 1">
 
 
 <img src="{{ site.url }}{{ site.baseurl }}/images/seismicSection/runshot1.jpg" width="80%" alt="Runshot 1">
