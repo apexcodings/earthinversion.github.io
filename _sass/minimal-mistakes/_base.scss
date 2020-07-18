@@ -339,13 +339,6 @@ figure {
 }
 
 
-.container {
-  margin-top: 20px;
-}
-.container progress {
-  width: 100%;
-}
-
 .figureLiveApps {
   display: -webkit-box;
   display: flex;
@@ -491,6 +484,7 @@ header,
 a,
 tr,
 td,
+input,
 form button,
 input[type="submit"],
 .btn,
@@ -499,9 +493,4 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
-}
-
-input {
-  -webkit-transition: all 0.5s;
-  transition: all 0.5s;
 }
