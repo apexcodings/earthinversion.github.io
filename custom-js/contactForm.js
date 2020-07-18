@@ -36,7 +36,8 @@ function sendEmail(e) {
       .html('<progress></progress>')
       .removeClass('hidden');
   } else {
-    alert('You must set the POST_URL variable with your script ID');
+    alert('Something went wrong!');
+    // alert('You must set the POST_URL variable with your script ID');
   }
 
 }
