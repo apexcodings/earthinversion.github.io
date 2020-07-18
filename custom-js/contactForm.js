@@ -33,7 +33,7 @@ function sendEmail(e) {
 
     $('#alert-field')
       .removeClass()
-      .html('<progress style="width: 100%;"></progress>')
+      .html('<progress></progress>')
       .removeClass('hidden');
   } else {
     alert('You must set the POST_URL variable with your script ID');
