@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en" >
-<head>
-  <meta charset="UTF-8">
-  <title>Contact Form</title>
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'><link rel="stylesheet" href="./style.css">
+---
+title: "Write to me"
+permalink: "/contact-form/"
+classes:
+  - wide
+---
 
-</head>
-<body>
-<!-- partial:index.partial.html -->
 <div class="container">
   <form onsubmit="sendEmail(event)">
     <legend>Contact Form</legend>
@@ -51,7 +48,7 @@
   </form>
 </div>
 <!-- partial -->
-  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script  src="{{ site.url }}{{ site.baseurl }}/custom-js/contactForm.js"></script>
 
-</body>
-</html>
+

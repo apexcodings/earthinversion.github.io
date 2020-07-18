@@ -1,0 +1,10 @@
+.container {
+  margin-top: 20px;
+}
+.container progress {
+  width: 100%;
+}
+
+input {
+  transition: all 0.5s;
+}
