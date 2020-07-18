@@ -1,6 +1,6 @@
 .container {
-  margin-top: 20px;
-  margin-top: 20px;
+  margin-top: 0;
+  background-color: transparent;
 }
 .container progress {
   width: 100%;
