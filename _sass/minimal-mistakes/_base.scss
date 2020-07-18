@@ -488,7 +488,6 @@ img,
 h1,
 h2,
 header,
-input,
 a,
 tr,
 td,
@@ -500,4 +499,9 @@ input[type="submit"],
 .archive__item-teaser {
   -webkit-transition: $global-transition;
   transition: $global-transition;
+}
+
+input {
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
 }
