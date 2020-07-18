@@ -339,7 +339,12 @@ figure {
 }
 
 
-
+.container {
+  margin-top: 20px;
+}
+.container progress {
+  width: 100%;
+}
 
 .figureLiveApps {
   display: -webkit-box;
