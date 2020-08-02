@@ -31,10 +31,9 @@ Plotting track or trajectory of the hurriance (or typhoon or cyclone) is essenti
 ```python
 import matplotlib.pyplot as plt
 from obspy.imaging.beachball import beach
-from obspy.geodetics.base import gps2dist_azimuth
 import numpy as np
 from mpl_toolkits.basemap import Basemap
-from plotting_topo import plot_topo, plot_topo_netcdf
+from plotting_topo import plot_topo_netcdf
 import pandas as pd
 import glob
 ```
