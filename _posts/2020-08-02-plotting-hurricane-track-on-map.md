@@ -7,6 +7,11 @@ classes:
   - wide
 ---
 
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/hurricane-track/map.png">
+  <figcaption>Hurricanes</figcaption>
+</p>
+
 <h2 id="top">Contents</h2>
 <ol>
   <li><a href="#introduction">Introduction</a></li>
@@ -68,7 +73,7 @@ m.drawmeridians(np.arange(meridianmin, meridianmax,5,dtype='int16').tolist(),lab
 <h3 id="plot-track">Plot track on the basemap <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 ```python
-colors = ['C0','C1','C3','C2','C4','C5','C6','C7']
+colors = ['C0','C1','C3','C2','C4','C5','C6','C7'] #default colors from Python (can be automated if the order is not inportant)
 datafiles = glob.glob("01_TRACKS/*.txt") #to read individual data files containing the coordinates of the track for each typhoon
 for jj in range(8):
     dff = pd.read_csv(datafiles[jj],sep='\s+', dtype={'time': object}) #read data file and time as string
@@ -111,11 +116,6 @@ plt.legend(loc=1)
 ## save the map as png
 plt.savefig('map.png',bbox_inches='tight',dpi=300)
 ```
-
-<p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/hurricane-track/map.png">
-  <figcaption>Hurricanes</figcaption>
-</p>
 
 <h3 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <ol>
