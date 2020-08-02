@@ -53,6 +53,8 @@ latmin, latmax = 0, 25
 fig = plt.figure(figsize=(10,6))
 axx = fig.add_subplot(111)
 m = Basemap(projection='merc', resolution="f", llcrnrlon=lonmin, llcrnrlat=latmin, urcrnrlon=lonmax, urcrnrlat=latmax)
+
+## see this post for details: https://www.earthinversion.com/station_map_python/
 cs = plot_topo_netcdf(m,etopo_file,cmap='jet',lonextent=(lonmin, lonmax),latextent=(latmin, latmax),zorder=2)
 
 fig.colorbar(cs, ax=axx, shrink=0.6)
