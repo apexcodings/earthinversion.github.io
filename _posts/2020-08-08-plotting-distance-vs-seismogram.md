@@ -1,5 +1,5 @@
 ---
-title: "Plotting the seismogram with respect to epicentral distance [Python]"
+title: "Plotting seismograms with increasing epicentral distance [Python]"
 date: 2020-08-08
 tags: [seismology, epicentral distance, waveforms, P-arrival, S-arrival, geophysics]
 excerpt: "Short demostration of how to plot the distance vs seismic waveforms and mark the P and S arrival times using the IASP91 earth model. Codes are included."
@@ -154,6 +154,4 @@ plt.savefig("dist-waveforms.png",bbox_inches='tight',dpi=300)
 <ol>
   <li>Crotwell, H.P., Owens, T.J., Ritsema, J., 1999. The TauP Toolkit: Flexible seismic travel-time and ray-path utilities. Seismol. Res. Lett. 70, 154–160.</li>
   <li><a href="https://docs.obspy.org/packages/obspy.taup.html">Ray theoretical travel times and paths by Obspy (TauP)</a></li>
-  <li></li>
-  <li></li>
 </ol>
