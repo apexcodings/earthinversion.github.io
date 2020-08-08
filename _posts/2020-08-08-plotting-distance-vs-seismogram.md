@@ -57,6 +57,12 @@ plt.style.use('seaborn')
 - `kilometers2degrees` for converting the km to degrees (as the name suggests)
 - `plt.style.use('seaborn')` is for selecting the style for plotting. There are many other styles popular. I personally like the `ggplot`, `seaborn`, `default`, `classic`.
 
+<p align="center">
+  <img width="40%" src="{{ site.url }}{{ site.baseurl }}/images/distanceVsSeismogram/dist-waveforms-default.png">
+  <img width="40%" src="{{ site.url }}{{ site.baseurl }}/images/distanceVsSeismogram/dist-waveforms-ggplot.png">
+  <figcaption>(a) default (b) ggplot </figcaption>
+</p>
+
 
 
 <h3 id="normalize-traces">Initialize the processing instance for normalizing the waveform fluctuations <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
