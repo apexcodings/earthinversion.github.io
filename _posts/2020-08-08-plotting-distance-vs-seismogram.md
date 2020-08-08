@@ -6,7 +6,7 @@ excerpt: "Short demostration of how to plot the distance vs seismic waveforms an
 classes:
   - wide
 header:
-  teaser: /images/distanceVsSeismogram/dist-waveforms.png
+  teaser: "/images/distanceVsSeismogram/dist-waveforms.png"
 ---
 
 <p align="center">

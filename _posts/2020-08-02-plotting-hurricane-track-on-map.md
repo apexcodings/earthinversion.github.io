@@ -5,6 +5,8 @@ tags: [hurricane track, typhoon track, basemap, topography, geophysics]
 excerpt: "Short demostration of how to plot the track or trajectory of a hurricane on a map. Codes are included."
 classes:
   - wide
+header:
+  teaser: "/images/hurricane-track/map.png"
 ---
 
 <p align="center">
