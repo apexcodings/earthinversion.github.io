@@ -6,7 +6,7 @@ excerpt: "Short demonstration of the ppsd class defined in Obspy using 3 days of
 classes:
   - wide
 header:
-  teaser: "/images/visualizing-ppsd/pb_075_loc.jpg"
+  teaser: "/images/visualizing-ppsd/PB_B075-ppsd_cumulative.png"
 ---
 For details, visit [Visualizing Probabilistic Power Spectral Densities](https://docs.obspy.org/tutorial/code_snippets/probabilistic_power_spectral_density.html).
 <h2 id="top">Contents</h2>
