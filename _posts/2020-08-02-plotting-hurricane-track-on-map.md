@@ -188,21 +188,16 @@ for jj in range(8):
   #############################
     ## plot the arrow based on the last two data points to indicate the trajectory of the track
     plt.arrow(x[-1], y[-1]+1, x[-1]-x[-2], y[-1]-y[-2],head_width=50000, head_length=60000, fc='w', ec='k',color='k',alpha=1,zorder=4)
-```
-<p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/hurricane-track/map-tmp7.png">
-</p>
 
-
-```python
 plt.legend(loc=1)
 
 ## save the map as png
 plt.savefig('map.png',bbox_inches='tight',dpi=300)
 ```
 <p align="center">
-  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/hurricane-track/map-tmp6.png">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/hurricane-track/map-tmp7.png">
 </p>
+
 
 <h3 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <ol>
