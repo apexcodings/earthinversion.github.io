@@ -494,3 +494,9 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+@media only screen and (max-width: 1026px) {
+  .cardgroup, .half {
+      display: none;
+  }
+}
