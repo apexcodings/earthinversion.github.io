@@ -106,12 +106,6 @@ Now, we do the following steps in order:
 - plot the normalized data with a shift of epicentral distance. The x-axis in all cases are same. We plot the waveforms with black color and set the linewidth of 0.5 to clearly see the fluctuations. We multiply the amplitude of each seismogram with two to increase visibility.
 - Since the data is aligned with respect to the P-arrival time, the P-arrival is same in each case.
 - we store the P-arrival time, calculated S-arrival time, and S-arrival marking location for each seismogram.
-- we convert each lists into the numpy array. We used the list to append the data because it is relatively faster and efficient. Numpy array is optimized for computation, which is difficult using the Python's list data type.
-- we sort the S-wave arrival x and y locations for each seismograms in order of increasing distance. We also sort the P and S-wave arrival times.
-- Now, we plot the P and S arrival times using the dashed line of red color. We made the thickness higher in this case.
-- We label the x and y axis. 
-- We only display the plot for the time axis from 0 to 2500 seconds.
-- Finally, we save the figure in the `png` format, crop it to remove the white spaces and set the resolution of 300 dpi.
 
 ```python
 ## visualizing
@@ -134,6 +128,19 @@ for disp in all_disp:
     p_arrival_times.append(5*60)
     s_arrival_times.append(5*60+(s_arrival-p_arrival))
     s_arrival_dist.append(2*np.mean(data_axis)+dist)
+```
+
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/distanceVsSeismogram/dist-waveforms-tmp1.png">
+  <figcaption>Distance vs Seismograms</figcaption>
+</p>
+
+- we convert each lists into the numpy array. We used the list to append the data because it is relatively faster and efficient. Numpy array is optimized for computation, which is difficult using the Python's list data type.
+- we sort the S-wave arrival x and y locations for each seismograms in order of increasing distance. We also sort the P and S-wave arrival times.
+- Now, we plot the P and S arrival times using the dashed line of red color. We made the thickness higher in this case.
+
+
+```python
 s_arrival_dist = np.array(s_arrival_dist)
 s_arrival_times = np.array(s_arrival_times)
 p_arrival_times = np.array(p_arrival_times)
@@ -143,14 +150,36 @@ s_arrival_dist = s_arrival_dist[s_arrival_sort_idx]
 s_arrival_times = s_arrival_times[s_arrival_sort_idx]
 p_arrival_times = p_arrival_times[s_arrival_sort_idx]
 
-
 ax.plot(s_arrival_times,s_arrival_dist,'r--',lw=2) #plot S arrivals
 ax.plot(p_arrival_times,s_arrival_dist,'r--',lw=2) #plot P arrivals
+```
+
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/distanceVsSeismogram/dist-waveforms-tmp2.png">
+  <figcaption>Distance vs Seismograms</figcaption>
+</p>
+
+- We label the x and y axis. 
+
+```python
 ax.set_ylabel('Distance in degrees',fontsize=14)
 ax.set_xlabel('Time',fontsize=14)
+```
+
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/distanceVsSeismogram/dist-waveforms-tmp3.png">
+  <figcaption>Distance vs Seismograms</figcaption>
+</p>
+
+- We only display the plot for the time axis from 0 to 2500 seconds.
+- Finally, we save the figure in the `png` format, crop it to remove the white spaces and set the resolution of 300 dpi.
+
+```python
 ax.set_xlim([0,2500])
 plt.savefig("dist-waveforms.png",bbox_inches='tight',dpi=300)
 ```
+
+
 
 <h3 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <ol>
