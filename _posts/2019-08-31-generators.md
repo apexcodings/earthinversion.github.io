@@ -5,6 +5,8 @@ tags: [data science, python, generators, geophysics]
 excerpt: "Generators don't hold the entire result in memory. It yields one result at a time."
 classes:
   - wide
+header:
+  teaser: /images/results_generators.png
 ---
 
 - Generators don't hold the entire result in memory. It yields one result at a time. 

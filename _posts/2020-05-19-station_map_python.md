@@ -6,6 +6,8 @@ excerpt: "We read the station information from a file to plot the 1 arc-minute r
 mathjax: "true"
 classes:
   - wide
+header:
+  teaser: https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/station_map.png
 ---
 In this post, we read the station information stored in the text file `statlist2.txt` using the `pandas` library in Python and then plot it over the topographic map. The details on how to plot the topographic map in Python can be found [here](/topographic-map-in-python/). The `plot_topo_netcdf` function can be used from [here](https://github.com/earthinversion/plotting_topographic_maps_in_python/blob/master/plotting_topo.py).
 

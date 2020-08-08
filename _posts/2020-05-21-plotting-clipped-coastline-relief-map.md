@@ -5,6 +5,8 @@ tags: [maps,  clipped, python, geophysics]
 excerpt: "This post demonstrate how to use Python to set up clip topographic map based on coastlines."
 classes:
   - wide
+header:
+  teaser: {{ site.url }}{{ site.baseurl }}/images/station_map_masked.png
 ---
 In this post, we demonstrate how to plot the clipped relief map in Python. For the previous post on "Plotting the geospatial data clipped by coastlines in Python", see [here](https://iescoders.com/plotting-the-geospatial-data-clipped-by-coastlines-in-python/). Here we use the same approach but instead of the geospatial dataset, we use the 1-arc minute topographic map we used in the [previous plot](https://www.earthinversion.com/Shaded-topo-map-python/). 
 

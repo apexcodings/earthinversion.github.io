@@ -5,6 +5,8 @@ tags: [gmt, maps, geophysics]
 excerpt: "Plotting publishable quality maps using generic mapping tools (GMT)"
 classes:
   - wide
+header:
+  teaser: /images/GMT-advanced/GMT_example12-1.jpg
 ---
 
 ## Continuation of [Part I](/GMT-advanced/)
