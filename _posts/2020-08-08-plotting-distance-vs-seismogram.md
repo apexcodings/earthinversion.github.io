@@ -59,13 +59,13 @@ plt.style.use('seaborn')
 
 
 
-<h3 id="normalize-traces">Initialize the processing instance for normalizing the waveform fluctuations in all the seismograms to the same level <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+<h3 id="normalize-traces">Initialize the processing instance for normalizing the waveform fluctuations <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 ```python
 ## for normalizing traces
 min_max_scaler11 = preprocessing.MinMaxScaler(feature_range=(-1, 1))
 ```
-The above code defines the preprocessing object for normalizing the waveforms. We normalize the waveforms from -1 to 1. 
+The above code defines the preprocessing object for normalizing the waveforms in all the seismograms to the same level. We normalize the waveforms from -1 to 1. 
 
 
 <h3 id="define-tauP-object">Initialize the TauP instance<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
