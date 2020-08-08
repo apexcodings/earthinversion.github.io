@@ -6,6 +6,8 @@ tags: [mac, apple, screenshot, batch renaming, quick action]
 excerpt: "Some handy tweaks for mac like relocating default screenshot location, renaming batch files etc"
 classes:
   - wide
+header:
+  teaser: "/images/mac-tweaks/open-in-terminal.jpg"
 ---
 
 <h2 id="top">Some handy MAC Tweaks</h2>

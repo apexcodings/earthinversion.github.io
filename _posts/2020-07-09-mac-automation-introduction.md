@@ -6,6 +6,8 @@ tags: [mac, automation, automator, services, quick actions, applescripts, apple]
 excerpt: "Mac can be easily automated by the help of several tools such as automator, quick actions, applescripts"
 classes:
   - wide
+header:
+  teaser: "/images/mac-automation/automator.jpg"
 ---
 In my personal view, OSX (Mac OS) is the best compromise between Windows and Linux. The best thing about Mac other than availability of all necessary apps by default and the fully functional terminal, is that you can automate most of the stuffs.  
 The benefits of automation includes - faster work, fewer mistakes, accurate , consistent and higher quality results.
