@@ -11,7 +11,7 @@ header:
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/hurricane-track/map.png">
-  <figcaption>Hurricanes</figcaption>
+  <figcaption>Track plot</figcaption>
 </p>
 
 <h2 id="top">Contents</h2>
