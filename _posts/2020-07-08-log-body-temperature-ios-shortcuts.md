@@ -5,6 +5,8 @@ tags: [ios, log data, iphone, health, apple]
 excerpt: "Shortcut code for quickly logging temperature in Apple health app"
 classes:
   - wide
+header:
+  teaser: "/images/iosShortcuts/Fig2.jpg"
 ---
 In case you suspect symptoms for COVID-19 (also during the quarantine period), CDC advices to log body temperature data two times a day for 14 days (see [here](https://www.cdc.gov/coronavirus/2019-ncov/travelers/pdf/COVID19-Temperature-Log-ENG-P.pdf)). The easiest way to log the data is digitally if you already uses iPhone (your data is all stored locally on device). There is a shortcut app on iPhone, that can be used to create several workflows for quickly executing simple tasks.
 

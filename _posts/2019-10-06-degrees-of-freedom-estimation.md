@@ -7,7 +7,7 @@ mathjax: "true"
 classes:
   - wide
 header:
-  teaser: /images/degrees-of-freedom/Autocorr_pU.png
+  teaser: "/images/degrees-of-freedom/Autocorr_pU.png"
 ---
 
 The correlation between two (real) stochastic processes A and B, which are sampled as two (real) time series, A(t) and B(t) can be written as

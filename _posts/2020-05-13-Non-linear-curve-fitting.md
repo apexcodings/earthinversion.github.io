@@ -7,7 +7,7 @@ mathjax: "true"
 classes:
   - wide
 header:
-  teaser: https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/lsqfit_output2.png
+  teaser: "https://raw.githubusercontent.com/earthinversion/figures-earthinversion-page/master/lsqfit_output2.png"
 ---
 Non-linear model is the one in which observational data is modeled by a non-linear combination of one or more model parameters and observational variables. 
 

@@ -5,6 +5,8 @@ tags: [statistics, matlab, hypothesis testing, null hypothesis, geophysics]
 excerpt: "Using Randomization to test the disprove the null hypothesis"
 classes:
   - wide
+header:
+  teaser: "/images/hypothesis_test.png"
 ---
 Let’s pose the null hypothesis that the two sets of data come from the same probability distribution (not necessarily Gaussian). Under the null hypothesis, the two sets of data are interchangeable, so if we aggregate the data points and randomly divide the data points into two sets, then the results should be comparable to the results obtained with the original data. 
 

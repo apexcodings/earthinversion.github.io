@@ -6,7 +6,7 @@ excerpt: "Generating GMT style shaded relief map in Python"
 classes:
   - wide
 header:
-  teaser: /images/station_map.png
+  teaser: "/images/station_map.png"
 ---
 Building upon the [previous post](https://www.earthinversion.com/station_map_python/) on plotting the topographic map in Python, this time we add shading in the plot to generate Generic Mapping Tools (GMT) kind of plot in Python. In this way, we can rely on all the ease and dynamics of Python and still get the GMT type of plot.
 
