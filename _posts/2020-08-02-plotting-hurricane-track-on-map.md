@@ -74,6 +74,7 @@ m = Basemap(projection='merc', resolution="f", llcrnrlon=lonmin, llcrnrlat=latmi
 </p>
 
 - plot the topography on the basemap and draw colorbar
+
 ```python
 cs = plot_topo(m,cmap=plt.cm.jet,zorder=2,lonextent=(lonmin, lonmax),latextent=(latmin, latmax))
 
