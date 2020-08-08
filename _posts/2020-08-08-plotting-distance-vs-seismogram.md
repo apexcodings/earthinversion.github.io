@@ -18,7 +18,7 @@ classes:
   <li><a href="#import-libraries">Import necessary libraries</a></li>
   <li><a href="#normalize-traces">Initialize normalization instance</a></li>
   <li><a href="#define-tauP-object">Initialize the TauP instance</a></li>
-  <li><a href="#waveforms">What are the seismograms to plot?</a></li>
+  <li><a href="#waveforms">What seismograms to plot?</a></li>
   <li><a href="#plot-waveforms-distance">Plotting the waveforms in the order of increasing distance</a></li>
 
   <li><a href="#references">References</a></li>
@@ -76,7 +76,7 @@ model = TauPyModel(model="iasp91")
 ```
 We select the `isap91` model in this example. Some of the other model provided by Obspy are `prem`, `ak135`, `1066a`, etc (see [here](https://docs.obspy.org/packages/obspy.taup.html#basic-usage) for more).
 
-<h3 id="waveforms">What are the seismograms to plot?<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+<h3 id="waveforms">What seismograms to plot?<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
 In this case, I kept all the seismograms in the sac format in the directory, `./dis` and ending with the suffix, `.DIS`.
 
