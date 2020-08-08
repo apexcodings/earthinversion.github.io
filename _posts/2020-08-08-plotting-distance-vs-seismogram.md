@@ -5,6 +5,8 @@ tags: [seismology, epicentral distance, waveforms, P-arrival, S-arrival, geophys
 excerpt: "Short demostration of how to plot the distance vs seismic waveforms and mark the P and S arrival times using the IASP91 earth model. Codes are included."
 classes:
   - wide
+header:
+  teaser: /images/distanceVsSeismogram/dist-waveforms.png
 ---
 
 <p align="center">
