@@ -5,6 +5,8 @@ tags: [statistics, matlab, monte-carlo simulations, correlation, geophysics]
 excerpt: "We test for the correlation coefficients or the covariance between two sets of random numbers selected from normal distribution using the Monte Carlo simulations."
 classes:
   - wide
+header:
+  teaser: "/images/monteCarloSim.png"
 ---
 Monte Carlo Simulations (MCS) can be used to extract important informations from the dataset that would be impossible to assess otherwise. Using MCS rather than the traditional methods to find the relation between two datasets are more intuitive.
 

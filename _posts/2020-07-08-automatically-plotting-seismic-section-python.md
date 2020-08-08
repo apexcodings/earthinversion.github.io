@@ -5,6 +5,8 @@ tags: [record section, seismology, obspy, geophysics]
 excerpt: "Python code to automatically plot the record section for the highest magnitude earthquake in the given time range"
 classes:
   - wide
+header:
+  teaser: "/images/seismicSection/record_section_example.jpg"
 ---
 A seismic record section displays numerous seismic records in a single figure and can be quite useful in the geological interpretation. The ray paths of the seismic waves are curved due to increasing velocity with depth. Hence, the longer the distance to the station from the event, the deeper the ray goes.
 

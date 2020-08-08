@@ -6,6 +6,8 @@ tags: [statistics, matlab, histograms, geophysics]
 excerpt: "Visualize the statistics of the data using MATLAB: mean, median, std, interquartile range, skewness, kurtosis, t-statistic"
 classes:
   - wide
+header:
+  teaser: "/images/normal_data_stats.png"
 ---
 > "Technological innovations such as reconnaissance satellites are capable of spewing out data in volumes that defy conventional methods of interpretation. In the words of John Griffiths, "we must be able to digest the mass before it becomes a mess." Only computer implemented mathematical and statistical tech- niques are powerful enough and fast enough to perform the task." - J.C. Davis
 

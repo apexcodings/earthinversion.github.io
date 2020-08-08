@@ -7,6 +7,8 @@ excerpt: "Introduction to the concepts of tomography with equations and codes. I
 mathjax: "true"
 classes:
   - wide
+header:
+  teaser: "/images/tomographyModel1.jpg"
 ---
 
 ## Introduction
