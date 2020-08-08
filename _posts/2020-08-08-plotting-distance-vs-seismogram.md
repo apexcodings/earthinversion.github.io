@@ -60,7 +60,7 @@ plt.style.use('seaborn')
 <p align="center">
   <img width="40%" src="{{ site.url }}{{ site.baseurl }}/images/distanceVsSeismogram/dist-waveforms-default.png">
   <img width="40%" src="{{ site.url }}{{ site.baseurl }}/images/distanceVsSeismogram/dist-waveforms-ggplot.png">
-  <figcaption>(a) default (b) ggplot </figcaption>
+  <figcaption>(left) default (right) ggplot </figcaption>
 </p>
 
 
