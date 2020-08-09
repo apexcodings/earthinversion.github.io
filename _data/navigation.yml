@@ -8,12 +8,12 @@ main:
     url: /geophysics-posts/
   - title: 'webApps'
     url: /web-computing/
+  - title: 'myResearch'
+    url: /research/
   - title: 'lifeHacks'
     url: /lifehacks/
   - title: 'aboutMe'
     url: /about-me/
-  - title: 'myResearch'
-    url: /research/
   - title: 'writeMe'
     url: /contact-form/
   # - title: "Sample Posts"
