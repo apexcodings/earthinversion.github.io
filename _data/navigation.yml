@@ -6,10 +6,10 @@ main:
     url: /gallery/
   - title: 'geophysicsPosts'
     url: /geophysics-posts/
-  - title: 'lifeHacks'
-    url: /lifehacks/
   - title: 'webApps'
     url: /web-computing/
+  - title: 'lifeHacks'
+    url: /lifehacks/
   - title: 'myResearch'
     url: /research/
   - title: 'aboutMe'
