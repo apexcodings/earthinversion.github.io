@@ -2,6 +2,8 @@
 main:
   - title: 'blogPosts'
     url: /recent-posts/
+  - title: 'postsGallery'
+    url: /gallery/
   - title: 'geophysicsPosts'
     url: /geophysics-posts/
   - title: 'lifeHacks'
@@ -10,8 +12,6 @@ main:
     url: /web-computing/
   - title: 'myResearch'
     url: /research/
-  - title: 'postsGallery'
-    url: /gallery/
   - title: 'aboutMe'
     url: /about-me/
   - title: 'writeMe'
