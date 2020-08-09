@@ -10,10 +10,10 @@ main:
     url: /web-computing/
   - title: 'lifeHacks'
     url: /lifehacks/
-  - title: 'myResearch'
-    url: /research/
   - title: 'aboutMe'
     url: /about-me/
+  - title: 'myResearch'
+    url: /research/
   - title: 'writeMe'
     url: /contact-form/
   # - title: "Sample Posts"
