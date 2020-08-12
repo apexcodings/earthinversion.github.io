@@ -30,6 +30,10 @@ layout: default
           {% if page.read_time %}
             <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> <a href="https://twitter.com/Utpal_Kmr">Utpal Kumar</a>&nbsp;&nbsp;&nbsp;&nbsp;
             <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+            {% if page.authors==1 %}
+            <p class="page__meta"><i class="far fa-user" aria-hidden="true"></i> <a href="https://twitter.com/Utpal_Kmr">Utpal Kumar</a>,<a href="#">Balaji Seela</a>&nbsp;&nbsp;&nbsp;&nbsp;
+              <i class="far fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
+            {% endif %}
           {% endif %}
         </header>
       {% endunless %}

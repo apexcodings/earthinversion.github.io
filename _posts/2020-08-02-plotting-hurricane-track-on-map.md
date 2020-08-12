@@ -7,7 +7,7 @@ classes:
   - wide
 header:
   teaser: "/images/hurricane-track/map.png"
-author: Balaji Kumar Seela
+authors: 1
 ---
 
 <p align="center">
