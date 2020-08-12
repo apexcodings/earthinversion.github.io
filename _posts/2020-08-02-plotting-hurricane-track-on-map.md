@@ -7,9 +7,6 @@ classes:
   - wide
 header:
   teaser: "/images/hurricane-track/map.png"
-author:
-  name: ["Utpal Kumar","Balaji Seela"]
-
 ---
 
 <p align="center">
