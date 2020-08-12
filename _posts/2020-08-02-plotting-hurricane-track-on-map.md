@@ -31,20 +31,15 @@ Plotting track or trajectory of the hurriance is essential part of analyzing and
 
 <h3 id="tropical-cyclone-data">Tropical cyclones (TCs) best track data base sites <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
-- For north Indian Ocean TCs (India Meteorological department):
-http://www.rsmcnewdelhi.imd.gov.in/
+- For north Indian Ocean TCs (India Meteorological department) [Click here](http://www.rsmcnewdelhi.imd.gov.in/)
 
-- For south Indian Ocean TCs (Australia bureau of meteorological):
-http://www.bom.gov.au/cyclone/tropical-cyclone-knowledge-centre/databases/
+- For south Indian Ocean TCs (Australia bureau of meteorological) [Click here](http://www.bom.gov.au/cyclone/tropical-cyclone-knowledge-centre/databases/)
 
-- For northwest Pacific TCs (Japan Meteorological Agency): 
-https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/RSMC_HP.htm
+- For northwest Pacific TCs (Japan Meteorological Agency) [Click here](https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/RSMC_HP.htm)
 
-- For Atlantic Ocean (National Oceanic and Atmospheric Administration):
-https://www.nhc.noaa.gov/data/
+- For Atlantic Ocean (National Oceanic and Atmospheric Administration) [Click here](https://www.nhc.noaa.gov/data/)
 
-- For global tropical cyclones (All oceanic tropical cyclones):
-https://www.metoc.navy.mil/jtwc/jtwc.html?best-tracks
+- For global tropical cyclones (All oceanic tropical cyclones) [Click here](https://www.metoc.navy.mil/jtwc/jtwc.html?best-tracks)
 
 <h2>Visualization <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
