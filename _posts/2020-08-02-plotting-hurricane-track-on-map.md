@@ -46,7 +46,7 @@ https://www.nhc.noaa.gov/data/
 - For global tropical cyclones (All oceanic tropical cyclones):
 https://www.metoc.navy.mil/jtwc/jtwc.html?best-tracks
 
-<h2>Visualization</h2>
+<h2>Visualization <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 <h3 id="import-libraries">Importing Libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
