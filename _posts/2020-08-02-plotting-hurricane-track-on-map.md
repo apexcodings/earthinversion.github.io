@@ -17,6 +17,7 @@ header:
 <h2 id="top">Contents</h2>
 <ol>
   <li><a href="#introduction">Introduction</a></li>
+  <li><a href="#tropical-cyclone-data">Tropical cyclones best track data base sites</a></li>
   <li><a href="#import-libraries">Import necessary libraries</a></li>
   <li><a href="#define-parameters">Define map parameters</a></li>
   <li><a href="#set-up-basemap">Set up basemap</a></li>
@@ -27,6 +28,25 @@ header:
 
 <h2 id="introduction">Introduction <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 Plotting track or trajectory of the hurriance is essential part of analyzing and understanding the hurricane. For details see <a href="#references">references</a>.
+
+<h3 id="tropical-cyclone-data">Tropical cyclones (TCs) best track data base sites <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+
+- For north Indian Ocean TCs (India Meteorological department):
+http://www.rsmcnewdelhi.imd.gov.in/
+
+- For south Indian Ocean TCs (Australia bureau of meteorological):
+http://www.bom.gov.au/cyclone/tropical-cyclone-knowledge-centre/databases/
+
+- For northwest Pacific TCs (Japan Meteorological Agency): 
+https://www.jma.go.jp/jma/jma-eng/jma-center/rsmc-hp-pub-eg/RSMC_HP.htm
+
+- For Atlantic Ocean (National Oceanic and Atmospheric Administration):
+https://www.nhc.noaa.gov/data/
+
+- For global tropical cyclones (All oceanic tropical cyclones):
+https://www.metoc.navy.mil/jtwc/jtwc.html?best-tracks
+
+<h2>Visualization</h2>
 
 <h3 id="import-libraries">Importing Libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
@@ -203,6 +223,9 @@ plt.savefig('map.png',bbox_inches='tight',dpi=300)
 
 <h3 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 <ol>
+  <li>Janapati. J., B. K. Seela, P.-L. Lin, P. K. Wang, and U. Kumar, 2019: An assessment of tropical cyclones rainfall erosivity for Taiwan. Sci. Rep., 9, 15862. https://doi.org/10.1038/s41598-019-52028-5</li>
+  <li>Janapati. J., B. K. Seela, P.-L. Lin, P. K. Wang, C.-H. Tseng, K. K. Reddy, H. Hashiguchi, L. Feng, S. K. Das, and C. K. Unnikrishnan (2020),  Raindrop size distribution characteristics of Indian and Pacific ocean tropical cyclones observed at India and Taiwan sites. Journal of the Meteorological Society of Japan. 98(2), 299−317. https://doi.org/10.2151/jmsj.2020-015</li>
+  <li>Janapati. J., Balaji Kumar seela, M. Venkatrami Reddy, K. Krishna Reddy, Pay-Liam Lin, T. Narayana Rao and Chian-Yi Liu, (2017), A study on raindrop size distribution variability in before and after landfall precipitations of tropical cyclones observed over southern India, J. Atmos. and Sol.-Terr. Phys., Vol. 159, 23–40. https://doi.org/10.1016/j.jastp.2017.04.011</li>
   <li>Fovell, R. G., and Su, H. (2007), Impact of cloud microphysics on hurricane track forecasts, Geophys. Res. Lett., 34, L24810, doi:10.1029/2007GL031723.</li>
   <li>Huang, Y., C. Wu, and Y. Wang, 2011: The Influence of Island Topography on Typhoon Track Deflection. Mon. Wea. Rev., 139, 1708–1727, https://doi.org/10.1175/2011MWR3560.1.</li>
 </ol>
