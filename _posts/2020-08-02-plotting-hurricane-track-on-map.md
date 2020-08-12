@@ -7,7 +7,7 @@ classes:
   - wide
 header:
   teaser: "/images/hurricane-track/map.png"
-authors: 1
+authornum: 1
 ---
 
 <p align="center">
