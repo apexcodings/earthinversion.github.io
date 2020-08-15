@@ -234,6 +234,7 @@ Similar to `matplotlib`, PyGMT shows the figure by
 fig.show() #fig.show(method='external')
 ```
 
+To save figure to png. PyGMT crops the figure by default and has output figure resolution of 300 dpi for `png` and 720 dpi for `pdf`. There are several other output formats available as well. 
 
 ```python
 # save figure
