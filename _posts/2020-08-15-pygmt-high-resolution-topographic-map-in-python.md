@@ -16,26 +16,31 @@ header:
 
 <h2 id="top">Contents</h2>
 <ol>
+  <li><a href="#top">Contents</a></li>
   <li><a href="#introduction">Introduction </a></li>
-  <li><a href="#import-libraries">Importing Libraries </a></li>
-  <li><a href="#topo-data">Define topographic data source </a></li>
-  <li><a href="#initialize-pygmt-figure">Initialize the pyGMT figure</a></li>
-  <li><a href="#color-palletes">Define CPT file</a></li>
-  <li><a href="#plot-high-res-topo">Plot the high resolution topography from the data source</a></li>
-  <li><a href="#plot-coastlines">Plot the coastlines/shorelines on the map</a></li>
-  <li><a href="#plot-topo-contour">Plot the topographic contour lines</a></li>
-  <li><a href="#plot-data-points-on-map">Plot data on the topographic map</a></li>
-  <li><a href="#plot-colorbar-on-map">Plot colorbar for the topography</a></li>
-  <li><a href="#save-figure">Output the figure to a file</a></li>
+  <li><a href="#visualization">Example script </a></li>
+  <ul>
+    <li><a href="#import-libraries">Importing Libraries </a></li>
+    <li><a href="#topo-data">Define topographic data source </a></li>
+    <li><a href="#initialize-pygmt-figure">Initialize the pyGMT figure</a></li>
+    <li><a href="#color-palletes">Define CPT file</a></li>
+    <li><a href="#plot-high-res-topo">Plot the high resolution topography from the data source</a></li>
+    <li><a href="#plot-coastlines">Plot the coastlines/shorelines on the map</a></li>
+    <li><a href="#plot-topo-contour">Plot the topographic contour lines</a></li>
+    <li><a href="#plot-data-points-on-map">Plot data on the topographic map</a></li>
+    <li><a href="#plot-colorbar-on-map">Plot colorbar for the topography</a></li>
+    <li><a href="#save-figure">Output the figure to a file</a></li>
+  </ul>
   <li><a href="#complete-script">Complete Script </a></li>
-  <li><a href="#references">References </a></li>
+  <li><a href="#references">References </a></li>  
 </ol>
 
 
-<h3 id="introduction">Introduction <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+<h2 id="introduction">Introduction <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 
 
+<h2 id="visualization">Example script <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 <h3 id="import-libraries">Importing Libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
@@ -224,11 +229,11 @@ fig.savefig("topo-plot.pdf", crop=True, dpi=720)
 ```
 
 
-<h3 id="complete-script">Complete Script <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+<h2 id="complete-script">Complete Script <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 <script src="https://gist.github.com/earthinversion/84104f759cb0af67fd18f3006bbc2ade.js"></script>
 
-<h3 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+<h2 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 <ol>
   <li>Uieda, L., Wessel, P., 2019. PyGMT: Accessing the Generic Mapping Tools from Python. AGUFM 2019, NS21B--0813.</li>
   <li>Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F., Tian, D., 2019. The Generic Mapping Tools Version 6. Geochemistry, Geophys. Geosystems 20, 5556–5564. https://doi.org/10.1029/2019GC008515</li>
