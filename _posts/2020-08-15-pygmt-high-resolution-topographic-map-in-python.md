@@ -8,7 +8,6 @@ classes:
 header:
   teaser: "/images/pygmt/topo-plot.png"
 ---
-TO BE CONTINUED...
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/pygmt/topo-plot.png">
@@ -16,6 +15,7 @@ TO BE CONTINUED...
 </p>
 
 <h2 id="top">Contents</h2>
+TO BE CONTINUED...
 <ol>
   <li><a href="#top">Contents</a></li>
   <li><a href="#introduction">Introduction </a></li>
