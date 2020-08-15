@@ -39,7 +39,7 @@ header:
 <h2 id="introduction">Introduction <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 If you have been working in seismology, then you must have come across [Generic Mapping Tools (GMT) software](https://www.generic-mapping-tools.org). It is widely used software, not only in seismology but across the Earth, Ocean, and Planetary sciences and beyond. It is a free, open-source software used to generate publication quality maps or illustrations, process data and make animations. Recently, GMT built API (Application Programming Interface) for MATLAB, Julia and Python. In this post, we will explore the Python wrapper library for the GMP API - [PyGMT](https://www.pygmt.org/). Using the GMT from Python script allows enormous capabilities.
-The API reference for PyGMT can be accessed from [here](https://www.pygmt.org/latest/api/index.html) and is strongly recommended.
+The API reference for PyGMT can be accessed from [here](https://www.pygmt.org/latest/api/index.html) and is strongly recommended. Although PyGMT project is still in completion, there are many functionalities available.
 
 <h2 id="visualization">Example script <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 In this post, we will demonstrate the PyGMT implementation by plotting the topographic map of southern India. We will also plot some markers on the map.
@@ -95,6 +95,8 @@ pygmt.makecpt(
 
 <h3 id="plot-high-res-topo">Plot the high resolution topography from the data source<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
+Now, we provide the `topo_data`, `region` and the `projection` for the figure to plot. The `region` can also be provided in the form of ISO country code strings, e.g. `TW` for Taiwan, `IN` for India, etc. For more ISO codes, check the wikipedia page [here](https://en.wikipedia.org/wiki/List_of_ISO_3166_country_codes). In this example, we used the `projection` of `M4i`, which specifies four-inch wide Mercator projection. For more projection options, check [here](https://docs.generic-mapping-tools.org/latest/proj-codes.html).
+
 ```python
 #plot high res topography
 fig.grdimage(
@@ -140,6 +142,8 @@ fig.grdimage(
 
 
 <h3 id="plot-coastlines">Plot the coastlines/shorelines on the map<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+
+`Figure.coast` can be used to plot continents, shorelines, rivers, and borders on maps. For details, visit [pygmt.Figure.coast](https://www.pygmt.org/latest/api/generated/pygmt.Figure.coast.html#pygmt.Figure.coast).
 
 ```python
 fig.coast(
@@ -221,6 +225,14 @@ position="x11.5c/6.6c+w6c+jTC+v"
 </p>
 
 <h3 id="save-figure">Output the figure to a file<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
+
+Similar to `matplotlib`, PyGMT shows the figure by
+
+```python
+# save figure
+fig.show() #fig.show(method='external')
+```
+
 
 ```python
 # save figure
