@@ -161,6 +161,8 @@ fig.coast(
 
 <h3 id="plot-topo-contour">Plot the topographic contour lines<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
+We can also plot the topographic contour lines to emphasize the change in topography. Here, I used the contour intervals of 4000 km and only show contours with elevation less than 0km. 
+
 ```python
 fig.grdcontour(
     grid=topo_data,
@@ -215,6 +217,8 @@ fig.colorbar(
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/pygmt/topo-plot-test7.png">
 </p>
 
+For vertical colorbar:
+
 ```python
 # For vertical colorbar
 fig.colorbar(
@@ -222,6 +226,7 @@ frame='+l"Topography"',
 position="x11.5c/6.6c+w6c+jTC+v"
 )
 ```
+We can define the location of the colorbar using the string `x11.5c/6.6c+w6c+jTC+v`. `+v` specifies the vertical colorbar.
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/pygmt/topo-plot-test8.png">
