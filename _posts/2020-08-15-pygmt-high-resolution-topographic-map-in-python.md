@@ -38,9 +38,10 @@ header:
 
 <h2 id="introduction">Introduction <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
-
+If you have been working in seismology, then you must have come across [Generic Mapping Tools (GMT) software](https://www.generic-mapping-tools.org). It is widely used software, not only in seismology but across the Earth, Ocean, and Planetary sciences and beyond. It is a free, open-source software used to generate publication quality maps or illustrations, process data and make animations. Recently, GMT built API (Application Programming Interface) for MATLAB, Julia and Python. In this post, we will explore the Python wrapper library for the GMP API - [PyGMT](https://www.pygmt.org/). Using the GMT from Python script allows enormous capabilities.
 
 <h2 id="visualization">Example script <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
+In this post, we will demonstrate the PyGMT implementation by plotting the topographic map of southern India. We will also plot some markers on the map.
 
 <h3 id="import-libraries">Importing Libraries <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
