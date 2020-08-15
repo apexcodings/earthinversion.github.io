@@ -253,3 +253,5 @@ fig.savefig("topo-plot.pdf", crop=True, dpi=720)
   <li>Uieda, L., Wessel, P., 2019. PyGMT: Accessing the Generic Mapping Tools from Python. AGUFM 2019, NS21B--0813.</li>
   <li>Wessel, P., Luis, J.F., Uieda, L., Scharroo, R., Wobbe, F., Smith, W.H.F., Tian, D., 2019. The Generic Mapping Tools Version 6. Geochemistry, Geophys. Geosystems 20, 5556–5564. https://doi.org/10.1029/2019GC008515</li>
 </ol>
+
+TO BE CONTINUED...
