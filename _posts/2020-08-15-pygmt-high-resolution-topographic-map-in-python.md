@@ -39,6 +39,7 @@ header:
 <h2 id="introduction">Introduction <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 If you have been working in seismology, then you must have come across [Generic Mapping Tools (GMT) software](https://www.generic-mapping-tools.org). It is widely used software, not only in seismology but across the Earth, Ocean, and Planetary sciences and beyond. It is a free, open-source software used to generate publication quality maps or illustrations, process data and make animations. Recently, GMT built API (Application Programming Interface) for MATLAB, Julia and Python. In this post, we will explore the Python wrapper library for the GMP API - [PyGMT](https://www.pygmt.org/). Using the GMT from Python script allows enormous capabilities.
+The API reference for PyGMT can be accessed from [here](https://www.pygmt.org/latest/api/index.html) and is strongly recommended.
 
 <h2 id="visualization">Example script <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 In this post, we will demonstrate the PyGMT implementation by plotting the topographic map of southern India. We will also plot some markers on the map.
@@ -59,6 +60,8 @@ minlat, maxlat = 0, 25
 
 <h3 id="topo-data">Define topographic data source <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
+The topographic data can be accessed from various sources. In this snippet below, I listed a couple of sources.
+
 ```python
 #define etopo data file
 # topo_data = 'path_to_local_data_file'
@@ -68,10 +71,9 @@ topo_data = '@earth_relief_30s' #30 arc second global relief (SRTM15+V2.1 @ 1.0 
 ```
 
 
-
 <h3 id="initialize-pygmt-figure">Initialize the pyGMT figure<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
-
+Similar to the matplotlib's `fig = plt.Figure()`, PyGMT begins with the creation of Figure instance.
 
 ```python
 # Visualization
