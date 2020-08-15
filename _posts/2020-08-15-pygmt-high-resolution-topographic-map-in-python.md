@@ -1,7 +1,7 @@
 ---
 title: "PyGMT: High Quality Topographic Map in Python [Python]"
 date: 2020-08-15
-tags: [seismology, topography, GMT, geophysics]
+tags: [seismology, topography, GMT, Generic Mapping Tools, geophysics]
 excerpt: "A simple tutorial on how to plot high resolution topographic map using GMT tools in Python"
 classes:
   - wide
