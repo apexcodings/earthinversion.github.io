@@ -194,6 +194,7 @@ fig.plot(
     label='something',
     )
 ```
+We plot the locations by red cicles. You can change the markers to any other marker supported by GMT, for example `a0.1i` will produce stars of size 0.1 inches.
 
 <p align="center">
   <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/pygmt/topo-plot-test6.png">
@@ -201,9 +202,10 @@ fig.plot(
 
 <h3 id="plot-colorbar-on-map">Plot colorbar for the topography<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
+Default is horizontal colorbar
+
 ```python
 # Plot colorbar
-Default is horizontal colorbar
 fig.colorbar(
     frame='+l"Topography"'
     )
