@@ -1,5 +1,5 @@
 ---
-title: "PyGMT: High Resolution Topographic Map in Python [Python]"
+title: "PyGMT: High-Resolution Topographic Map in Python [Python]"
 date: 2020-08-15
 tags: [seismology, topography, GMT, Generic Mapping Tools, geophysics]
 excerpt: "A simple tutorial on how to plot high resolution topographic map using GMT tools in Python"
@@ -33,6 +33,7 @@ TO BE CONTINUED...
     <li><a href="#save-figure">Output the figure to a file</a></li>
   </ul>
   <li><a href="#complete-script">Complete Script </a></li>
+  <li><a href="#example2-plot-focal-mechanism">Plot Focal Mechanism on a Map </a></li>
   <li><a href="#references">References </a></li>  
 </ol>
 
@@ -102,7 +103,7 @@ Now, we provide the `topo_data`, `region` and the `projection` for the figure to
 #plot high res topography
 fig.grdimage(
     grid=topo_data,
-    region=[minlon, maxlon, minlat, maxlat], 
+    region=[minlon, maxlon, minlat, maxlat],
     projection='M4i'
     )
 ```
@@ -115,7 +116,7 @@ fig.grdimage(
 #plot high res topography
 fig.grdimage(
     grid=topo_data,
-    region=[minlon, maxlon, minlat, maxlat], 
+    region=[minlon, maxlon, minlat, maxlat],
     projection='M4i',
     frame=True
     )
@@ -129,7 +130,7 @@ fig.grdimage(
 #plot high res topography
 fig.grdimage(
     grid=topo_data,
-    region=[minlon, maxlon, minlat, maxlat], 
+    region=[minlon, maxlon, minlat, maxlat],
     projection='M4i',
     shading=True,
     frame=True
@@ -148,8 +149,8 @@ fig.grdimage(
 
 ```python
 fig.coast(
-    region=[minlon, maxlon, minlat, maxlat], 
-    projection='M4i', 
+    region=[minlon, maxlon, minlat, maxlat],
+    projection='M4i',
     shorelines=True,
     frame=True
     )
@@ -161,7 +162,7 @@ fig.coast(
 
 <h3 id="plot-topo-contour">Plot the topographic contour lines<a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h3>
 
-We can also plot the topographic contour lines to emphasize the change in topography. Here, I used the contour intervals of 4000 km and only show contours with elevation less than 0km. 
+We can also plot the topographic contour lines to emphasize the change in topography. Here, I used the contour intervals of 4000 km and only show contours with elevation less than 0km.
 
 ```python
 fig.grdcontour(
@@ -189,10 +190,10 @@ lats = minlat + np.random.rand(10)*(maxlat-minlat)
 # plot data points
 fig.plot(
     x=lons,
-    y=lats, 
-    style='c0.1i', 
-    color='red', 
-    pen='black', 
+    y=lats,
+    style='c0.1i',
+    color='red',
+    pen='black',
     label='something',
     )
 ```
@@ -241,7 +242,7 @@ Similar to `matplotlib`, PyGMT shows the figure by
 fig.show() #fig.show(method='external')
 ```
 
-To save figure to png. PyGMT crops the figure by default and has output figure resolution of 300 dpi for `png` and 720 dpi for `pdf`. There are several other output formats available as well. 
+To save figure to png. PyGMT crops the figure by default and has output figure resolution of 300 dpi for `png` and 720 dpi for `pdf`. There are several other output formats available as well.
 
 ```python
 # save figure
@@ -256,6 +257,18 @@ fig.savefig("topo-plot.pdf", crop=True, dpi=720)
 <h2 id="complete-script">Complete Script <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 
 <script src="https://gist.github.com/earthinversion/84104f759cb0af67fd18f3006bbc2ade.js"></script>
+
+<h2 id="example2-plot-focal-mechanism">Plot Focal Mechanism on a Map <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
+
+How would you plot the focal mechanism on a map? This can be simply done in GMT using the command `psmeca`. But PyGMT do not support `psmeca` so far. So, we use a workaround. We call the GMT module using the PyGMT's `pygmt.clib.Session` class. This we do using the context manager `with` in Python.
+
+<script src="https://gist.github.com/earthinversion/46e6bdfacdf1e355d5e368c1582c2759.js"></script>
+
+<p align="center">
+  <img width="80%" src="{{ site.url }}{{ site.baseurl }}/images/pyGMT-fm/fm-plot.png">
+  <figcaption>Randomly generated focal mechanisms plotted on topographic map of India</figcaption>
+</p>
+
 
 <h2 id="references">References <a href="#top"><i class="fa fa-arrow-circle-up" aria-hidden="true"></i></a></h2>
 <ol>
