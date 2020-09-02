@@ -10,6 +10,7 @@ classes:
 header:
   teaser: "/images/tomographyModel1.jpg"
 ---
+{% include toc %}
 
 ## Introduction
 Tomography, which is derived from the Greek word “tomos” that is “slice”, denotes forming an image of an object from measurements made from slices or rays through it. In other words, forming the structure of an object based on a collection of slices through it.
