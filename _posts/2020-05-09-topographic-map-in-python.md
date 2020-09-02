@@ -9,6 +9,8 @@ classes:
 header:
   teaser: "/images/topographic_map_python/test_africa.png"
 ---
+{% include toc %}
+
 - see [here](https://iescoders.com/plotting-topographic-map-using-noaa-global-relief-data-in-python/) too
 - uses Python’s matplotlib (basemap) library for plotting
 - to use topographic map from 1 arc-minute global relief data from NOAA (or even higher resolution)

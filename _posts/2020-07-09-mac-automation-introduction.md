@@ -9,6 +9,8 @@ classes:
 header:
   teaser: "/images/mac-automation/automator.jpg"
 ---
+{% include toc %}
+
 In my personal view, OSX (Mac OS) is the best compromise between Windows and Linux. The best thing about Mac other than availability of all necessary apps by default and the fully functional terminal, is that you can automate most of the stuffs.  
 The benefits of automation includes - faster work, fewer mistakes, accurate , consistent and higher quality results.
 Mac can be automated to boost productivity using two built-in tools - automator (apps, workflows and quick actions), and applescripts. These can be very handy to manage repetitive and time consuming tasks in Mac by automating it.

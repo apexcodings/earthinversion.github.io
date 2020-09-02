@@ -8,6 +8,8 @@ classes:
 header:
   teaser: "/images/monteCarloSim.png"
 ---
+{% include toc %}
+
 Monte Carlo Simulations (MCS) can be used to extract important informations from the dataset that would be impossible to assess otherwise. Using MCS rather than the traditional methods to find the relation between two datasets are more intuitive.
 
 ### What is Monte Carlo Simulations??

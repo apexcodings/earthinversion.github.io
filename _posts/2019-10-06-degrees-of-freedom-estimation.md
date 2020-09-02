@@ -9,7 +9,9 @@ classes:
 header:
   teaser: "/images/degrees-of-freedom/Autocorr_pU.png"
 ---
+{% include toc %}
 
+## Introduction
 The correlation between two (real) stochastic processes A and B, which are sampled as two (real) time series, A(t) and B(t) can be written as
 
 $$\rho (\tau) = \sum_i A(t_i-\tau) B(t_i)/[\sum_i A(t_i)^2 \sum_i B(t_i)^2]^{(1/2)}$$

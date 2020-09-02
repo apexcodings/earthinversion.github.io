@@ -8,6 +8,7 @@ classes:
 header:
   teaser: "/images/mac-quick-action/figure0.jpeg"
 ---
+{% include toc %}
 
 I wrote a couple of "quick actions" for Mac that can love and dislike songs easily without going into the Apple music app. Rating, loving and disliking songs in apple music helps the app to suggest music based on your interests. Without the input of love, rating and disliking, the apple music would suggest you songs only based on your play and skipping of songs. I will give you my applescript that can even be executed in the "Scripts app", or just used as an app and then can be easily executed using the "Spotlight" or "Alfred" app.
 

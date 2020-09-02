@@ -8,6 +8,8 @@ classes:
 header:
   teaser: "/images/station_map_masked.png"
 ---
+{% include toc %}
+
 In this post, we demonstrate how to plot the clipped relief map in Python. For the previous post on "Plotting the geospatial data clipped by coastlines in Python", see [here](https://iescoders.com/plotting-the-geospatial-data-clipped-by-coastlines-in-python/). Here we use the same approach but instead of the geospatial dataset, we use the 1-arc minute topographic map we used in the [previous plot](https://www.earthinversion.com/Shaded-topo-map-python/). 
 
 We use the matplotlib's [`Path`](https://matplotlib.org/3.2.1/tutorials/advanced/path_tutorial.html) module to deal with the polylines of the coastal path in Taiwan. The approach is simple (may not be so efficient computationally), we first plot the topography on the map, then select the polylines using the `Path` and then mask the region outside the coastline with lightblue color.

@@ -8,7 +8,9 @@ classes:
 header:
   teaser: "/images/results_generators.png"
 ---
+{% include toc %}
 
+## Introduction
 - Generators don't hold the entire result in memory. It yields one result at a time. 
 - Ways of creating generators:
     1. Using a function
