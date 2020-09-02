@@ -10,6 +10,7 @@ header:
 ---
 {% include toc %}
 
+## Introduction
 A seismic record section displays numerous seismic records in a single figure and can be quite useful in the geological interpretation. The ray paths of the seismic waves are curved due to increasing velocity with depth. Hence, the longer the distance to the station from the event, the deeper the ray goes.
 
 Download the complete script: 
